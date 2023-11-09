@@ -11,5 +11,14 @@ country: >
   France
 phone: >
   
-roles: []
+administrators:
+  - "pascale-vergely"
+administrators_description:
+  "pascale-vergely": >
+    Direction de la communication
+roles:
+  - title: >
+      Direction de la communication
+    persons:
+      - "pascale-vergely"
 ---
