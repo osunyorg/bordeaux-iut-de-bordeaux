@@ -24,7 +24,11 @@ items:
 - title: Formations
   target: "/formations/"
   kind: page
-  children: []
+  children:
+  - title: BUT Gestion Administrative et Commerciale des Organisations (GACO)
+    target: "/formations/but-gestion-administrative-et-commerciale-des-organisations-gaco/"
+    kind: page
+    children: []
 - title: Publications HAL
   target: "/publications/"
   kind: page
