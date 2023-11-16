@@ -8,6 +8,7 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     diplomas: /diplomes/:slug/
+    programs: /formations/:slug/
     publications: /publications/:year-:slug/
     persons: /equipe/:slug/
     administrators: /equipe/:slug/roles/
