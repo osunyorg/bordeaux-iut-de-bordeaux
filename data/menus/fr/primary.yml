@@ -29,4 +29,8 @@ items:
   target: "/publications/"
   kind: page
   children: []
+- title: L'institut
+  target: "/linstitut/"
+  kind: page
+  children: []
 
