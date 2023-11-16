@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: L'institut
+  target: "/linstitut/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -27,10 +31,6 @@ items:
   children: []
 - title: Publications HAL
   target: "/publications/"
-  kind: page
-  children: []
-- title: L'institut
-  target: "/linstitut/"
   kind: page
   children: []
 
