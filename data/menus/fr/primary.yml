@@ -49,4 +49,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Étudier à l'IUT
+  target: ''
+  kind: blank
+  children: []
 
