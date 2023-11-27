@@ -21,14 +21,14 @@ items:
       target: ''
       kind: blank
       children: []
+    - title: Gradignan
+      target: ''
+      kind: blank
+      children: []
     - title: Périgueux
       target: ''
       kind: blank
       children: []
-  - title: Gradignan
-    target: ''
-    kind: blank
-    children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
