@@ -9,10 +9,6 @@ items:
     target: "/linstitut/"
     kind: page
     children: []
-  - title: Publications HAL
-    target: "/publications/"
-    kind: page
-    children: []
   - title: Les 4 sites
     target: ''
     kind: blank
@@ -33,6 +29,10 @@ items:
       target: ''
       kind: blank
       children: []
+  - title: Publications HAL
+    target: "/publications/"
+    kind: page
+    children: []
 - title: L'offre de formation
   target: "/formations/"
   kind: page
