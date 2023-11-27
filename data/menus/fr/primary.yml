@@ -5,14 +5,14 @@ items:
   target: "/linstitut/"
   kind: page
   children: []
+- title: Diplômes
+  target: "/diplomes/"
+  kind: page
+  children: []
 - title: Formations
   target: "/formations/"
   kind: page
-  children:
-  - title: Diplômes
-    target: "/diplomes/"
-    kind: page
-    children: []
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
