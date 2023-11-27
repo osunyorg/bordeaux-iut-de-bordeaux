@@ -9,6 +9,10 @@ items:
     target: "/linstitut/"
     kind: page
     children: []
+  - title: Les 4 sites
+    target: ''
+    kind: blank
+    children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
