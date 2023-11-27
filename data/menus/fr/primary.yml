@@ -13,6 +13,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Agen
+    target: ''
+    kind: blank
+    children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
