@@ -1,20 +1,56 @@
 ---
 title: Menu principal
 items:
+- title: L'institut
+  target: ''
+  kind: blank
+  children:
+  - title: L'IUT de Bordeaux
+    target: "/linstitut/"
+    kind: page
+    children:
+    - title: L’équipe de direction
+      target: ''
+      kind: blank
+      children: []
+  - title: Les 4 sites
+    target: ''
+    kind: blank
+    children:
+    - title: Agen
+      target: ''
+      kind: blank
+      children: []
+    - title: Bordeaux-Bastide
+      target: ''
+      kind: blank
+      children: []
+    - title: Gradignan
+      target: ''
+      kind: blank
+      children: []
+    - title: Périgueux
+      target: ''
+      kind: blank
+      children: []
+  - title: Recherche scientifique
+    target: "/publications/"
+    kind: page
+    children: []
+- title: Formations
+  target: "/formations/"
+  kind: page
+  children: []
+- title: Étudier à l'IUT
+  target: ''
+  kind: blank
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
 - title: Agenda
   target: "/agenda/"
-  kind: page
-  children: []
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  children: []
-- title: Organisations
-  target: "/organisations/"
   kind: page
   children: []
 
