@@ -9,6 +9,10 @@ items:
     target: "/linstitut/"
     kind: page
     children: []
+  - title: Publications HAL
+    target: "/publications/"
+    kind: page
+    children: []
   - title: Les 4 sites
     target: ''
     kind: blank
@@ -51,10 +55,6 @@ items:
   children: []
 - title: Organisations
   target: "/organisations/"
-  kind: page
-  children: []
-- title: Publications HAL
-  target: "/publications/"
   kind: page
   children: []
 
