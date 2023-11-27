@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: L'IUT de Bordeaux
+  - title: L'Institut
     target: "/linstitut/"
     kind: page
     children:
