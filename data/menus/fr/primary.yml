@@ -21,6 +21,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Gradignan
+    target: ''
+    kind: blank
+    children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
