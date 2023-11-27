@@ -33,4 +33,8 @@ items:
   target: "/publications/"
   kind: page
   children: []
+- title: L'institut
+  target: ''
+  kind: blank
+  children: []
 
