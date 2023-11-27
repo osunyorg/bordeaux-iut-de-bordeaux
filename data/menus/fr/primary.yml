@@ -12,16 +12,20 @@ items:
   - title: Les 4 sites
     target: ''
     kind: blank
-    children: []
-  - title: Agen
-    target: ''
-    kind: blank
-    children: []
+    children:
+    - title: Agen
+      target: ''
+      kind: blank
+      children: []
   - title: Périgueux
     target: ''
     kind: blank
     children: []
   - title: Gradignan
+    target: ''
+    kind: blank
+    children: []
+  - title: Bordeaux-Bastide
     target: ''
     kind: blank
     children: []
