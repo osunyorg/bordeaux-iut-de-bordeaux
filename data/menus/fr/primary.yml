@@ -1,6 +1,14 @@
 ---
 title: Menu principal
 items:
+- title: L'institut
+  target: ''
+  kind: blank
+  children:
+  - title: L'IUT de Bordeaux
+    target: "/linstitut/"
+    kind: page
+    children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
@@ -29,12 +37,4 @@ items:
   target: "/publications/"
   kind: page
   children: []
-- title: L'institut
-  target: ''
-  kind: blank
-  children:
-  - title: L'IUT de Bordeaux
-    target: "/linstitut/"
-    kind: page
-    children: []
 
