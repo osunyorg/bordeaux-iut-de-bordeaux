@@ -33,7 +33,7 @@ items:
     target: "/publications/"
     kind: page
     children: []
-- title: L'offre de formation
+- title: Formations
   target: "/formations/"
   kind: page
   children: []
