@@ -29,12 +29,12 @@ items:
       target: ''
       kind: blank
       children: []
-- title: Diplômes
-  target: "/diplomes/"
-  kind: page
-  children: []
 - title: L'offre de formation
   target: "/formations/"
+  kind: page
+  children: []
+- title: Diplômes
+  target: "/diplomes/"
   kind: page
   children: []
 - title: Actualités
