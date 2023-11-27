@@ -41,6 +41,10 @@ items:
   target: "/formations/"
   kind: page
   children: []
+- title: Étudier à l'IUT
+  target: ''
+  kind: blank
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -48,9 +52,5 @@ items:
 - title: Agenda
   target: "/agenda/"
   kind: page
-  children: []
-- title: Étudier à l'IUT
-  target: ''
-  kind: blank
   children: []
 
