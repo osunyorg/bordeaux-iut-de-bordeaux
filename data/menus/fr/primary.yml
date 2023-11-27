@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: L'institut
-  target: "/linstitut/"
-  kind: page
-  children: []
 - title: Diplômes
   target: "/diplomes/"
   kind: page
@@ -36,5 +32,9 @@ items:
 - title: L'institut
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: L'institut
+    target: "/linstitut/"
+    kind: page
+    children: []
 
