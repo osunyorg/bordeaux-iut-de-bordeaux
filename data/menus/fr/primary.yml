@@ -41,7 +41,7 @@ items:
     target: "/agenda/"
     kind: page
     children: []
-- title: Les formations
+- title: Formations
   target: "/formations/"
   kind: page
   children: []
