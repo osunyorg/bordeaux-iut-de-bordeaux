@@ -37,7 +37,7 @@ items:
     target: "/publications/"
     kind: page
     children: []
-- title: Formations
+- title: Les formations
   target: "/formations/"
   kind: page
   children: []
