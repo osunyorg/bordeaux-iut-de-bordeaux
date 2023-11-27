@@ -45,14 +45,14 @@ items:
   target: "/formations/"
   kind: page
   children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
 - title: Le blog
   target: ''
   kind: blank
-  children:
-  - title: Actualités
-    target: "/actualites/"
-    kind: page
-    children: []
+  children: []
 - title: Étudier à l'IUT
   target: ''
   kind: blank
