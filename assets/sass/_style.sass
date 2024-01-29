@@ -1,3 +1,25 @@
+header#document-header
+    border-bottom: 1px solid #D1C7AD
+    .dropdown-menu
+        margin-top: 1px
+    .has-children-active
+        color: $color-accent
+    .menu 
+        a, 
+        span
+            &[aria-expanded]::after
+                display: none
+
+.hero 
+    &--image-landscape
+        .container
+            .content
+                padding-top: 0
+                flex-direction: column-reverse
+                figure
+                    margin-left: -$grid-gutter
+                    margin-right: -$grid-gutter
+                    width: calc(100% + 2 * #{$grid-gutter})
 h3
     font-style: italic
 
