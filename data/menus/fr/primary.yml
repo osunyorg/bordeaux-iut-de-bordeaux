@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: L'Institut
+  - title: Découvrir l'institut
     target: "/linstitut/"
     kind: page
     children:
