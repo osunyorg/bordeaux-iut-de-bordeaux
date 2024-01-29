@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: L'IUT de Bordeaux
+- title: IUT de Bordeaux
   target: ''
   kind: blank
   children:
@@ -42,15 +42,15 @@ items:
     kind: page
     children: []
 - title: Formations
-  target: "/formations/"
-  kind: page
-  children: []
-- title: Étudier à l'IUT
   target: ''
   kind: blank
   children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
+- title: Vie étudiante
+  target: ''
+  kind: blank
+  children: []
+- title: Entreprise
+  target: ''
+  kind: blank
   children: []
 
