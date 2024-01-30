@@ -22,6 +22,7 @@ fr:
     posts_categories: /actualites/:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    locations: /campus/:slug/
     diplomas: /diplomes/:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
