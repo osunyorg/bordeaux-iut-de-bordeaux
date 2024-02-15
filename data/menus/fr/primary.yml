@@ -42,8 +42,8 @@ items:
     kind: blank
     children: []
 - title: Formations
-  target: ''
-  kind: blank
+  target: "/formations/"
+  kind: page
   children: []
 - title: Vie étudiante
   target: ''
