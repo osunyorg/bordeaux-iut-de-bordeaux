@@ -1,16 +1,11 @@
 ---
-name: >
-  IUT de Bordeaux
-address: >
+name: "IUT de Bordeaux"
+address: >-
   15 Rue Naudet
-zipcode: >
-  33175
-city: >
-  Gradignan
-country: >
-  France
-phone: >
-  
+zipcode: "33175"
+city: "Gradignan"
+country: "France"
+phone: ""
 administrators:
   - "pascale-vergely"
 administrators_description:
