@@ -48,7 +48,11 @@ items:
   - title: BUT tertiaires
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Gestion Administrative et Commerciale des Organisations
+      target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
+      kind: program
+      children: []
 - title: Vie étudiante
   target: ''
   kind: blank
