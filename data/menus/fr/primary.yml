@@ -129,6 +129,11 @@ items:
       target: "/formations/metiers-de-limmobilier-gestion-et-administration-de-biens/"
       kind: program
       children: []
+    - title: 'Métiers de l’Immobilier : Transaction et Commercialisation de Biens
+        Immobiliers'
+      target: "/formations/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
