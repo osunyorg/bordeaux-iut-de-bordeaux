@@ -134,6 +134,10 @@ items:
       target: "/formations/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/"
       kind: program
       children: []
+    - title: Organisation, Management des Services de l’Automobile
+      target: "/formations/organisation-management-des-services-de-lautomobile/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
