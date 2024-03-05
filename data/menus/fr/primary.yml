@@ -89,6 +89,10 @@ items:
       target: "/formations/genie-civil-construction-durable/"
       kind: program
       children: []
+    - title: Génie Électrique et Informatique Industrielle
+      target: "/formations/genie-electrique-et-informatique-industrielle/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
