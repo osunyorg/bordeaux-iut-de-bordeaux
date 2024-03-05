@@ -105,6 +105,10 @@ items:
       target: "/formations/informatique/"
       kind: program
       children: []
+    - title: Science et Génie des Matériaux
+      target: "/formations/science-et-genie-des-materiaux/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
