@@ -112,7 +112,11 @@ items:
   - title: Licences pro
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: 'Assurance, Banque, Finance : Chargé de Clientèle - Gestion du Patrimoine'
+      target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
