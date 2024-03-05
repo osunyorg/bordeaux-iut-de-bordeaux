@@ -101,6 +101,10 @@ items:
       target: "/formations/hygiene-securite-environnement/"
       kind: program
       children: []
+    - title: Informatique
+      target: "/formations/informatique/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
