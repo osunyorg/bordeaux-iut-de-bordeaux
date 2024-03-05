@@ -81,6 +81,10 @@ items:
       target: "/formations/genie-biologique/"
       kind: program
       children: []
+    - title: Génie Chimique – Génie des Procédés
+      target: "/formations/genie-chimique-genie-des-procedes/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
