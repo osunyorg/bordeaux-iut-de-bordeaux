@@ -44,7 +44,11 @@ items:
 - title: Formations
   target: "/formations/"
   kind: page
-  children: []
+  children:
+  - title: BUT tertiaires
+    target: ''
+    kind: blank
+    children: []
 - title: Vie étudiante
   target: ''
   kind: blank
