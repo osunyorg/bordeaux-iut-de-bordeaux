@@ -61,6 +61,10 @@ items:
       target: "/formations/gestion-des-entreprises-et-des-administrations/"
       kind: program
       children: []
+    - title: Management de la Logistique et des Transports
+      target: "/formations/management-de-la-logistique-et-des-transports/"
+      kind: program
+      children: []
 - title: Vie étudiante
   target: ''
   kind: blank
