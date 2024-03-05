@@ -141,7 +141,11 @@ items:
   - title: Autres formations
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Formation Continue et Alternance
+      target: "/formations/formation-continue-et-alternance/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: ''
   kind: blank
