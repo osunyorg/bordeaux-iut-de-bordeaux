@@ -97,6 +97,10 @@ items:
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
+    - title: Hygiène – Sécurité – Environnement
+      target: "/formations/hygiene-securite-environnement/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
