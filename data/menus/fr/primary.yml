@@ -93,6 +93,10 @@ items:
       target: "/formations/genie-electrique-et-informatique-industrielle/"
       kind: program
       children: []
+    - title: Génie Mécanique et Productique
+      target: "/formations/genie-mecanique-et-productique/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
