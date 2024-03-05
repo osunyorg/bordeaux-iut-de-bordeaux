@@ -73,6 +73,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Licences pro
+    target: ''
+    kind: blank
+    children: []
 - title: Vie étudiante
   target: ''
   kind: blank
