@@ -57,6 +57,10 @@ items:
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
       children: []
+    - title: Gestion des Entreprises et des Administrations
+      target: "/formations/gestion-des-entreprises-et-des-administrations/"
+      kind: program
+      children: []
 - title: Vie étudiante
   target: ''
   kind: blank
