@@ -77,6 +77,10 @@ items:
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
+    - title: Génie Biologique
+      target: "/formations/genie-biologique/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
