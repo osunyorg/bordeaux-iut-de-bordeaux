@@ -121,6 +121,10 @@ items:
       target: "/formations/commercialisation-des-produits-alimentaires/"
       kind: program
       children: []
+    - title: Comptabilité et Paie - Gestion de la Paie et du Social
+      target: "/formations/comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
