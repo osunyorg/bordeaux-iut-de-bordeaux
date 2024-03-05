@@ -117,6 +117,10 @@ items:
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
       children: []
+    - title: Commercialisation des Produits Alimentaires
+      target: "/formations/commercialisation-des-produits-alimentaires/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
