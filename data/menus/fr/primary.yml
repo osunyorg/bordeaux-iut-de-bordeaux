@@ -72,8 +72,16 @@ items:
   - title: BUT secondaires
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Qualité Logistique Industrielle et Organisation
+      target: "/formations/qualite-logistique-industrielle-et-organisation/"
+      kind: program
+      children: []
   - title: Licences pro
+    target: ''
+    kind: blank
+    children: []
+  - title: Autres formations
     target: ''
     kind: blank
     children: []
