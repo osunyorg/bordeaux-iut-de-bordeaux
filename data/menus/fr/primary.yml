@@ -69,6 +69,10 @@ items:
       target: "/formations/techniques-de-commercialisation/"
       kind: program
       children: []
+  - title: BUT secondaires
+    target: ''
+    kind: blank
+    children: []
 - title: Vie étudiante
   target: ''
   kind: blank
