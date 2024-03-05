@@ -125,6 +125,10 @@ items:
       target: "/formations/comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
       kind: program
       children: []
+    - title: 'Métiers de l’Immobilier : Gestion et Administration de Biens'
+      target: "/formations/metiers-de-limmobilier-gestion-et-administration-de-biens/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
