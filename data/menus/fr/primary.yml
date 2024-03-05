@@ -85,6 +85,10 @@ items:
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
       children: []
+    - title: Génie Civil – Construction Durable
+      target: "/formations/genie-civil-construction-durable/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
