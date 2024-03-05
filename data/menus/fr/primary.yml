@@ -49,12 +49,12 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Gestion Administrative et Commerciale des Organisations
-      target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
-      kind: program
-      children: []
     - title: Carrières Sociales
       target: "/formations/carrieres-sociales/"
+      kind: program
+      children: []
+    - title: Gestion Administrative et Commerciale des Organisations
+      target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
       children: []
 - title: Vie étudiante
