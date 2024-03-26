@@ -138,6 +138,10 @@ items:
       target: "/formations/organisation-management-des-services-de-lautomobile/"
       kind: program
       children: []
+    - title: 'Activités Juridiques : Assistant Juridique'
+      target: "/formations/activites-juridiques-assistant-juridique/"
+      kind: program
+      children: []
   - title: Autres formations
     target: ''
     kind: blank
