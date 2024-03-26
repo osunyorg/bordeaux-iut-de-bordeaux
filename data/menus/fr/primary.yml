@@ -73,6 +73,10 @@ items:
       target: "/formations/villes-et-territoires-durables/"
       kind: program
       children: []
+    - title: Gestion Administrative et Commerciale des Organisations
+      target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
+      kind: program
+      children: []
   - title: BUT secondaires
     target: ''
     kind: blank
