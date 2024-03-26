@@ -61,20 +61,24 @@ items:
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
       children: []
-    - title: Techniques de Commercialisation
+    - title: Techniques de Commercialisation Périgueux
       target: "/formations/techniques-de-commercialisation-perigueux/"
       kind: program
       children: []
-    - title: 'Carrières Sociales : Animation Sociale et SocioCulturelle'
+    - title: Carrières Sociales - Animation Sociale et SocioCulturelle
       target: "/formations/animation-sociale-et-socioculturelle/"
       kind: program
       children: []
-    - title: 'Carrières Sociales : Villes et Territoires Durables'
+    - title: Carrières Sociales - Villes et Territoires Durables
       target: "/formations/villes-et-territoires-durables/"
       kind: program
       children: []
     - title: Gestion Administrative et Commerciale des Organisations
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
+      kind: program
+      children: []
+    - title: Techniques de Commercialisation Bordeaux
+      target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
       children: []
   - title: BUT secondaires
