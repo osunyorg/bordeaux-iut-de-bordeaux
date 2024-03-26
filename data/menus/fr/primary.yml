@@ -113,6 +113,18 @@ items:
       target: "/formations/science-et-genie-des-materiaux/"
       kind: program
       children: []
+    - title: Mesures Physiques
+      target: "/formations/mesures-physiques/"
+      kind: program
+      children: []
+    - title: Génie biologique - Agronomie
+      target: "/formations/genie-biologique-agronomie/"
+      kind: program
+      children: []
+    - title: Génie Biologique - Diététique et Nutrition
+      target: "/formations/genie-biologique-dietetique-et-nutrition/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
