@@ -73,10 +73,6 @@ items:
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
-    - title: Génie Biologique
-      target: "/formations/genie-biologique/"
-      kind: program
-      children: []
     - title: Génie Chimique – Génie des Procédés
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
