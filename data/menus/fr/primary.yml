@@ -125,6 +125,10 @@ items:
       target: "/formations/genie-biologique-dietetique-et-nutrition/"
       kind: program
       children: []
+    - title: Génie Biologique - Sciences de l’Aliment et Biotechnologie
+      target: "/formations/genie-biologique-sciences-de-laliment-et-biotechnologie/"
+      kind: program
+      children: []
   - title: Licences pro
     target: ''
     kind: blank
