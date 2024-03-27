@@ -81,8 +81,16 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Qualité Logistique Industrielle et Organisation
-      target: "/formations/qualite-logistique-industrielle-et-organisation/"
+    - title: Génie Biologique - Agronomie
+      target: "/formations/genie-biologique-agronomie/"
+      kind: program
+      children: []
+    - title: Génie Biologique - Diététique et Nutrition
+      target: "/formations/genie-biologique-dietetique-et-nutrition/"
+      kind: program
+      children: []
+    - title: Génie Biologique - Sciences de l’Aliment et Biotechnologie
+      target: "/formations/genie-biologique-sciences-de-laliment-et-biotechnologie/"
       kind: program
       children: []
     - title: Génie Chimique – Génie des Procédés
@@ -101,6 +109,10 @@ items:
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
+    - title: Qualité Logistique Industrielle et Organisation
+      target: "/formations/qualite-logistique-industrielle-et-organisation/"
+      kind: program
+      children: []
     - title: Hygiène – Sécurité – Environnement
       target: "/formations/hygiene-securite-environnement/"
       kind: program
@@ -115,18 +127,6 @@ items:
       children: []
     - title: Mesures Physiques
       target: "/formations/mesures-physiques/"
-      kind: program
-      children: []
-    - title: Génie biologique - Agronomie
-      target: "/formations/genie-biologique-agronomie/"
-      kind: program
-      children: []
-    - title: Génie Biologique - Diététique et Nutrition
-      target: "/formations/genie-biologique-dietetique-et-nutrition/"
-      kind: program
-      children: []
-    - title: Génie Biologique - Sciences de l’Aliment et Biotechnologie
-      target: "/formations/genie-biologique-sciences-de-laliment-et-biotechnologie/"
       kind: program
       children: []
   - title: Licences pro
