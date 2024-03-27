@@ -49,6 +49,14 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Carrières Sociales - Animation Sociale et SocioCulturelle
+      target: "/formations/animation-sociale-et-socioculturelle/"
+      kind: program
+      children: []
+    - title: Carrières Sociales - Villes et Territoires Durables
+      target: "/formations/villes-et-territoires-durables/"
+      kind: program
+      children: []
     - title: Gestion Administrative et Commerciale des Organisations
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
@@ -63,14 +71,6 @@ items:
       children: []
     - title: Techniques de Commercialisation Périgueux
       target: "/formations/techniques-de-commercialisation-perigueux/"
-      kind: program
-      children: []
-    - title: Carrières Sociales - Animation Sociale et SocioCulturelle
-      target: "/formations/animation-sociale-et-socioculturelle/"
-      kind: program
-      children: []
-    - title: Carrières Sociales - Villes et Territoires Durables
-      target: "/formations/villes-et-territoires-durables/"
       kind: program
       children: []
     - title: Techniques de Commercialisation Bordeaux
