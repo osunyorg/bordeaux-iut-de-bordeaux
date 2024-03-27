@@ -109,12 +109,12 @@ items:
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
-    - title: Qualité Logistique Industrielle et Organisation
-      target: "/formations/qualite-logistique-industrielle-et-organisation/"
-      kind: program
-      children: []
     - title: Hygiène – Sécurité – Environnement
       target: "/formations/hygiene-securite-environnement/"
+      kind: program
+      children: []
+    - title: Qualité Logistique Industrielle et Organisation
+      target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
     - title: Informatique
