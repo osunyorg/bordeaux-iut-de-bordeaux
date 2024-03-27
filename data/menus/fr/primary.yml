@@ -117,6 +117,10 @@ items:
       target: "/formations/informatique/"
       kind: program
       children: []
+    - title: Mesures Physiques
+      target: "/formations/mesures-physiques/"
+      kind: program
+      children: []
     - title: Qualité Logistique Industrielle et Organisation
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
@@ -125,14 +129,14 @@ items:
       target: "/formations/science-et-genie-des-materiaux/"
       kind: program
       children: []
-    - title: Mesures Physiques
-      target: "/formations/mesures-physiques/"
-      kind: program
-      children: []
   - title: Licences pro
     target: ''
     kind: blank
     children:
+    - title: 'Activités Juridiques : Assistant Juridique'
+      target: "/formations/activites-juridiques-assistant-juridique/"
+      kind: program
+      children: []
     - title: 'Assurance, Banque, Finance : Chargé de Clientèle - Gestion du Patrimoine'
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
@@ -156,10 +160,6 @@ items:
       children: []
     - title: Organisation, Management des Services de l’Automobile
       target: "/formations/organisation-management-des-services-de-lautomobile/"
-      kind: program
-      children: []
-    - title: 'Activités Juridiques : Assistant Juridique'
-      target: "/formations/activites-juridiques-assistant-juridique/"
       kind: program
       children: []
   - title: Autres formations
