@@ -1,7 +1,25 @@
 header#document-header
     border-bottom: 1px solid #D1C7AD
+    position: absolute
+    nav 
+        padding-top: pxToRem(20)
+        padding-bottom: pxToRem(20)
     .dropdown-menu
         margin-top: 1px
+        padding-top: $spacing-5
+        overflow: initial
+        overflow-x: clip
+        max-height: initial
+        &::after
+            background: var(--color-background)
+            top: 0
+            content: ""
+            height: 100%
+            position: absolute
+            z-index: -1
+            transform: rotate(4deg)
+            transform-origin: bottom left
+            width: 110%
     .has-children-active
         color: $color-accent
     .menu 
@@ -9,7 +27,36 @@ header#document-header
         span
             &[aria-expanded]::after
                 display: none
+            &[aria-expanded*="true"]
+                color: $color-accent !important
 
+        .nav-level-1 
+            > li 
+                > span, 
+                > a
+                    font-family: $body-font-family
+                    font-size: pxToRem(19)
+                    // padding: $spacing-1 pxToRem(20)
+                a
+                    text-decoration: none
+                    &:hover
+                        text-decoration: none
+            .nav-level-2
+                > li
+                    > span,
+                    > a
+                        @include h3
+                    .nav-level-3
+                        padding-top: $spacing-3
+                        > li, *
+                            font-family: $body-font-family
+                            font-size: pxToRem(19)                                            
+
+html.has-menu-opened
+    body
+        overflow: initial  
+        &::after
+            mix-blend-mode: multiply  
 .hero 
     &--image-landscape
         .container
@@ -22,6 +69,9 @@ header#document-header
                     width: calc(100% + 2 * var(--grid-gutter-negative))
 h3
     font-style: italic
+
+.meta
+    color: $color-accent
 
 footer#document-footer 
     .container + .container
