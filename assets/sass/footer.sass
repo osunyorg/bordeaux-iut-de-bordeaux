@@ -1,0 +1,34 @@
+footer#document-footer
+    padding-top: 0
+    .container 
+        padding: $spacing-5 var(--grid-gutter)
+    a
+        text-decoration: none 
+        &:hover
+            text-decoration: none
+    div.footer
+        &-social
+            background-color: $color-accent
+            padding: $spacing-3 var(--grid-gutter)
+            .nav-social
+                + ul.site-links
+                    margin: 0
+                    display: flex
+                    flex-direction: column
+                    li
+                        flex-direction: row-reverse
+                        &::after
+                            font-size: pxToRem(40)
+
+            @include media-breakpoint-up(desktop)
+                    .nav-social
+                        + ul.site-links
+                            display: flex
+                            flex-direction: row
+                            li
+                                margin-top: 0
+                                &::after
+                                    margin-right: 0
+                                    padding-left: 0
+                                + li
+                                    margin-left: pxToRem(70)
