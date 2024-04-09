@@ -1,21 +1,38 @@
-
-  <div class="footer-social">
-    {{ partial "footer/social.html" }}
-  </div>
-
+<div class="footer-social">
+  <h3> {{ safeHTML (i18n "custom.suivez-nous") }}</h3>
+  {{ partial "footer/social.html" }}
+</div>
 
 <div class="container">
-  <div class="footer-logo">
-    {{ partial "footer/logo.html" }}
+  <div>
+    <div class="footer-logo">
+      {{ partial "footer/logo.html" }}
+    </div>
+    <div class="footer-site">
+      {{ partial "footer/site.html" }}
+    </div>
   </div>
-  <div class="footer-site">
-    {{ partial "footer/site.html" }}
-  </div>
+  <div></div>
+  <div></div>
 </div>
 
 {{ partial "footer/i18n.html" . }}
-
-  <div class="footer-legals">
-    {{ partial "footer/legals.html" }}
-  </div>
-
+<div class="footer-legals">
+  {{ $menu := partial "GetMenu" "legal" }}
+  {{ with $menu }}
+  <ul class="nav-legal nav-level-1">
+    {{ range .items -}}
+      {{- $link_class := "" -}}
+      {{- $attr := "" -}}
+      {{- $attr_title := "" -}}
+      {{ if eq .context.RelPermalink .target }}
+        {{ $link_class = "active" }}
+      {{ end }}
+      <li>
+          <a href="{{ .target }}"{{ if ne $link_class ""}} class="{{ $link_class }}"{{ end }} {{ safeHTMLAttr $attr }} {{ safeHTMLAttr $attr_title }}>{{ .title }}</a>
+      </li>
+      {{ end -}}
+      <li class="footer-credit">{{ safeHTML (i18n "commons.credit") }}</li>
+  </ul>
+{{ end }}
+</div>

@@ -11,7 +11,13 @@ footer#document-footer
     div.footer
         &-social
             background-color: $color-accent
-            padding: $spacing-3 var(--grid-gutter)
+            padding: $spacing-5 var(--grid-gutter)
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column
+            h3
+                font-style: normal
+                padding-bottom: $spacing-2
             .nav-social
                 + ul.site-links
                     margin: 0
@@ -21,35 +27,44 @@ footer#document-footer
                         flex-direction: row-reverse
                         &::after
                             font-size: pxToRem(40)
-
             @include media-breakpoint-up(desktop)
-                    .nav-social
-                        + ul.site-links
-                            display: flex
-                            flex-direction: row
-                            li
-                                margin-top: 0
-                                &::after
-                                    margin-right: 0
-                                    padding-left: 0
-                                + li
-                                    margin-left: pxToRem(70)
+                padding: $spacing-3 var(--grid-gutter)
+                flex-direction: row
+                h3
+                    padding: $spacing-2 0
+                .nav-social
+                    + ul.site-links
+                        display: flex
+                        flex-wrap: wrap
+                        flex-direction: row
+                        li
+                            padding: $spacing-2 0
+                            margin-top: 0
+                            &::after
+                                margin-right: 0
+                                padding-left: 0
+                            + li
+                                margin-left: pxToRem(70)
         
         &-legals
             color: rgba(162, 142, 120, 1)
-            padding: $spacing-3 var(--grid-gutter)
+            padding: $spacing-5 var(--grid-gutter)
             border-top: 1px solid rgba(162, 142, 120, 1)
             a
                 color: rgba(162, 142, 120, 1) !important
+                &:hover
+                    color: $color-accent !important
             @include media-breakpoint-up(desktop)
-                display: flex
+                padding: $spacing-3 var(--grid-gutter)
                 width: 100%
-                justify-content: center
                 .nav-legal
                     display: flex
+                    flex-wrap: wrap
+                    justify-content: space-between
                     li
+                        padding: $spacing-2 0
                         margin: 0
                         display: block
-                        margin-right: var(--grid-gutter)
-                .footer-credit
-                    margin: 0
+                    li:not(first-chird) 
+                        margin-right: $spacing-2
+                        
