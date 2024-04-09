@@ -1,5 +1,7 @@
 footer#document-footer
     padding-top: 0
+    @include media-breakpoint-up(desktop)
+        padding-bottom: 0
     .container 
         padding: $spacing-5 var(--grid-gutter)
     a
@@ -32,3 +34,22 @@ footer#document-footer
                                     padding-left: 0
                                 + li
                                     margin-left: pxToRem(70)
+        
+        &-legals
+            color: rgba(162, 142, 120, 1)
+            padding: $spacing-3 var(--grid-gutter)
+            border-top: 1px solid rgba(162, 142, 120, 1)
+            a
+                color: rgba(162, 142, 120, 1) !important
+            @include media-breakpoint-up(desktop)
+                display: flex
+                width: 100%
+                justify-content: center
+                .nav-legal
+                    display: flex
+                    li
+                        margin: 0
+                        display: block
+                        margin-right: var(--grid-gutter)
+                .footer-credit
+                    margin: 0
