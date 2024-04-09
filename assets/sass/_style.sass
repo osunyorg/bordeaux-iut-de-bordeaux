@@ -5,21 +5,22 @@ header#document-header
         padding-top: pxToRem(20)
         padding-bottom: pxToRem(20)
     .dropdown-menu
-        margin-top: 1px
-        padding-top: $spacing-5
-        overflow: initial
-        overflow-x: clip
-        max-height: initial
-        &::after
-            background: var(--color-background)
-            top: 0
-            content: ""
-            height: 100%
-            position: absolute
-            z-index: -1
-            transform: rotate(4deg)
-            transform-origin: bottom left
-            width: 110%
+        @include media-breakpoint-up(desktop)
+            margin-top: 1px
+            padding-top: $spacing-5
+            overflow: initial
+            overflow-x: clip
+            max-height: initial
+            &::after
+                background: var(--color-background)
+                top: 0
+                content: ""
+                height: 100%
+                position: absolute
+                z-index: -1
+                transform: rotate(4deg)
+                transform-origin: bottom left
+                width: 110%
     .has-children-active
         color: $color-accent
     .menu 
@@ -35,8 +36,6 @@ header#document-header
                 > span, 
                 > a
                     font-family: $body-font-family
-                    font-size: pxToRem(19)
-                    // padding: $spacing-1 pxToRem(20)
                 a
                     text-decoration: none
                     &:hover
@@ -49,14 +48,22 @@ header#document-header
                     .nav-level-3
                         padding-top: $spacing-3
                         > li, *
-                            font-family: $body-font-family
-                            font-size: pxToRem(19)                                            
+                            font-family: $body-font-family                                         
 
 html.has-menu-opened
     body
         overflow: initial  
         &::after
             mix-blend-mode: multiply  
+
+// consequences du menu trop haut dont on rreactive le scroll
+html:not(.is-scrolling-down) 
+    @include media-breakpoint-up(desktop)
+        .toc-cta 
+            top: 0
+        .programs__section .document-content .content > h2
+            top: 90px
+
 .hero 
     &--image-landscape
         .container
@@ -67,12 +74,17 @@ html.has-menu-opened
                     margin-left: var(--grid-gutter-negative)
                     margin-right: var(--grid-gutter-negative)
                     width: calc(100% + 2 * var(--grid-gutter-negative))
+    + .breadcrumb-container
+        background-color: rgba(231, 226, 209, 1)
+        margin-bottom: $spacing-5
+        .breadcrumb
+            height: $spacing-4
 h3
     font-style: italic
 
-.meta
+p.more.meta
     color: $color-accent
-
-footer#document-footer 
-    .container + .container
-        align-items: end
+    font-family: $heading-font-family
+    @include media-breakpoint-up(desktop)
+        font-size: pxToRem(27)
+        line-height: 130%
