@@ -66,7 +66,7 @@ items:
     kind: blank
     children:
     - title: Offres d'emploi
-      target: "/offres-demploi/"
+      target: "/linstitut/offres-demploi/"
       kind: page
       children: []
     - title: Contacts
