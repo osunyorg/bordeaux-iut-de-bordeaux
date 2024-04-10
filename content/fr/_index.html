@@ -154,21 +154,6 @@ contents:
 
 
   - kind: block
-    template: locations
-    title: >-
-      Nos quatre sites de formation
-    ranks:
-      self: 2
-      children: 3
-    data:
-      locations:
-        - slug: "site-d-agen"
-        - slug: "site-de-bordeaux-bastide"
-        - slug: "site-de-gradignan"
-        - slug: "site-de-perigueux"
-
-
-  - kind: block
     template: agenda
     title: >-
       
@@ -188,6 +173,35 @@ contents:
       show_status: false
       title_link: "/agenda/"
       events:
+
+
+  - kind: block
+    template: locations
+    title: >-
+      Nos quatre sites de formation
+    ranks:
+      self: 2
+      children: 3
+    data:
+      locations:
+        - slug: "site-d-agen"
+        - slug: "site-de-bordeaux-bastide"
+        - slug: "site-de-gradignan"
+        - slug: "site-de-perigueux"
+
+
+  - kind: block
+    template: posts
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      mode: all
+      layout: grid
+      posts:
+        - "2023/2023-12-04-food-trucks"
 
 
 
