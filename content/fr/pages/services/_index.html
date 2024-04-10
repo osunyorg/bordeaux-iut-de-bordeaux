@@ -55,15 +55,44 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Services
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
+      page: 
+        path: "/services/"
+        slug: "services"
+        file: "pages/services/_index.html"
       show_main_description: false
       show_descriptions: false
       show_images: false
-      layout: grid
+      layout: list
       pages:
+        - path: "/services/formation-et-vie-universitaire/"
+          slug: "formation-et-vie-universitaire"
+          file: "pages/services/formation-et-vie-universitaire/_index.html"
+          external: false
+        - path: "/services/formation-continue-et-alternance-1/"
+          slug: "formation-continue-et-alternance-1"
+          file: "pages/services/formation-continue-et-alternance-1/_index.html"
+          external: false
+        - path: "/services/phase/"
+          slug: "phase"
+          file: "pages/services/phase/_index.html"
+          external: false
+        - path: "/services/audiovisuel-et-multimedia/"
+          slug: "audiovisuel-et-multimedia"
+          file: "pages/services/audiovisuel-et-multimedia/_index.html"
+          external: false
+        - path: "/services/fablab/"
+          slug: "fablab"
+          file: "pages/services/fablab/_index.html"
+          external: false
+        - path: "/services/technoshop/"
+          slug: "technoshop"
+          file: "pages/services/technoshop/_index.html"
+          external: false
 
 
 
