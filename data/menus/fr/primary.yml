@@ -22,8 +22,8 @@ items:
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: ''
-      kind: blank
+      target: "/campus/site-de-bordeaux-bastide/"
+      kind: location
       children: []
     - title: Gradignan
       target: ''
