@@ -41,6 +41,10 @@ items:
       target: "/services/formation-et-vie-universitaire/"
       kind: page
       children: []
+    - title: Formation continue et alternance
+      target: "/services/formation-continue-et-alternance-1/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
