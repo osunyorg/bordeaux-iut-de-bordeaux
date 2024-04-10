@@ -45,6 +45,10 @@ items:
       target: "/services/formation-continue-et-alternance-1/"
       kind: page
       children: []
+    - title: PHASE
+      target: "/services/phase/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
