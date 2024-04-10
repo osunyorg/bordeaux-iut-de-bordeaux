@@ -26,8 +26,8 @@ items:
       kind: location
       children: []
     - title: Gradignan
-      target: ''
-      kind: blank
+      target: "/campus/site-de-gradignan/"
+      kind: location
       children: []
     - title: Périgueux
       target: ''
