@@ -70,7 +70,7 @@ items:
       kind: page
       children: []
     - title: Contacts
-      target: "/contacts/"
+      target: "/linstitut/contacts/"
       kind: page
       children: []
 - title: Formations
