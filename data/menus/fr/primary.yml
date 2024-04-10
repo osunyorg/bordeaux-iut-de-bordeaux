@@ -10,7 +10,7 @@ items:
     kind: page
     children:
     - title: L’équipe de direction
-      target: "/equipe/equipe-administrative/"
+      target: "/equipe/"
       kind: page
       children: []
   - title: Les 4 sites de formation
