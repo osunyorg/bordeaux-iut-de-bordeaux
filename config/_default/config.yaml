@@ -12,3 +12,11 @@ params:
     footer: "/assets/images/logo-blanc.svg"
   summary:
     position: "content"
+  image_sizes:
+    design_system:
+      lightbox:
+        disabled: true
+      hero:
+        mobile:   400
+        tablet:   800
+        desktop:  1300
