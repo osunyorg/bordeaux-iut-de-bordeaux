@@ -14,8 +14,8 @@ items:
       kind: blank
       children: []
   - title: Les 4 sites de formation
-    target: ''
-    kind: blank
+    target: "/campus/"
+    kind: page
     children:
     - title: Agen
       target: ''
