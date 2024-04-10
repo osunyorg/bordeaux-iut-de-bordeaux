@@ -57,6 +57,10 @@ items:
       target: "/services/fablab/"
       kind: page
       children: []
+    - title: TechnoShop
+      target: "/services/technoshop/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
