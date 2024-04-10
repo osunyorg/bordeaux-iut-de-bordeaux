@@ -1,9 +1,38 @@
-h3
-    font-style: italic
-
-p.more.meta
-    color: $color-accent
-    font-family: $heading-font-family
-    @include media-breakpoint-up(desktop)
-        font-size: pxToRem(27)
-        line-height: 130%
+.blocks
+    .block
+        &-pages
+            p 
+                line-height: $lead-line-height
+                font-size: $lead-size
+                &.more.meta
+                    color: $color-accent
+                    font-family: $heading-font-family
+                @include media-breakpoint-up(desktop)
+                    font-size: $lead-size-desktop
+            .page-title
+                *
+                    @include h2
+                a
+                    text-decoration: none
+                    transition-property: color
+                    &:hover
+                        color: $color-accent
+                        text-decoration: none
+            &--large.with-images
+                @include in-page-without-sidebar
+                    .page
+                        justify-content: space-between
+                        .page-content
+                            width: calc((var(--column-width)* 5) + var(--grid-gutter)*(5))
+                        .media
+                            aspect-ratio: 7 / 5
+                            margin-bottom: 0
+                    @include media-breakpoint-up(desktop)
+                        .page-title
+                            margin-bottom: $spacing-4
+                        p.more.meta
+                            margin-top: $spacing-4
+                &:nth-child(3)
+                    @include media-breakpoint-up(desktop)
+                        .media
+                            order: 1
