@@ -34,7 +34,7 @@ items:
       kind: location
       children: []
   - title: Services
-    target: "/organisations/"
+    target: "/services/"
     kind: page
     children: []
   - title: Rejoindre l'IUT
