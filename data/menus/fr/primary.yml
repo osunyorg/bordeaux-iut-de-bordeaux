@@ -36,7 +36,11 @@ items:
   - title: Services
     target: "/services/"
     kind: page
-    children: []
+    children:
+    - title: Formation et vie universitaire
+      target: "/services/formation-et-vie-universitaire/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
