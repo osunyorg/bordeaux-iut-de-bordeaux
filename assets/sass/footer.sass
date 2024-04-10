@@ -2,18 +2,61 @@ footer#document-footer
     padding-top: 0
     @include media-breakpoint-up(desktop)
         padding-bottom: 0
-    .container 
-        padding: $spacing-5 var(--grid-gutter)
     a
         text-decoration: none 
+        transition-property: color
         &:hover
             text-decoration: none
+            transition-property: color
+    .container 
+        padding: $spacing-5 var(--grid-gutter)
+        gap: var(--grid-gutter)
+        .footer-iut
+            display: flex
+            align-items: center
+            min-width: columns(4)
+            .footer-logo
+                padding-right: $spacing-3
+                
+            .footer-site
+                border-left: 1px solid  rgba(162, 142, 120, 1)
+                padding-left: $spacing-3
+                p, 
+                address
+                    margin: 0
+                    font-size: $body-size-desktop
+                    line-height: 140%
+                    text-align: left
+                    font-family: $heading-font-family
+        .footer-partners
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            gap: $spacing-5
+            width: fit-content
+            img
+                width: pxToRem(250)
+                opacity: 40%
+            .btn
+                border-color: $color-background
+                transition: background .3s ease, color .3s ease
+                &:hover
+                    border-color: $color-text
+                    color: $color-text
+                    background-color: $color-background
+        @include media-breakpoint-up(desktop)
+            display: flex
+            .footer-partners
+                width: 100%
+                flex-direction: row
+                align-items: center
+                justify-content: space-between
     div.footer
         &-social
             background-color: $color-accent
             padding: $spacing-5 var(--grid-gutter)
-            display: flex;
-            justify-content: space-between;
+            display: flex
+            justify-content: space-between
             flex-direction: column
             h3
                 font-style: normal
@@ -28,9 +71,9 @@ footer#document-footer
                         &::after
                             font-size: pxToRem(40)
             @include media-breakpoint-up(desktop)
-                padding: $spacing-3 var(--grid-gutter)
                 flex-direction: row
                 flex-wrap: wrap
+                padding: $spacing-3 var(--grid-gutter)
                 h3
                     padding: pxToRem(6) 0
                 .nav-social
@@ -39,8 +82,8 @@ footer#document-footer
                         flex-wrap: wrap
                         flex-direction: row
                         li
-                            padding: pxToRem(6) 0
                             margin-top: 0
+                            padding: pxToRem(6) 0
                             &::after
                                 margin-right: 0
                                 padding-left: 0
@@ -48,9 +91,9 @@ footer#document-footer
                             margin-right: $spacing-5
         
         &-legals
+            border-top: 1px solid rgba(162, 142, 120, 1)
             color: rgba(162, 142, 120, 1)
             padding: $spacing-5 var(--grid-gutter)
-            border-top: 1px solid rgba(162, 142, 120, 1)
             a
                 color: rgba(162, 142, 120, 1) !important
                 &:hover
@@ -60,12 +103,11 @@ footer#document-footer
                 width: 100%
                 .nav-legal
                     display: flex
-                    flex-wrap: wrap
                     justify-content: space-between
+                    flex-wrap: wrap
                     li
-                        padding: $spacing-2 0
-                        margin: 0
                         display: block
+                        margin: 0
+                        padding: $spacing-2 0
                     li:not(:last-child) 
                         margin-right: $spacing-3
-                        

@@ -1,0 +1,81 @@
+header#document-header
+    border-bottom: 1px solid #D1C7AD
+    position: absolute
+    nav 
+        padding-bottom: pxToRem(20)
+        padding-top: pxToRem(20)
+    .dropdown-menu
+        @include media-breakpoint-up(desktop)
+            margin-top: 1px
+            max-height: initial
+            overflow: initial
+            overflow-x: clip
+            padding-top: $spacing-5
+            &::after
+                background: var(--color-background)
+                content: ""
+                height: 100%
+                position: absolute
+                top: 0
+                transform: rotate(4deg)
+                transform-origin: bottom left
+                width: 110%
+                z-index: -1
+    .has-children-active
+        color: $color-accent
+    .menu 
+        a, 
+        span
+            &[aria-expanded]::after
+                display: none
+            &[aria-expanded*="true"]
+                color: $color-accent !important
+
+        .nav-level-1 
+            > li 
+                > span, 
+                > a
+                    font-family: $body-font-family
+                a
+                    text-decoration: none
+                    &:hover
+                        text-decoration: none
+            .nav-level-2
+                > li
+                    > span,
+                    > a
+                        @include h3
+                    .nav-level-3
+                        padding-top: $spacing-3
+                        > li, *
+                            font-family: $body-font-family                                         
+
+html.has-menu-opened
+    body
+        overflow: initial  
+        &::after
+            mix-blend-mode: multiply  
+
+// consequences du menu trop haut dont on rreactive le scroll
+html:not(.is-scrolling-down) 
+    @include media-breakpoint-up(desktop)
+        .toc-cta 
+            top: 0
+        .programs__section .document-content .content > h2
+            top: 90px
+
+.hero 
+    &--image-landscape
+        .container
+            .content
+                flex-direction: column-reverse
+                padding-top: 0
+                figure
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
+                    width: calc(100% + 2 * var(--grid-gutter-negative))
+    + .breadcrumb-container
+        background-color: rgba(231, 226, 209, 1)
+        margin-bottom: $spacing-5
+        .breadcrumb
+            height: $spacing-4
