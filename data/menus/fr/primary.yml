@@ -18,8 +18,8 @@ items:
     kind: page
     children:
     - title: Agen
-      target: ''
-      kind: blank
+      target: "/campus/site-d-agen/"
+      kind: location
       children: []
     - title: Bordeaux-Bastide
       target: ''
