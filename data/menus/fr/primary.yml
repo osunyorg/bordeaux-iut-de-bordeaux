@@ -69,6 +69,10 @@ items:
       target: "/offres-demploi/"
       kind: page
       children: []
+    - title: Contacts
+      target: "/contacts/"
+      kind: page
+      children: []
 - title: Formations
   target: "/formations/"
   kind: page
