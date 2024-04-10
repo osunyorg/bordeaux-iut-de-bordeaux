@@ -64,7 +64,11 @@ items:
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Offres d'emploi
+      target: "/offres-demploi/"
+      kind: page
+      children: []
 - title: Formations
   target: "/formations/"
   kind: page
