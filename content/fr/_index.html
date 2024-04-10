@@ -140,16 +140,27 @@ contents:
       La vie étudiante
     ranks:
       self: 2
+      children: 3
     data:
-      page: 
-        path: "/vie-etudiante/"
-        slug: "vie-etudiante"
-        file: "pages/vie-etudiante/_index.html"
-      show_main_description: true
-      show_descriptions: false
+      show_main_description: false
+      show_descriptions: true
       show_images: true
       layout: large
       pages:
+        - path: "/vie-etudiante/"
+          slug: "vie-etudiante"
+          file: "pages/vie-etudiante/_index.html"
+          external: false
+
+
+  - kind: block
+    template: locations
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      locations:
 
 
 
