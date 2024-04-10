@@ -53,6 +53,10 @@ items:
       target: "/services/audiovisuel-et-multimedia/"
       kind: page
       children: []
+    - title: Fablab
+      target: "/services/fablab/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
