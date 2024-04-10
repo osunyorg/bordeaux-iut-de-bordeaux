@@ -49,6 +49,10 @@ items:
       target: "/services/phase/"
       kind: page
       children: []
+    - title: Audiovisuel et multimedia
+      target: "/services/audiovisuel-et-multimedia/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
