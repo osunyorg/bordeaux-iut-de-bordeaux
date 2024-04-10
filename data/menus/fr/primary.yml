@@ -30,8 +30,8 @@ items:
       kind: location
       children: []
     - title: Périgueux
-      target: ''
-      kind: blank
+      target: "/campus/site-de-perigueux/"
+      kind: location
       children: []
   - title: Services
     target: ''
