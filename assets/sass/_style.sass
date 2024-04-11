@@ -36,3 +36,23 @@
                 @include media-breakpoint-up(desktop)
                     .media
                         order: 1
+        
+        &-key_figures
+            ul
+                li
+                    dl
+                        dt, strong
+                            color: $color-accent
+                            font-family: $heading-font-family
+                            font-weight: normal
+                            @include media-breakpoint-up(desktop)
+                                font-size: pxToRem(102)
+                            @include in-page-with-sidebar
+                                font-size: pxToRem(80)
+                @include in-page-with-sidebar
+                    grid-template-columns: repeat(3, 1fr)
+                @include media-breakpoint-up(desktop)
+                    text-align: center
+                    img
+                        margin-left: auto
+                        margin-right: auto
