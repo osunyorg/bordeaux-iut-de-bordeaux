@@ -49,9 +49,12 @@
                                 font-size: pxToRem(102)
                             @include in-page-with-sidebar
                                 font-size: pxToRem(80)
+                @include media-breakpoint-up(sm)
+                    @include grid(2)
                 @include in-page-with-sidebar
                     grid-template-columns: repeat(3, 1fr)
                 @include media-breakpoint-up(desktop)
+                    @include grid(4)
                     text-align: center
                     img
                         margin-left: auto
