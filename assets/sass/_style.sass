@@ -56,3 +56,32 @@
                     grid-template-columns: repeat(3, 1fr)
                 @include media-breakpoint-up(desktop)
                     @include grid(4)
+
+        &-call_to_action
+            .container 
+                width: var(--grid-width)
+                .block-content
+                    padding: var(--grid-gutter)
+                    .call_to_action 
+                        .actions 
+                            a
+                                border: 1px solid #fff
+                                &:hover
+                                    border-color: transparent
+            @include in-page-without-sidebar
+                overflow: hidden
+                position: relative
+                z-index: 0
+                &::before
+                    background: var(--color-background)
+                    content: ""
+                    height: 100%
+                    left: 0
+                    position: absolute 
+                    top: calc(100%)
+                    transform: rotate(-4deg)
+                    transform-origin: bottom left
+                    width: 120%
+                    z-index: 1
+                picture
+                    z-index: 2
