@@ -1,0 +1,16 @@
+.page__home
+    .blocks
+        .block
+            &-key_figures
+                h2.block-title
+                    @include h2
+                    font-style: normal
+                    text-align: center
+            &-call_to_action
+                &.block-titled
+                    h2.block-title
+                        font-size: $body-size
+                        font-family: $body-font-family
+                        font-style: normal
+                        @include media-breakpoint-up(desktop)
+                            font-size: $body-size-desktop

@@ -1,5 +1,8 @@
 .blocks
     .block
+        h2.block-title
+            @include h3
+            font-style: italic
         &-pages
             p 
                 line-height: $lead-line-height
@@ -21,9 +24,10 @@
             &--large.with-images
                 @include in-page-without-sidebar
                     .page
+                        gap: var(--column-width)
                         justify-content: space-between
                         .page-content
-                            width: calc((var(--column-width)* 5) + var(--grid-gutter)*(5))
+                            width: calc((var(--column-width)* 6) + var(--grid-gutter)*(5))
                         .media
                             aspect-ratio: 7 / 5
                             margin-bottom: 0
@@ -78,10 +82,31 @@
                     height: 100%
                     left: 0
                     position: absolute 
-                    top: calc(100%)
+                    top: calc(100% - 100px)
                     transform: rotate(-4deg)
                     transform-origin: bottom left
                     width: 120%
                     z-index: 1
                 picture
                     z-index: 2
+                    grid-column: 7 / 13
+        &-locations
+            .location
+                .location-content
+                    .location-title::after
+                        content: ""
+                    &::after
+                        content: "Découvrir le site"
+                        display: block
+                        width: fit-content
+                        margin-top: $spacing-3
+                        padding: 13.5px 25px
+                        border: 1px solid $color-text
+                        transition: background-color 0.3s ease
+                        transition: color 0.3s ease
+                    &:hover
+                        &::after
+                            color: var(--btn-hover-color)
+                            background: var(--btn-hover-background)
+                .media
+                    aspect-ratio: 1
