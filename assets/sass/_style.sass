@@ -111,3 +111,29 @@
                             background: var(--btn-hover-background)
                 .media
                     aspect-ratio: 1
+        &-posts 
+            &--list
+                &.block-titled
+                    .block-content
+                        .top
+                            .block-title
+                                a
+                                    &::after
+                                        content: ""
+                                
+                        .list
+                            .post
+                                @include media-breakpoint-up(desktop)
+                                    border-bottom: none
+                                    .post-content
+                                        display: flex
+                                        flex-direction: row
+                                        gap: 50px
+                                        width: columns(9)
+                                        .post-title
+                                            width: columns(4)
+                                        p[itemprop="articleBody"]
+                                            margin-top: 0
+                                            width: columns(5)
+                                    .post-meta
+                                        display: none
