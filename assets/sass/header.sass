@@ -65,7 +65,9 @@ html:not(.is-scrolling-down)
             top: 90px
 
 .hero 
-    &--image-landscape
+    @include media-breakpoint-up(desktop)
+        padding-bottom: var(--header-height)
+    &--with-image
         > .container
             padding-left: 0
             padding-right: 0
@@ -95,6 +97,7 @@ html:not(.is-scrolling-down)
                 .hero-text
                     margin-left: var(--grid-gutter)
                     margin-right: var(--grid-gutter)
+                    width: columns(9)
                     margin-top: 0
                     order: 2
                     z-index: 2
@@ -102,4 +105,7 @@ html:not(.is-scrolling-down)
         background-color: $marron-secondaire-4
         margin-bottom: $spacing-5
         .breadcrumb
-            height: $spacing-4
+            height: pxToRem(50)
+            li
+                a, span
+                    font-size: $meta-size

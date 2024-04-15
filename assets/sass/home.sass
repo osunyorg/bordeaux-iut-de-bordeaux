@@ -1,4 +1,10 @@
 .page__home
+    .hero--with-image
+        > .container 
+            .content
+                .hero-text
+                    @include media-breakpoint-up(desktop)
+                        width: columns(5)
     .blocks
         .block
             &-key_figures
