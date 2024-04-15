@@ -137,3 +137,9 @@
                                             width: columns(5)
                                     .post-meta
                                         display: none
+        &-gallery
+            &--carousel
+                @include in-page-without-sidebar
+                    background-color: $color-background
+                figure:not(.is-active)
+                    opacity: 50%
