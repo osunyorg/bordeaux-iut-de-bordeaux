@@ -14,23 +14,23 @@ items:
       kind: page
       children: []
   - title: Les 4 sites de formation
-    target: "/campus/"
+    target: "/les-4-sites-de-formation/"
     kind: page
     children:
     - title: Agen
-      target: "/campus/site-d-agen/"
+      target: "/les-4-sites-de-formation/site-d-agen/"
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: "/campus/site-de-bordeaux-bastide/"
+      target: "/les-4-sites-de-formation/site-de-bordeaux-bastide/"
       kind: location
       children: []
     - title: Gradignan
-      target: "/campus/site-de-gradignan/"
+      target: "/les-4-sites-de-formation/site-de-gradignan/"
       kind: location
       children: []
     - title: Périgueux
-      target: "/campus/site-de-perigueux/"
+      target: "/les-4-sites-de-formation/site-de-perigueux/"
       kind: location
       children: []
   - title: Services
@@ -113,18 +113,22 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Génie Biologique - Agronomie
-      target: "/formations/genie-biologique-agronomie/"
+    - title: Génie Biologique
+      target: "/formations/genie-biologique/"
       kind: program
-      children: []
-    - title: Génie Biologique - Diététique et Nutrition
-      target: "/formations/genie-biologique-dietetique-et-nutrition/"
-      kind: program
-      children: []
-    - title: Génie Biologique - Sciences de l’Aliment et Biotechnologie
-      target: "/formations/genie-biologique-sciences-de-laliment-et-biotechnologie/"
-      kind: program
-      children: []
+      children:
+      - title: Agronomie
+        target: "/formations/genie-biologique-agronomie/"
+        kind: program
+        children: []
+      - title: Diététique et Nutrition
+        target: "/formations/genie-biologique-dietetique-et-nutrition/"
+        kind: program
+        children: []
+      - title: Sciences de l’Aliment et Biotechnologie
+        target: "/formations/genie-biologique-sciences-de-laliment-et-biotechnologie/"
+        kind: program
+        children: []
     - title: Génie Chimique – Génie des Procédés
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
