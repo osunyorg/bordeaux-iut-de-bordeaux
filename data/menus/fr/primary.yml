@@ -118,7 +118,7 @@ items:
       kind: program
       children:
       - title: Agronomie
-        target: "/formations/agronomie/"
+        target: "/formations/genie-biologique/agronomie/"
         kind: program
         children: []
       - title: Diététique et Nutrition
