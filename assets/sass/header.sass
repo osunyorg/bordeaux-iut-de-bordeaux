@@ -63,49 +63,49 @@ html:not(.is-scrolling-down)
             top: 0
         .programs__section .document-content .content > h2
             top: 90px
-
-.hero 
-    @include media-breakpoint-up(desktop)
-        padding-bottom: var(--header-height)
-    &--with-image
-        > .container
-            padding-left: 0
-            padding-right: 0
-            padding-top: 0
-            .content
-                display: flex
-                flex-direction: column
+body:not(.persons__page)
+    .hero 
+        @include media-breakpoint-up(desktop)
+            padding-bottom: var(--header-height)
+        &--with-image
+            > .container
+                padding-left: 0
+                padding-right: 0
                 padding-top: 0
-                figure
-                    picture
-                        max-height: 655px
-                    margin: 0
-                    order: 1
-                    overflow: hidden
-                    width: 100%
-                    &::before
-                        background: var(--color-background)
-                        content: ""
-                        height: calc(100% - 100px)
-                        position: absolute 
-                        right: 0
-                        top: 100%
-                        transform: rotate(4deg)
-                        transform-origin: top right
-                        width: 120%
-                        z-index: 1
-                .hero-text
-                    margin-left: var(--grid-gutter)
-                    margin-right: var(--grid-gutter)
-                    width: columns(9)
-                    margin-top: 0
-                    order: 2
-                    z-index: 2
-    + .breadcrumb-container
-        background-color: $marron-secondaire-4
-        margin-bottom: $spacing-5
-        .breadcrumb
-            height: pxToRem(50)
-            li
-                a, span
-                    font-size: $meta-size
+                .content
+                    display: flex
+                    flex-direction: column
+                    padding-top: 0
+                    figure
+                        picture
+                            max-height: 655px
+                        margin: 0
+                        order: 1
+                        overflow: hidden
+                        width: 100%
+                        &::before
+                            background: var(--color-background)
+                            content: ""
+                            height: calc(100% - 100px)
+                            position: absolute 
+                            right: 0
+                            top: 100%
+                            transform: rotate(4deg)
+                            transform-origin: top right
+                            width: 120%
+                            z-index: 1
+                    .hero-text
+                        margin-left: var(--grid-gutter)
+                        margin-right: var(--grid-gutter)
+                        width: columns(9)
+                        margin-top: 0
+                        order: 2
+                        z-index: 2
+        + .breadcrumb-container
+            background-color: $marron-secondaire-4
+            margin-bottom: $spacing-5
+            .breadcrumb
+                height: pxToRem(50)
+                li
+                    a, span
+                        font-size: $meta-size
