@@ -92,25 +92,35 @@
                     z-index: 2
                     grid-column: 7 / 13
         &-locations
-            .location
-                .location-content
-                    .location-title::after
-                        content: ""
-                    &::after
-                        content: "Découvrir le site"
-                        display: block
-                        width: fit-content
-                        margin-top: $spacing-3
-                        padding: 13.5px 25px
-                        border: 1px solid $color-text
-                        transition: background-color 0.3s ease
-                        transition: color 0.3s ease
-                    &:hover
+            .locations
+                .location
+                    .location-content
+                        .location-title::after
+                            content: ""
                         &::after
-                            color: var(--btn-hover-color)
-                            background: var(--btn-hover-background)
-                .media
-                    aspect-ratio: 1
+                            content: "Découvrir le site"
+                            display: block
+                            width: fit-content
+                            margin-top: $spacing-3
+                            padding: 13.5px 25px
+                            border: 1px solid $color-text
+                            transition: background-color 0.3s ease
+                            transition: color 0.3s ease
+                        &:hover
+                            &::after
+                                color: var(--btn-hover-color)
+                                background: var(--btn-hover-background)
+                    .media
+                        aspect-ratio: 1
+                        margin: 0
+                &--grid
+                    display: grid
+                    grid-gap: var(--grid-gutter)
+                    grid-template-columns: repeat(1, 1fr)
+                    @include media-breakpoint-up(md)
+                        grid-template-columns: repeat(2, 1fr)
+                    @include media-breakpoint-up(desktop)
+                        grid-template-columns: repeat(4, 1fr)
         &-posts 
             &--list
                 &.block-titled
@@ -123,6 +133,10 @@
                                 
                         .list
                             .post
+                                .media
+                                    max-width: 100%
+                                    @include media-breakpoint-up(md)
+                                        max-width: columns(5)
                                 @include media-breakpoint-up(desktop)
                                     border-bottom: none
                                     .post-content
