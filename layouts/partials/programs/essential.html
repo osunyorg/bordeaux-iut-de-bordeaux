@@ -25,9 +25,11 @@
           {{- with $locations -}}
           
           <dt>{{ i18n "custom.location" }}</dt>
-            <dd>{{range .}}
-                <a href="{{ .path }}">{{ partial "PrepareHTML" .slug }}</a>
-                {{end}}
+            <dd>
+              {{range .}}
+              {{- $locationpage := site.GetPage (printf "/locations/%s" .slug) -}}
+                <a href="{{ .path }}">{{$locationpage.Params.title}}</a> 
+              {{end}}
             </dd>
         {{- end -}}
         </dl>

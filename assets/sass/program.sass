@@ -1,12 +1,10 @@
 body.programs__section, body.diplomas__term 
     .hero
+        padding-bottom: var(--grid-gutter)
         .hero-text
-            hgroup
+            h1
                 @include media-breakpoint-up(desktop)
                     width: columns(7)                
-        .lead
-            display: none
-        padding-bottom: var(--grid-gutter)
         .essential-container
             .container
                 display: flex
@@ -18,8 +16,8 @@ body.programs__section, body.diplomas__term
                 display: grid
                 grid-template-columns: repeat(6, 1fr)
                 grid-gap: 0
-                width: 100
                 height: fit-content
+                width: 100
                 @include media-breakpoint-up(desktop)
                     width: columns(7)
                 dt, dd
@@ -32,17 +30,18 @@ body.programs__section, body.diplomas__term
                     border-bottom: 1px solid $marron-secondaire-3
                 dt
                     font-family: $heading-font-family
-                    font-weight: 500
                     font-size: pxToRem(22)
+                    font-weight: 500
             .buttons 
                 flex-direction: column
                 a, button
                     justify-content: center
                     min-width: columns(3)
                 a[download] 
-                    --btn-background: var(--color-text)
-                    --btn-hover-color: var(--color-text)
-                    --btn-hover-background: var(--color-background)
+                    background-color: var(--color-text)
+                    &:hover
+                        color: var(--color-text)
+                        background-color: var(--color-background)
             .but-logo
                 img
                     max-width: pxToRem(110)
