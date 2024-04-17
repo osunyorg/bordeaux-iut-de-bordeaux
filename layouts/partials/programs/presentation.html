@@ -18,6 +18,9 @@
             </section>
           {{- end -}}
 
+        </div>
+        {{- partial "contents/list.html" . }}
+        <div>
           <section id="{{ urlize (i18n "programs.administrative_information") }}">
             <h3>{{ i18n "programs.administrative_information" }}</h3>
             <table class="program-table">
@@ -53,9 +56,7 @@
               </tbody>
             </table>
           </section>
-
         </div>
-        {{- partial "contents/list.html" . }}
       </div>
     </div>
 </section>

@@ -1,6 +1,6 @@
 {{- $title := or .Params.header_text .Title -}}
 
-{{ partial "header/hero.html"
+{{ partial "programs/hero-formation.html"
       (dict
         "title" $title
         "image" .Params.image
