@@ -31,6 +31,10 @@ params:
           mobile:   400
           tablet:   800
           desktop:  2000
+        item:
+          mobile:   350
+          tablet:   450
+          desktop:  600
       posts:
         hero_single:
           mobile:   400

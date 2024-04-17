@@ -1,0 +1,69 @@
+{{ $diplomas := .diplomas }}
+<ul class="diplomas">
+  {{ range $diplomas }}
+  {{ $short_name := .Params.short_name }}
+    <li>
+      <a href="{{ .Permalink }}" aria-label="{{ i18n "commons.more_aria" (dict "Title" .Title) }}">
+        {{- partial "PrepareHTML" .Title -}}
+        {{ with $short_name }}
+          <span class="meta">
+            {{ partial "PrepareHTML" . }}
+          </span>
+        {{ end }}
+      </a>
+      <div class="content">
+        <div class="description">
+          {{- .Params.summary | safeHTML -}}
+        </div>
+
+        <ol class="programs">
+          {{- range .Params.programs -}}          
+            {{- template "programsList" 
+              (dict 
+              "context" . 
+              "short_name" $short_name
+              ) 
+              -}}
+          {{- end -}}
+        </ol>
+      </div>
+    </li>
+  {{ end }}
+</ul>
+
+{{- define "programsList" -}}
+  <li>
+    {{ $formation := site.GetPage (printf "/programs%s" .context.slug) }}
+    <div class="program-content">
+      <a href="{{ .context.path }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .context.label)) }}">
+        {{- partial "PrepareHTML" (printf "%s %s" .short_name .context.label)  -}}
+      </a>
+      {{if .context.roles }}
+        <p class="meta"></p> 
+      {{end}}
+
+      <ol>
+        {{- range .children -}}
+        <li>
+          <a href="{{ .path }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .label)) }}">
+            {{- partial "PrepareHTML" .label -}}
+          </a>
+          {{ if .children }}
+            {{- template "programsList" . -}}
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    <div class="media">
+      {{- if $formation.Params.image -}}
+        {{- partial "commons/image.html"
+            (dict
+              "image"    $formation.Params.image
+              "sizes"    site.Params.image_sizes.sections.programs.item
+            ) -}}
+      {{- end -}}
+    </div>
+  </li>
+{{- end -}}
+
