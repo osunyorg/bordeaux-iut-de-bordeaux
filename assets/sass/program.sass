@@ -45,3 +45,40 @@ body.programs__section, body.diplomas__term
             .but-logo
                 img
                     max-width: pxToRem(110)
+    .document-content
+        counter-reset: section
+        .content
+            > h2 
+                @include h3
+                font-style: italic
+                @include media-breakpoint-down(desktop)
+                    &::before
+                        @include h1
+                        font-style: normal
+                        counter-increment: section
+                        content: counter(section) ". "
+                @include media-breakpoint-up(desktop)
+                    &::after
+                        margin-top: $spacing-1
+                        display: block
+                        @include h1
+                        font-style: normal
+                        counter-increment: section
+                        content: counter(section) "."
+            .blocks
+                .block
+                    h2.block-title
+                        font-style: normal
+            #couts-de-la-formation-initiale
+                background-color: $marron-secondaire-1
+                color: $color-background
+                padding: pxToRem(55) pxToRem(30)
+            #couts-de-la-formation-continue
+                background-color: $marron-secondaire-2
+                color: $color-background
+                padding: pxToRem(55) pxToRem(30)
+                margin-top: var(--grid-gutter)
+            #couts-de-lapprentissage
+                background-color: $marron-secondaire-4
+                padding: pxToRem(55) pxToRem(30)
+                margin-top: var(--grid-gutter)
