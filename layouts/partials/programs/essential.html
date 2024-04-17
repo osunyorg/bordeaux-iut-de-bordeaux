@@ -1,0 +1,67 @@
+<div class="essential-container" id="#{{ urlize (i18n "programs.toc.essential") }}">
+  <div class="container">
+    {{ $parent := .Params.parent }}
+    {{ $locations := .Params.locations}}
+    {{ $isBUT := false}}
+    {{- with .Params.diplomas -}}
+      {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
+      {{- with $diploma -}}
+        {{ $isBUT = ( in .Params.short_name "BUT" )}}
+        <dl class="essential">
+          <dt>{{ i18n "programs.diploma" }}</dt>
+          <dd><a href="{{ .Permalink }}">{{ partial "PrepareHTML" .Title }}</a></dd>
+          {{- if .Params.level -}}
+            <dt>{{ i18n "programs.level" }}</dt>
+            <dd>{{ partial "PrepareHTML" .Params.level }}</dd>
+          {{- end -}}
+          {{- if .Params.duration -}}
+            <dt>{{ i18n "programs.duration" }}</dt>
+            <dd>{{ partial "PrepareHTML" .Params.duration }}</dd>
+          {{- end -}}
+          {{- with $parent -}}
+            <dt>{{ i18n "programs.mention" }}</dt>
+            <dd><a href="{{ .url }}">{{ partial "PrepareHTML" .title }}</a></dd>
+          {{- end -}}
+          {{- with $locations -}}
+          
+          <dt>{{ i18n "custom.location" }}</dt>
+            <dd>{{range .}}
+                <a href="{{ .path }}">{{ partial "PrepareHTML" .slug }}</a>
+                {{end}}
+            </dd>
+        {{- end -}}
+        </dl>
+      {{- end -}}
+    {{- end -}}
+    
+    <div class="buttons">
+        {{ with .Params.downloadable_summary }}
+          {{- $file := partial "GetMedia" . -}}
+          {{- if $file -}}
+            {{- $url := $file.url -}}
+            {{- if site.Params.keycdn -}}
+              {{- $url = $file.direct_url -}}
+            {{- end -}}
+            <a href="{{ $url }}" download target="_blank">{{ i18n "commons.download.singular_name" }}</a>
+          {{- end -}}
+        {{ end }}
+        {{- $button := false -}}
+        {{ $button = (dict 
+            "display" true
+            "target" .Params.website_url
+            "label" (i18n "programs.website")
+          ) }}
+          {{with $button}}
+          <a href="{{ .target }}" class="btn">{{ .label }}</a>
+          {{end}}
+      <div class="dropdown-share dropup">
+
+        <button class="btn" type="button" id="shareProgram" data-bs-toggle="dropdown" aria-expanded="false">{{ i18n "commons.share" }}</button>
+        <div class="dropdown-menu">
+          {{ partial "commons/share.html" . }}
+        </div>
+      </div>
+    </div>
+    <div class="but-logo">{{ if $isBUT}}<img src="/assets/images/butcontrole.png" alt="logo BUT"/>{{end}}</div>
+  </div>
+</div>

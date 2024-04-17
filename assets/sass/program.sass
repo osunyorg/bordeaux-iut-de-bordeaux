@@ -1,0 +1,47 @@
+body.programs__section
+    .hero
+        .hero-text
+            hgroup
+                @include media-breakpoint-up(desktop)
+                    width: columns(7)                
+        .lead
+            display: none
+        padding-bottom: var(--grid-gutter)
+        .essential-container
+            .container
+                display: flex
+                flex-direction: column
+                gap: var(--grid-gutter)
+                @include media-breakpoint-up(desktop)
+                    flex-direction: row
+            .essential
+                display: grid
+                grid-template-columns: repeat(6, 1fr)
+                grid-gap: 0
+                width: 100%
+                @include media-breakpoint-up(desktop)
+                    width: columns(7)
+                dt, dd
+                    padding: $spacing-2 0
+                dt:not(:last-of-type) 
+                    border-bottom: 1px solid $marron-secondaire-3             
+                dd
+                    text-align: right       
+                dd:not(:last-of-type)  
+                    border-bottom: 1px solid $marron-secondaire-3
+                dt
+                    font-family: $heading-font-family
+                    font-weight: 500
+                    font-size: pxToRem(22)
+            .buttons 
+                flex-direction: column
+                a, button
+                    justify-content: center
+                    min-width: columns(3)
+                a[download] 
+                    --btn-background: var(--color-text)
+                    --btn-hover-color: var(--color-text)
+                    --btn-hover-background: var(--color-background)
+            .but-logo
+                img
+                    max-width: pxToRem(110)
