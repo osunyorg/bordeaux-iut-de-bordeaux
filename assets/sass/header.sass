@@ -103,10 +103,11 @@ body:not(.persons__page)
                     .hero-text
                         margin-left: var(--grid-gutter)
                         margin-right: var(--grid-gutter)
-                        width: columns(9)
-                        margin-top: 0
+                        margin-top: $spacing-4
                         order: 2
                         z-index: 2
+                        @include media-breakpoint-up(desktop)
+                            width: columns(9)
         + .breadcrumb-container
             background-color: $marron-secondaire-4
             margin-bottom: $spacing-5
