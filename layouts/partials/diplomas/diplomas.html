@@ -12,9 +12,11 @@
         {{ end }}
       </a>
       <div class="content">
+        {{with .Params.summary}}
         <div class="description">
-          {{- .Params.summary | safeHTML -}}
+          {{- . | safeHTML -}}
         </div>
+        {{end}}
 
         <ol class="programs">
           {{- range .Params.programs -}}          
@@ -38,22 +40,50 @@
       <a href="{{ .context.path }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .context.label)) }}">
         {{- partial "PrepareHTML" (printf "%s %s" .short_name .context.label)  -}}
       </a>
-      {{if .context.roles }}
-        <p class="meta"></p> 
-      {{end}}
-
-      <ol>
-        {{- range .children -}}
-        <li>
-          <a href="{{ .path }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .label)) }}">
-            {{- partial "PrepareHTML" .label -}}
-          </a>
-          {{ if .children }}
-            {{- template "programsList" . -}}
+      <div class="program-details">
+        <div>
+          {{- with .context.children -}}
+            <ol>
+              {{- range . -}}
+              <li>
+                <a href="{{ .path }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .label)) }}">
+                  {{- partial "PrepareHTML" (printf "Parcours : %s" .label) -}}
+                </a>
+              </li>
+              {{ end }}
+            </ol>
+          {{end}}
+          <div> 
+            <a href="{{ .context.path }}" title="En savoir plus" class="btn">En savoir plus</a>  
+            
+            {{ with $formation.Params.downloadable_summary }}
+            {{- $file := partial "GetMedia" . -}}
+            {{- if $file -}}
+              {{- $url := $file.url -}}
+              {{- if site.Params.keycdn -}}
+                {{- $url = $file.direct_url -}}
+              {{- end -}}
+              <a href="{{ $url }}" download target="_blank" class="btn">{{ i18n "commons.download.singular_name" }}</a>
+            {{- end -}}
           {{ end }}
-        </li>
-        {{ end }}
-      </ol>
+          </div>
+        </div>
+        {{with $formation.Params.roles}}
+          <p class="meta">
+            {{ $person := (site.GetPage (printf "/persons/%s" (index (index . 0).persons 0))).Params -}}
+            <span class="title">{{- partial "PrepareHTML" ((index . 0).title) -}}</span>
+            <span>{{$person.title}}</span>
+            {{with  $person.contact_details}} 
+              {{with .phone_professional}} 
+                <span>{{- partial "PrepareHTML" (printf "- %s" .label) -}}</span>  
+              {{end}}
+              {{with.email}} 
+                <a href="{{.value}}" itemprop="email">{{.label}}</a>
+              {{end}}
+            {{end}}
+          </p> 
+        {{end}}
+      </div>
     </div>
     <div class="media">
       {{- if $formation.Params.image -}}
@@ -66,4 +96,3 @@
     </div>
   </li>
 {{- end -}}
-
