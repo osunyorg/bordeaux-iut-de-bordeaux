@@ -1,4 +1,8 @@
 ---
 title: Sur-menu
-items: []
+items:
+- title: ENT
+  target: https://ent.u-bordeaux.fr/
+  kind: url
+  children: []
 
