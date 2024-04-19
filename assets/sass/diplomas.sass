@@ -2,28 +2,26 @@
     .diplomas
         > li
             > a
-                @include media-breakpoint-up(desktop)
-                    @include h3
                 border: none
                 font-style: italic
                 &::after
                     content: ""
                 .meta
                     display: none
+                @include media-breakpoint-up(desktop)
+                    @include h3
             .content
                 display: block
-                padding: 0
                 .description
                     margin-top: $spacing-1
                     margin-bottom: var(--grid-gutter)
                 .programs
                     >li
+                        align-items: start
                         display: flex
                         flex-direction: column
                         flex-wrap: wrap
-                        align-items: start
                         justify-content: flex-start
-                        gap: var(--grid-gutter)
                         > div
                             display: block
                         .media
@@ -31,8 +29,13 @@
                             img
                                 aspect-ratio: 4
                                 object-fit: cover
+                        @include media-breakpoint-down(md)
+                            margin-top: 0
+                            border-bottom: 1px solid $color-border
+                            padding: var(--grid-gutter) 0
                         @include media-breakpoint-up(md)
                             flex-direction: row
+                            gap: var(--grid-gutter)
                             .media
                                 max-width: 100%
                                 width: columns(3)
@@ -40,38 +43,40 @@
                                     aspect-ratio: 1
                         .program-content
                             order: 2
+                            @include media-breakpoint-up(md)
+                                width: columns(9)
                             a
                                 width: 100%
                                 display: block
-                            @include media-breakpoint-up(md)
-                                width: columns(9)
                             .program-details
                                 display: flex
                                 flex-direction: column
+                                justify-content: space-between
                                 a, p.meta, .btn 
                                     @include meta
                                     font-size: pxToRem(15)
                                 .btn, ol, .meta
-                                    margin-top: $spacing-3
+                                    margin-top: $spacing-1
+                                    @include media-breakpoint-up(desktop)
+                                        margin-top: $spacing-3
                                 .btn
-                                    width: fit-content
                                     display: inline-block
                                     font-size: var(--small-size)
+                                    width: fit-content
                                     &:not(:first-child)
                                         margin-left: $spacing-2
                                         &:hover
                                             color: $color-background
                                     &:first-child
-                                        color: $color-background
                                         background-color: $color-text
+                                        color: $color-background
                                         &:hover
-                                            color: $color-text
                                             background-color: $color-background
+                                            color: $color-text
                                 ol
                                     > li
                                         margin: 0
                                         a
-                                            font-size: $body-size
                                             &::before
                                                 content: "·"
                                                 vertical-align: initial
