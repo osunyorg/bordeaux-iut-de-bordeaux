@@ -2,8 +2,31 @@ header#document-header
     border-bottom: 1px solid $marron-secondaire-3
     position: absolute
     nav 
-        padding-bottom: pxToRem(20)
-        padding-top: pxToRem(20)
+        @include media-breakpoint-up(desktop)
+            padding-bottom: pxToRem(20)
+            padding-top: pxToRem(20)
+    .sur-menu
+        background-color: $color-text
+        padding: 0
+        ul
+            margin: 0
+            padding: 0 var(--grid-gutter)
+            text-align: right
+            li
+                margin: $spacing-1 0
+                display: inline-block
+                list-style: none
+                padding-left: $spacing-3
+                &:not(:last-child)
+                    padding-right: $spacing-3
+                    border-right: 1px solid $color-background
+                a
+                    color: $color-background
+                    transition-property: color
+                    &::after
+                        content: ""
+                    &:hover
+                        color: $color-accent
     .dropdown-menu
         @include media-breakpoint-up(desktop)
             margin-top: 1px
