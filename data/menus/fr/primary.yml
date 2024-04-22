@@ -246,6 +246,10 @@ items:
       target: "/vie-etudiante/candidater-en-but/"
       kind: page
       children: []
+    - title: Candidater en licence professionnelle
+      target: "/vie-etudiante/candidater-en-licence-professionnelle/"
+      kind: page
+      children: []
   - title: Pendant
     target: ''
     kind: blank
