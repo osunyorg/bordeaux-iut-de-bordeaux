@@ -270,6 +270,10 @@ items:
       target: "/vie-etudiante/services-a-letudiant/"
       kind: page
       children: []
+    - title: Service PHASE
+      target: "/services/phase/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
