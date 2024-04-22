@@ -262,6 +262,10 @@ items:
       target: "/vie-etudiante/ent/"
       kind: page
       children: []
+    - title: Intranet
+      target: "/vie-etudiante/intranet/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
