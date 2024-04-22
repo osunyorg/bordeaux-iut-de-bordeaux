@@ -6,8 +6,8 @@ items:
   kind: blank
   children:
   - title: Découvrir l'institut
-    target: "/linstitut/"
-    kind: page
+    target: ''
+    kind: blank
     children:
     - title: Notre histoire
       target: "/linstitut/notre-histoire/"
@@ -46,8 +46,8 @@ items:
       kind: location
       children: []
   - title: Services
-    target: "/services/"
-    kind: page
+    target: ''
+    kind: blank
     children:
     - title: Formation et vie universitaire
       target: "/services/formation-et-vie-universitaire/"
