@@ -278,6 +278,14 @@ items:
       target: "/services/audiovisuel-et-multimedia/"
       kind: page
       children: []
+    - title: Bibliothèques universitaires
+      target: "/vie-etudiante/bibliotheques-universitaires/"
+      kind: page
+      children: []
+    - title: Bureau des sports
+      target: "/vie-etudiante/bureau-des-sports/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
