@@ -218,30 +218,6 @@ items:
       target: "/formations/formation-continue-et-alternance/"
       kind: page
       children: []
-    - title: Certificats de Compétences
-      target: ''
-      kind: blank
-      children:
-      - title: Commerce, Négociation et Distribution
-        target: "/formations/commerce-negociation-et-distribution/"
-        kind: program
-        children: []
-      - title: Fabrication Additive Métallique
-        target: "/formations/fabrication-additive-metallique/"
-        kind: program
-        children: []
-      - title: Management d’Équipes Services de l’Automobile
-        target: "/formations/management-equipes-services-automobile/"
-        kind: program
-        children: []
-      - title: Outil du BIM (Building Information Modelling)
-        target: "/formations/outil-du-bim-building-information-modelling/"
-        kind: program
-        children: []
-      - title: Technicien Réparation, Reconditionnement et Recyclage Informatiques
-        target: "/formations/technicien-reparation-reconditionnement-et-recyclage-des-equipements-informatiques/"
-        kind: program
-        children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
