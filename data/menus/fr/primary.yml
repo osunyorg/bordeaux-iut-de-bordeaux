@@ -82,7 +82,7 @@ items:
       kind: page
       children: []
     - title: Contacts
-      target: "/contacts/"
+      target: "/rejoindre-liut/contacts/"
       kind: page
       children: []
 - title: Formations
