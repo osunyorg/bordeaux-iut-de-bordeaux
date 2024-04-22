@@ -78,11 +78,11 @@ items:
     kind: blank
     children:
     - title: Offres d'emploi
-      target: "/offres-demploi/"
+      target: "/rejoindre-liut/offres-demploi/"
       kind: page
       children: []
     - title: Contacts
-      target: "/linstitut/contacts/"
+      target: "/contacts/"
       kind: page
       children: []
 - title: Formations
