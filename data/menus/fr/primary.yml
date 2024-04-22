@@ -286,10 +286,22 @@ items:
       target: "/vie-etudiante/bureau-des-sports/"
       kind: page
       children: []
+    - title: Atelier théâtre
+      target: "/vie-etudiante/atelier-theatre/"
+      kind: page
+      children: []
+    - title: Congés universitaires
+      target: "/vie-etudiante/conges-universitaires/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Retirer son diplôme
+      target: "/vie-etudiante/retirer-son-diplome/"
+      kind: page
+      children: []
   - title: Étudier à l'international
     target: ''
     kind: blank
