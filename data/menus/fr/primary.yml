@@ -346,4 +346,16 @@ items:
       target: "/entreprise/taxe-dapprentissage/"
       kind: page
       children: []
+  - title: Nos partenaires
+    target: ''
+    kind: blank
+    children:
+    - title: Institutionnels
+      target: "/entreprise/institutionnels/"
+      kind: page
+      children: []
+    - title: Industriels
+      target: "/entreprise/industriels/"
+      kind: page
+      children: []
 
