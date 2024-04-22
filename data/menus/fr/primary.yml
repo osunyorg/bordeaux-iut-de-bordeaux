@@ -9,6 +9,10 @@ items:
     target: "/linstitut/"
     kind: page
     children:
+    - title: Notre histoire
+      target: "/linstitut/notre-histoire/"
+      kind: page
+      children: []
     - title: L’équipe de direction
       target: "/equipe/"
       kind: page
