@@ -69,6 +69,10 @@ items:
       target: "/services/technoshop/"
       kind: page
       children: []
+    - title: Formation Continue et Alternance
+      target: "/formations/formation-continue-et-alternance/"
+      kind: page
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
