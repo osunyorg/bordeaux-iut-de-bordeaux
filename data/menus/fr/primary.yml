@@ -250,6 +250,10 @@ items:
       target: "/vie-etudiante/candidater-en-licence-professionnelle/"
       kind: page
       children: []
+    - title: Formation et vie universitaire (FVU)
+      target: "/vie-etudiante/formation-et-vie-universitaire-fvu/"
+      kind: page
+      children: []
   - title: Pendant
     target: ''
     kind: blank
