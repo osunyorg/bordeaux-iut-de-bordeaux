@@ -334,4 +334,12 @@ items:
       target: "/entreprise/alternance-recruter-et-etre-recrute/"
       kind: page
       children: []
+    - title: Devenir vacataire d'enseignement
+      target: "/entreprise/devenir-vacataire-denseignement/"
+      kind: page
+      children: []
+  - title: Nous soutenir
+    target: ''
+    kind: blank
+    children: []
 
