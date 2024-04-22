@@ -53,7 +53,7 @@ items:
       target: "/services/formation-et-vie-universitaire/"
       kind: page
       children: []
-    - title: Formation Continue et Alternance
+    - title: Formation continue et alternance
       target: "/formations/formation-continue-et-alternance/"
       kind: page
       children: []
