@@ -325,5 +325,9 @@ items:
 - title: Entreprise
   target: ''
   kind: blank
-  children: []
+  children:
+  - title: Collaborer avec l'IUT
+    target: ''
+    kind: blank
+    children: []
 
