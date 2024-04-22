@@ -266,6 +266,10 @@ items:
       target: "/vie-etudiante/intranet/"
       kind: page
       children: []
+    - title: Services à l'étudiant
+      target: "/vie-etudiante/services-a-letudiant/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
