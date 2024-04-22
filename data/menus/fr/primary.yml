@@ -214,14 +214,46 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Formation Continue et Alternance
+    - title: Formation continue et alternance
       target: "/formations/formation-continue-et-alternance/"
+      kind: page
+      children: []
+    - title: Formations courtes qualifiantes
+      target: "/formations/formations-courtes-qualifiantes/"
+      kind: page
+      children: []
+    - title: Diplômes d'université
+      target: "/formations/diplomes-duniversite/"
+      kind: page
+      children: []
+    - title: Diplôme d'Etat
+      target: "/formations/diplome-etat/"
       kind: page
       children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
-  children: []
+  children:
+  - title: Avant
+    target: ''
+    kind: blank
+    children:
+    - title: S'inscrire à l'IUT
+      target: "/vie-etudiante/sinscrire-a-liut/"
+      kind: page
+      children: []
+  - title: Pendant
+    target: ''
+    kind: blank
+    children: []
+  - title: Après
+    target: ''
+    kind: blank
+    children: []
+  - title: Étudier à l'international
+    target: ''
+    kind: blank
+    children: []
 - title: Entreprise
   target: ''
   kind: blank
