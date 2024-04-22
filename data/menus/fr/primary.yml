@@ -274,6 +274,10 @@ items:
       target: "/services/phase/"
       kind: page
       children: []
+    - title: Service audiovisuel et multimedia
+      target: "/services/audiovisuel-et-multimedia/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
