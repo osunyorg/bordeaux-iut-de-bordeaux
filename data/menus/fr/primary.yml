@@ -257,7 +257,11 @@ items:
   - title: Pendant
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: ENT
+      target: "/vie-etudiante/ent/"
+      kind: page
+      children: []
   - title: Après
     target: ''
     kind: blank
