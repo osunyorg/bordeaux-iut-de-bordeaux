@@ -242,6 +242,10 @@ items:
       target: "/vie-etudiante/sinscrire-a-liut/"
       kind: page
       children: []
+    - title: Candidater en BUT
+      target: "/vie-etudiante/candidater-en-but/"
+      kind: page
+      children: []
   - title: Pendant
     target: ''
     kind: blank
