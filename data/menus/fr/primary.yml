@@ -329,5 +329,9 @@ items:
   - title: Collaborer avec l'IUT
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: 'Alternance : recruter et être recruté'
+      target: "/entreprise/alternance-recruter-et-etre-recrute/"
+      kind: page
+      children: []
 
