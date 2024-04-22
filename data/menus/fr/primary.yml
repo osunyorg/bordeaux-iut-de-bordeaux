@@ -341,5 +341,9 @@ items:
   - title: Nous soutenir
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Taxe d'apprentissage
+      target: "/entreprise/taxe-dapprentissage/"
+      kind: page
+      children: []
 
