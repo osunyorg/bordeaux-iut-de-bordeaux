@@ -255,11 +255,11 @@ items:
     kind: blank
     children:
     - title: S'inscrire à l'IUT
-      target: "/vie-etudiante/sinscrire-a-liut/"
+      target: "/vie-etudiante/immerger-a-liut/"
       kind: page
       children: []
     - title: Candidater en BUT
-      target: "/vie-etudiante/candidater-en-but/"
+      target: "/vie-etudiante/inscription-administrative/"
       kind: page
       children: []
     - title: Candidater en licence professionnelle
