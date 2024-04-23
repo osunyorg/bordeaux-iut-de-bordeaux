@@ -53,12 +53,12 @@ items:
       target: "/les-4-sites-de-formation/site-de-perigueux/"
       kind: location
       children: []
-  - title: Services
+  - title: Nos réseaux nationaux
     target: ''
     kind: blank
     children:
     - title: Formation et vie universitaire
-      target: "/services/formation-et-vie-universitaire/"
+      target: "/nos-reseaux-nationaux/formation-et-vie-universitaire/"
       kind: page
       children: []
     - title: Formation continue et alternance
@@ -66,19 +66,19 @@ items:
       kind: page
       children: []
     - title: PHASE
-      target: "/services/phase/"
+      target: "/nos-reseaux-nationaux/phase/"
       kind: page
       children: []
     - title: Audiovisuel et multimedia
-      target: "/services/audiovisuel-et-multimedia/"
+      target: "/nos-reseaux-nationaux/audiovisuel-et-multimedia/"
       kind: page
       children: []
     - title: Fablab
-      target: "/services/fablab/"
+      target: "/nos-reseaux-nationaux/fablab/"
       kind: page
       children: []
     - title: TechnoShop
-      target: "/services/technoshop/"
+      target: "/nos-reseaux-nationaux/technoshop/"
       kind: page
       children: []
   - title: Rejoindre l'IUT
@@ -283,11 +283,11 @@ items:
       kind: page
       children: []
     - title: Service PHASE
-      target: "/services/phase/"
+      target: "/nos-reseaux-nationaux/phase/"
       kind: page
       children: []
     - title: Service audiovisuel et multimedia
-      target: "/services/audiovisuel-et-multimedia/"
+      target: "/nos-reseaux-nationaux/audiovisuel-et-multimedia/"
       kind: page
       children: []
     - title: Bibliothèques universitaires
