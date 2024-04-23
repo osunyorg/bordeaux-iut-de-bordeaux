@@ -275,7 +275,7 @@ items:
     kind: blank
     children:
     - title: ENT
-      target: "/vie-etudiante/ent/"
+      target: "/vie-etudiante/se-loger/"
       kind: page
       children: []
     - title: Intranet
