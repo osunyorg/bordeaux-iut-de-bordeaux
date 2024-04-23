@@ -322,10 +322,6 @@ items:
       target: "/vie-etudiante/devenir-de-nos-diplomes/"
       kind: page
       children: []
-    - title: Rejoindre l'IUT
-      target: "/vie-etudiante/rejoindre-liut-1/"
-      kind: page
-      children: []
   - title: À l'international
     target: ''
     kind: blank
