@@ -29,7 +29,7 @@ items:
       target: "/nous-decouvrir/nos-projets/"
       kind: page
       children: []
-    - title: Salon et portes ouvertes
+    - title: Salons et portes ouvertes
       target: "/nous-decouvrir/salons-et-portes-ouvertes/"
       kind: page
       children: []
