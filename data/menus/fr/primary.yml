@@ -298,7 +298,7 @@ items:
       target: "/vie-etudiante/etre-alternant/"
       kind: page
       children: []
-    - title: Congés universitaires
+    - title: Harcèlement et discrimination
       target: "/vie-etudiante/harcelement-discrimination/"
       kind: page
       children: []
