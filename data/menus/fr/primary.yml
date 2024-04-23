@@ -349,9 +349,5 @@ items:
   - title: Nos partenaires
     target: ''
     kind: blank
-    children:
-    - title: Industriels
-      target: "/entreprise/industriels/"
-      kind: page
-      children: []
+    children: []
 
