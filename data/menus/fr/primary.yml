@@ -61,10 +61,6 @@ items:
       target: "/nos-reseaux-nationaux/assemblee-directeurs-iut/"
       kind: page
       children: []
-    - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
-      target: "/formations/formation-continue-et-alternance/"
-      kind: page
-      children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
       target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
@@ -226,14 +222,10 @@ items:
       target: "/formations/organisation-management-des-services-de-lautomobile/"
       kind: program
       children: []
-  - title: Autres formations
+  - title: 'Autres '
     target: ''
     kind: blank
     children:
-    - title: Formation continue et alternance
-      target: "/formations/formation-continue-et-alternance/"
-      kind: page
-      children: []
     - title: Formations courtes qualifiantes
       target: "/formations/formations-courtes-qualifiantes/"
       kind: page
