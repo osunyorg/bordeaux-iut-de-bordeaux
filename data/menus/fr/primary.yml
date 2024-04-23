@@ -286,7 +286,7 @@ items:
       target: "/vie-etudiante/phase/"
       kind: page
       children: []
-    - title: Intranet
+    - title: Activités d'ouverture et de personnalisation (AOP)
       target: "/vie-etudiante/aop/"
       kind: page
       children: []
