@@ -290,7 +290,7 @@ items:
       target: "/vie-etudiante/aop/"
       kind: page
       children: []
-    - title: Bureau des sports
+    - title: Activités sportives
       target: "/vie-etudiante/activites-sportives/"
       kind: page
       children: []
