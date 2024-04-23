@@ -137,7 +137,7 @@ items:
       target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
       children: []
-  - title: BUT secondaires
+  - title: 'BUT : industrie et production'
     target: ''
     kind: blank
     children:
