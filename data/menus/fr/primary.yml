@@ -234,8 +234,12 @@ items:
       target: "/formations/diplomes-duniversite/"
       kind: page
       children: []
-    - title: Diplôme d'Etat
+    - title: Diplôme d'État (DE) - Médiateur familial
       target: "/formations/diplome-etat/"
+      kind: page
+      children: []
+    - title: Pass'BUT
+      target: "/rejoindre-liut/candidater-en-passbut/"
       kind: page
       children: []
 - title: Vie étudiante
