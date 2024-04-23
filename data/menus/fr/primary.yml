@@ -65,12 +65,8 @@ items:
       target: "/formations/formation-continue-et-alternance/"
       kind: page
       children: []
-    - title: PHASE
-      target: "/nos-reseaux-nationaux/phase/"
-      kind: page
-      children: []
     - title: Audiovisuel et multimedia
-      target: "/nos-reseaux-nationaux/audiovisuel-et-multimedia/"
+      target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
       children: []
     - title: Fablab
@@ -283,11 +279,11 @@ items:
       kind: page
       children: []
     - title: Service PHASE
-      target: "/nos-reseaux-nationaux/phase/"
+      target: "/vie-etudiante/phase/"
       kind: page
       children: []
     - title: Service audiovisuel et multimedia
-      target: "/nos-reseaux-nationaux/audiovisuel-et-multimedia/"
+      target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
       children: []
     - title: Bibliothèques universitaires
