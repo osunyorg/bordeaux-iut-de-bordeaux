@@ -58,7 +58,7 @@ items:
     kind: blank
     children:
     - title: Formation et vie universitaire
-      target: "/nos-reseaux-nationaux/formation-et-vie-universitaire/"
+      target: "/formation-et-vie-universitaire/"
       kind: page
       children: []
     - title: Formation continue et alternance
