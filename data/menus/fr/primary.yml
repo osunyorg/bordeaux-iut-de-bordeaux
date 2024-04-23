@@ -342,12 +342,24 @@ items:
       target: "/entreprise/taxe-dapprentissage/"
       kind: page
       children: []
-  - title: Nous soutenir
+    - title: Participer à la formation
+      target: "/entreprise/participer-a-la-formation/"
+      kind: page
+      children: []
+  - title: Vous accompagner
     target: ''
     kind: blank
-    children: []
-  - title: Nos partenaires
-    target: ''
-    kind: blank
-    children: []
+    children:
+    - title: Innover avec le technoShop
+      target: "/entreprise/innover-avec-le-technoshop/"
+      kind: page
+      children: []
+    - title: Recruter un alternant
+      target: "/entreprise/recruter-un-alternant/"
+      kind: page
+      children: []
+    - title: Former ses collaborateurs
+      target: "/entreprise/former-ses-collaborateurs/"
+      kind: page
+      children: []
 
