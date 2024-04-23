@@ -263,7 +263,7 @@ items:
       kind: page
       children: []
     - title: Candidater en licence professionnelle
-      target: "/vie-etudiante/candidater-en-licence-professionnelle/"
+      target: "/vie-etudiante/faire-sa-demande-de-bourse/"
       kind: page
       children: []
     - title: Formation et vie universitaire (FVU)
