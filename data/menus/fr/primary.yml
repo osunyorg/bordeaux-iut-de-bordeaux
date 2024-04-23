@@ -279,7 +279,7 @@ items:
       kind: page
       children: []
     - title: Intranet
-      target: "/vie-etudiante/intranet/"
+      target: "/vie-etudiante/aop/"
       kind: page
       children: []
     - title: Services à l'étudiant
@@ -299,11 +299,11 @@ items:
       kind: page
       children: []
     - title: Bureau des sports
-      target: "/vie-etudiante/bureau-des-sports/"
+      target: "/vie-etudiante/activites-sportives/"
       kind: page
       children: []
     - title: Atelier théâtre
-      target: "/vie-etudiante/atelier-theatre/"
+      target: "/vie-etudiante/etre-alternant/"
       kind: page
       children: []
     - title: Congés universitaires
