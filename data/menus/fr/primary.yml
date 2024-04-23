@@ -254,7 +254,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: S'inscrire à l'IUT
+    - title: S'immerger à l'IUT
       target: "/vie-etudiante/immerger-a-liut/"
       kind: page
       children: []
