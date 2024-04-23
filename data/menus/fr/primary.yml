@@ -326,7 +326,7 @@ items:
       target: "/vie-etudiante/rejoindre-liut-1/"
       kind: page
       children: []
-  - title: Étudier à l'international
+  - title: À l'international
     target: ''
     kind: blank
     children:
