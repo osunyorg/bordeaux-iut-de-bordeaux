@@ -262,7 +262,7 @@ items:
       target: "/vie-etudiante/inscription-administrative/"
       kind: page
       children: []
-    - title: Candidater en licence professionnelle
+    - title: Faire sa demande de bourse
       target: "/vie-etudiante/faire-sa-demande-de-bourse/"
       kind: page
       children: []
