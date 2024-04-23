@@ -73,6 +73,10 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Candidater en BUT 1
+      target: "/rejoindre-liut/candidater-en-but-1/"
+      kind: page
+      children: []
     - title: Offres d'emploi
       target: "/rejoindre-liut/offres-demploi/"
       kind: page
