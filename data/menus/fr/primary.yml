@@ -25,6 +25,10 @@ items:
       target: "/linstitut/nos-espaces-technologiques/"
       kind: page
       children: []
+    - title: Nos projets
+      target: "/linstitut/nos-projets/"
+      kind: page
+      children: []
   - title: Les 4 sites de formation
     target: "/les-4-sites-de-formation/"
     kind: page
