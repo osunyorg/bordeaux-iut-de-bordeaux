@@ -69,10 +69,6 @@ items:
       target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
       children: []
-    - title: Fablab
-      target: "/nos-reseaux-nationaux/fablab/"
-      kind: page
-      children: []
     - title: TechnoShop
       target: "/nos-reseaux-nationaux/technoshop/"
       kind: page
