@@ -226,7 +226,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Formations courtes qualifiantes
+    - title: Formations courtes
       target: "/formations/formations-courtes/"
       kind: page
       children: []
