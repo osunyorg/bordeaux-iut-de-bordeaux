@@ -9,8 +9,8 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Notre histoire
-      target: "/linstitut/notre-histoire/"
+    - title: Notre institut
+      target: "/linstitut/notre-institut/"
       kind: page
       children: []
     - title: L'équipe de direction
@@ -21,8 +21,8 @@ items:
       target: "/linstitut/le-conseil-diut/"
       kind: page
       children: []
-    - title: La recherche à l'IUT
-      target: "/linstitut/la-recherche-a-liut/"
+    - title: Nos espaces technologiques
+      target: "/linstitut/nos-espaces-technologiques/"
       kind: page
       children: []
   - title: Les 4 sites de formation
