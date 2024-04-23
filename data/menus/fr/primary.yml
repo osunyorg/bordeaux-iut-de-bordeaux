@@ -346,14 +346,14 @@ items:
       target: "/entreprise/devenir-vacataire-denseignement/"
       kind: page
       children: []
+  - title: Taxe d'apprentissage
+    target: "/entreprise/taxe-dapprentissage/"
+    kind: page
+    children: []
   - title: Nous soutenir
     target: ''
     kind: blank
-    children:
-    - title: Taxe d'apprentissage
-      target: "/entreprise/taxe-dapprentissage/"
-      kind: page
-      children: []
+    children: []
   - title: Nos partenaires
     target: ''
     kind: blank
