@@ -101,7 +101,7 @@ items:
   target: "/formations/"
   kind: page
   children:
-  - title: BUT tertiaires
+  - title: 'BUT : administration et services'
     target: ''
     kind: blank
     children:
