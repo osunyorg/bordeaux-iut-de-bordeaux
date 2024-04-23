@@ -274,16 +274,16 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Services à l'étudiant
+      target: "/vie-etudiante/services-a-letudiant/"
+      kind: page
+      children: []
     - title: ENT
       target: "/vie-etudiante/se-loger/"
       kind: page
       children: []
     - title: Intranet
       target: "/vie-etudiante/aop/"
-      kind: page
-      children: []
-    - title: Services à l'étudiant
-      target: "/vie-etudiante/services-a-letudiant/"
       kind: page
       children: []
     - title: Service PHASE
