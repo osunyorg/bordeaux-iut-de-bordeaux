@@ -266,6 +266,10 @@ items:
       target: "/vie-etudiante/faire-sa-demande-de-bourse/"
       kind: page
       children: []
+    - title: Se loger
+      target: "/vie-etudiante/se-loger/"
+      kind: page
+      children: []
   - title: Pendant
     target: ''
     kind: blank
