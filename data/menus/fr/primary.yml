@@ -81,6 +81,10 @@ items:
       target: "/rejoindre-liut/candidater-en-but-2/"
       kind: page
       children: []
+    - title: Candidater en Pass'BUT
+      target: "/rejoindre-liut/candidater-en-passbut/"
+      kind: page
+      children: []
     - title: Offres d'emploi
       target: "/rejoindre-liut/offres-demploi/"
       kind: page
