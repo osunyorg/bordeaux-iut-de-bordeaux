@@ -58,7 +58,7 @@ items:
     kind: blank
     children:
     - title: Assemblée des directeurs d'IUT (ADIUT)
-      target: "/nos-reseaux-nationaux/formation-et-vie-universitaire/"
+      target: "/nos-reseaux-nationaux/assemblee-directeurs-iut/"
       kind: page
       children: []
     - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
@@ -91,6 +91,10 @@ items:
       children: []
     - title: Contacts
       target: "/rejoindre-liut/contacts/"
+      kind: page
+      children: []
+    - title: Candidater en licence professionnelle
+      target: "/rejoindre-liut/candidater-en-licence-professionnelle-1/"
       kind: page
       children: []
 - title: Formations
