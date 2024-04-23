@@ -266,10 +266,6 @@ items:
       target: "/vie-etudiante/faire-sa-demande-de-bourse/"
       kind: page
       children: []
-    - title: Formation et vie universitaire (FVU)
-      target: "/vie-etudiante/formation-et-vie-universitaire-fvu/"
-      kind: page
-      children: []
   - title: Pendant
     target: ''
     kind: blank
