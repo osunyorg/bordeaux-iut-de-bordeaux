@@ -258,7 +258,7 @@ items:
       target: "/vie-etudiante/immerger-a-liut/"
       kind: page
       children: []
-    - title: Candidater en BUT
+    - title: Inscription administrative
       target: "/vie-etudiante/inscription-administrative/"
       kind: page
       children: []
