@@ -307,7 +307,7 @@ items:
       kind: page
       children: []
     - title: Congés universitaires
-      target: "/vie-etudiante/conges-universitaires/"
+      target: "/vie-etudiante/harcelement-discrimination/"
       kind: page
       children: []
   - title: Après
