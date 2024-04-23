@@ -294,10 +294,6 @@ items:
       target: "/vie-etudiante/activites-sportives/"
       kind: page
       children: []
-    - title: Service PHASE
-      target: "/vie-etudiante/phase/"
-      kind: page
-      children: []
     - title: Service audiovisuel et multimedia
       target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
