@@ -69,10 +69,6 @@ items:
       target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
       kind: page
       children: []
-    - title: TechnoShop
-      target: "/nos-reseaux-nationaux/technoshop/"
-      kind: page
-      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
