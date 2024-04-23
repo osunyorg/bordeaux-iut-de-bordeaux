@@ -10,27 +10,27 @@ items:
     kind: blank
     children:
     - title: Notre institut
-      target: "/linstitut/notre-institut/"
+      target: "/nous-decouvrir/notre-institut/"
       kind: page
       children: []
     - title: L'équipe de direction
-      target: "/linstitut/lequipe-de-direction/"
+      target: "/nous-decouvrir/lequipe-de-direction/"
       kind: page
       children: []
     - title: Le Conseil d'IUT
-      target: "/linstitut/le-conseil-diut/"
+      target: "/nous-decouvrir/le-conseil-diut/"
       kind: page
       children: []
     - title: Nos espaces technologiques
-      target: "/linstitut/nos-espaces-technologiques/"
+      target: "/nous-decouvrir/nos-espaces-technologiques/"
       kind: page
       children: []
     - title: Nos projets
-      target: "/linstitut/nos-projets/"
+      target: "/nous-decouvrir/nos-projets/"
       kind: page
       children: []
     - title: Salon et portes ouvertes
-      target: "/linstitut/salon-et-portes-ouvertes/"
+      target: "/nous-decouvrir/salon-et-portes-ouvertes/"
       kind: page
       children: []
   - title: Les 4 sites de formation
