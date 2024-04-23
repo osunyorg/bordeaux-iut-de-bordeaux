@@ -227,7 +227,7 @@ items:
     kind: blank
     children:
     - title: Formations courtes qualifiantes
-      target: "/formations/formations-courtes-qualifiantes/"
+      target: "/formations/formations-courtes/"
       kind: page
       children: []
     - title: Diplômes d'université
