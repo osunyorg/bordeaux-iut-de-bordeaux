@@ -226,6 +226,10 @@ items:
     target: ''
     kind: blank
     children:
+    - title: VAE et VAPP
+      target: "/formations/vae-et-vapp/"
+      kind: page
+      children: []
     - title: Formations courtes
       target: "/formations/formations-courtes/"
       kind: page
