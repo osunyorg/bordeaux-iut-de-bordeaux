@@ -193,7 +193,7 @@ items:
       target: "/formations/science-et-genie-des-materiaux/"
       kind: program
       children: []
-  - title: Licences pro
+  - title: Licences professionnelles
     target: ''
     kind: blank
     children:
