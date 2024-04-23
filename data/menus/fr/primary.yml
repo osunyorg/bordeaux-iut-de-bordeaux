@@ -85,16 +85,16 @@ items:
       target: "/rejoindre-liut/candidater-en-passbut/"
       kind: page
       children: []
+    - title: Candidater en licence professionnelle
+      target: "/rejoindre-liut/candidater-en-licence-professionnelle-1/"
+      kind: page
+      children: []
     - title: Offres d'emploi
       target: "/rejoindre-liut/offres-demploi/"
       kind: page
       children: []
     - title: Contacts
       target: "/rejoindre-liut/contacts/"
-      kind: page
-      children: []
-    - title: Candidater en licence professionnelle
-      target: "/rejoindre-liut/candidater-en-licence-professionnelle-1/"
       kind: page
       children: []
 - title: Formations
