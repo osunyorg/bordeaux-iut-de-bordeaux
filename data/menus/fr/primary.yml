@@ -278,6 +278,10 @@ items:
       target: "/vie-etudiante/services-a-letudiant/"
       kind: page
       children: []
+    - title: Bibliothèques universitaires
+      target: "/vie-etudiante/bibliotheques-universitaires/"
+      kind: page
+      children: []
     - title: ENT
       target: "/vie-etudiante/se-loger/"
       kind: page
@@ -292,10 +296,6 @@ items:
       children: []
     - title: Service audiovisuel et multimedia
       target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
-      kind: page
-      children: []
-    - title: Bibliothèques universitaires
-      target: "/vie-etudiante/bibliotheques-universitaires/"
       kind: page
       children: []
     - title: Bureau des sports
