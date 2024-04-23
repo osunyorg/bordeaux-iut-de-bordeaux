@@ -30,7 +30,7 @@ items:
       kind: page
       children: []
     - title: Salon et portes ouvertes
-      target: "/nous-decouvrir/salon-et-portes-ouvertes/"
+      target: "/nous-decouvrir/salons-et-portes-ouvertes/"
       kind: page
       children: []
   - title: Les 4 sites de formation
