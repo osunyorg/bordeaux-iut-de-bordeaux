@@ -294,7 +294,7 @@ items:
       target: "/vie-etudiante/activites-sportives/"
       kind: page
       children: []
-    - title: Atelier théâtre
+    - title: Être alternant
       target: "/vie-etudiante/etre-alternant/"
       kind: page
       children: []
