@@ -1,53 +1,35 @@
 .locations__term
-    .diplomas
+    ul.diplomas
         > li
             > a
-                border: none
                 font-style: italic
                 &::after
                     content: ""
-                .meta
-                    display: none
                 @include media-breakpoint-up(desktop)
                     @include h3
             .content
-                display: block
                 .description
-                    margin-top: $spacing-1
                     margin-bottom: var(--grid-gutter)
-                .programs
-                    >li
-                        align-items: start
-                        display: flex
-                        flex-direction: column
-                        flex-wrap: wrap
+                    margin-top: $spacing-1
+                ol.programs
+                    > li
                         justify-content: flex-start
-                        > div
-                            display: block
-                        .media
-                            order: 1
-                            img
-                                aspect-ratio: 4
-                                object-fit: cover
-                        @include media-breakpoint-down(md)
-                            margin-top: 0
-                            border-bottom: 1px solid $color-border
-                            padding: var(--grid-gutter) 0
+                        margin-top: $spacing-3
                         @include media-breakpoint-up(md)
-                            flex-direction: row
-                            gap: var(--grid-gutter)
+                            &:not(:first-child)
+                                border-top: none
                             .media
-                                max-width: 100%
+                                order: 1
                                 width: columns(3)
-                                img
-                                    aspect-ratio: 1
                         .program-content
-                            order: 2
                             @include media-breakpoint-up(md)
+                                order: 2
                                 width: columns(9)
                             a
-                                width: 100%
                                 display: block
+                                width: 100%
+                                &::after
+                                    content: ""
                             .program-details
                                 display: flex
                                 flex-direction: column
@@ -84,8 +66,8 @@
                                                 font-size: $body-size-desktop
                                 .meta
                                     .title
-                                        font-weight: 600
                                         display: block
+                                        font-weight: 600
                                 @include media-breakpoint-up(desktop)
                                     flex-direction: row
                                     .btn
