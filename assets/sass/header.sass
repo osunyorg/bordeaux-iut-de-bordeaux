@@ -1,8 +1,7 @@
 header#document-header
     border-bottom: 1px solid $marron-secondaire-3
-    position: absolute
-    nav 
-        @include media-breakpoint-up(desktop)
+    @include media-breakpoint-up(desktop)
+        nav 
             padding-bottom: pxToRem(20)
             padding-top: pxToRem(20)
     .sur-menu
@@ -80,17 +79,23 @@ header#document-header
                                     font-size: pxToRem(15)
 html.has-menu-opened
     body
-        overflow: initial  
         &::after
             mix-blend-mode: multiply  
 
-// consequences du menu trop haut dont on rreactive le scroll
-html:not(.is-scrolling-down) 
-    @include media-breakpoint-up(desktop)
-        .toc-cta 
-            top: 0
-        .programs__section .document-content .content > h2
-            top: 90px
+// consequences du menu trop haut on reactive le scroll sur desktop
+@include media-breakpoint-up(desktop)
+    html
+        &.has-menu-opened
+            body
+                overflow: initial  
+        &:not(.is-scrolling-down) 
+            .toc-cta 
+                top: 0
+            .programs__section .document-content .content > h2
+                top: 90px
+        header#document-header
+            position: absolute
+
 body:not(.persons__page)
     .hero 
         @include media-breakpoint-up(desktop)
