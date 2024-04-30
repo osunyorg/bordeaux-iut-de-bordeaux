@@ -98,9 +98,17 @@ html.has-menu-opened
 
 body:not(.persons__page)
     .hero 
+        @include media-breakpoint-down(desktop)
+            &--with-image,
+            &--image-portrait,
+            &--image-square
+                .container
+                    margin-bottom: 0
         @include media-breakpoint-up(desktop)
-            padding-bottom: var(--header-height)
-        &--with-image
+            padding-bottom: var(--header-height) 
+        &--with-image,
+        &--image-portrait,
+        &--image-square
             > .container
                 overflow: hidden
                 padding-left: 0
