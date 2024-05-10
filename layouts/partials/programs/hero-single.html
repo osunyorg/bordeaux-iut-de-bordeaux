@@ -1,9 +1,80 @@
 {{- $title := or .Params.header_text .Title -}}
+{{ $direction := "" }}
+{{ $breadcrumb_is_after_hero := eq site.Params.breadcrumb.position "after-hero" }}
+{{ $display_breadcrumb := .Params.breadcrumb | default true }}
+{{ $subtitle := .Params.subtitle }}
+{{ $description := .Params.description }}
+{{ if .Params.image }}
+  {{ $direction = partial "GetImageDirection" .Params.image }}
+{{ end }}
 
-{{ partial "programs/hero-formation.html"
-      (dict
-        "title" $title
-        "image" .Params.image
-        "context" .
-        "hero_complement" "programs/essential.html"
-      )}}
+{{ $summary := .Params.summary | safeHTML }}
+{{ $subtitle_is_summary := false }}
+
+{{ $button := .Params.button | default .Params.header_cta }}
+
+{{ if not $subtitle }}
+  {{ if and (eq site.Params.summary.positioan "hero") $summary }}
+    {{ $subtitle = $summary }}
+    {{ $subtitle_is_summary = true }}
+  {{ end }}
+{{ end }}
+
+<header class="hero {{ if .Params.image }}hero--with-image hero--image-{{- $direction }}{{ end }} {{ if $breadcrumb_is_after_hero }} hero--no-margin {{ end }}">
+  <div class="container">
+    <div class="content">
+      <div class="hero-text">
+          <h1>{{ partial "PrepareHTML" $title }}</h1>
+            {{with .Params.logo}}
+            {{ partial "commons/image.html"
+            (dict
+              "image"    .
+              "lazy"     false
+            ) }}
+            {{end}}
+        {{ with $button }}
+          {{ if and .display .target .label }}
+            <a href="{{ .target }}" class="btn">{{ .label }}</a>
+          {{ end }}
+        {{ end }}
+
+        {{ if .Params.hero_text_complement }}
+          {{ partial .Params.hero_text_complement . }}
+        {{ end }}
+      </div>
+
+      {{ if .Params.image }}
+        <figure>
+          {{ partial "commons/image.html"
+            (dict
+              "image"    .Params.image
+              "sizes"    ( .Params.sizes | default site.Params.image_sizes.design_system.hero )
+              "lazy"     false
+            ) }}
+          {{ if not site.Params.image_sizes.design_system.lightbox.disabled }}
+            <a  class="glightbox"
+                role="button"
+                data-glightbox="type: image;{{ with .Params.image.credit }}description: {{ partial "PrepareHTML" . }}{{ end }}"
+                href="{{ partial "GetLightboxUrl" .Params.image }}"
+                title="{{- i18n "commons.lightbox.link.title" -}}"
+                aria-label="{{- i18n "commons.lightbox.link.title" -}}">
+            </a>
+          {{ end }}
+          {{ with partial "GetTextFromHTML" .Params.image.credit }}
+            <figcaption tabindex="0">
+              <div class="credit-content">
+                {{ partial "PrepareHTML" . }}
+              </div>
+            </figcaption>
+          {{ end }}
+        </figure>
+      {{ end }}
+    </div>
+  </div>
+</header>
+
+{{ if and $display_breadcrumb $breadcrumb_is_after_hero }}
+    <div class="container breadcrumb-container">
+      {{ partial "header/breadcrumbs.html" . }}
+    </div>
+{{ end }}

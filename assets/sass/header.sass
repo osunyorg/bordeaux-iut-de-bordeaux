@@ -157,8 +157,15 @@ body:not(.persons__page)
         + .breadcrumb-container
             background-color: $marron-secondaire-4
             margin-bottom: $spacing-5
-            .breadcrumb
-                height: pxToRem(50)
-                li
-                    a, span
-                        font-size: $meta-size
+            width: 100%
+            padding: 0
+            .breadcrumb-nav
+                width: var(--grid-width)
+                margin: 0 auto
+                .breadcrumb
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+                    height: pxToRem(50)
+                    li
+                        a, span
+                            font-size: $meta-size
