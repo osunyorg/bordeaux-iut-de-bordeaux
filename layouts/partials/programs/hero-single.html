@@ -14,7 +14,7 @@
 {{ $button := .Params.button | default .Params.header_cta }}
 
 {{ if not $subtitle }}
-  {{ if and (eq site.Params.summary.positioan "hero") $summary }}
+  {{ if and (eq site.Params.summary.position "hero") $summary }}
     {{ $subtitle = $summary }}
     {{ $subtitle_is_summary = true }}
   {{ end }}
@@ -71,10 +71,9 @@
       {{ end }}
     </div>
   </div>
+  {{ partial "programs/essential.html" . }}
 </header>
 
-{{ if and $display_breadcrumb $breadcrumb_is_after_hero }}
-    <div class="container breadcrumb-container">
-      {{ partial "header/breadcrumbs.html" . }}
-    </div>
-{{ end }}
+<div class="container breadcrumb-container">
+  {{ partial "header/breadcrumbs.html" . }}
+</div>

@@ -1,3 +1,19 @@
+.hero
+    + .breadcrumb-container
+        background-color: $marron-secondaire-4
+        margin-bottom: $spacing-5
+        width: 100%
+        padding: 0
+        .breadcrumb-nav
+            width: var(--grid-width)
+            margin: 0 auto
+            .breadcrumb
+                padding-left: var(--grid-gutter)
+                padding-right: var(--grid-gutter)
+                height: pxToRem(50)
+                li
+                    a, span
+                        font-size: $meta-size
 header#document-header
     border-bottom: 1px solid $marron-secondaire-3
     @include media-breakpoint-up(desktop)
@@ -115,6 +131,7 @@ body:not(.persons__page)
                 padding-right: 0
                 padding-top: 0
                 margin-bottom: 0
+                width: 100%
                 .content
                     display: flex
                     flex-direction: column
@@ -153,19 +170,8 @@ body:not(.persons__page)
                         order: 2
                         z-index: 2
                         @include media-breakpoint-up(desktop)
-                            width: columns(9)
-        + .breadcrumb-container
-            background-color: $marron-secondaire-4
-            margin-bottom: $spacing-5
-            width: 100%
-            padding: 0
-            .breadcrumb-nav
-                width: var(--grid-width)
-                margin: 0 auto
-                .breadcrumb
-                    padding-left: var(--grid-gutter)
-                    padding-right: var(--grid-gutter)
-                    height: pxToRem(50)
-                    li
-                        a, span
-                            font-size: $meta-size
+                            width: var(--grid-width)
+                            margin-left: auto
+                            margin-right: auto
+                            padding-left: var(--grid-gutter)
+                            padding-right: var(--grid-gutter)
