@@ -255,8 +255,8 @@ items:
       kind: url
       children: []
     - title: Se loger
-      target: "/vie-etudiante/se-loger/"
-      kind: page
+      target: https://www.etudiant.gouv.fr/fr/vous-loger-1901
+      kind: url
       children: []
   - title: Pendant
     target: ''
