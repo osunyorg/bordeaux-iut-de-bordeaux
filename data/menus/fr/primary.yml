@@ -226,10 +226,6 @@ items:
       target: "/formations/se-former-tout-au-long-de-la-vie/"
       kind: page
       children: []
-    - title: VAE et VAPP
-      target: "/formations/vae-et-vapp/"
-      kind: page
-      children: []
     - title: Formations courtes
       target: "/formations/formations-courtes/"
       kind: page
