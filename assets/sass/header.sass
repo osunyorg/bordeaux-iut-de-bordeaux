@@ -15,7 +15,8 @@
                     a, span
                         font-size: $meta-size
 header#document-header
-    border-bottom: 1px solid $marron-secondaire-3
+    border-bottom: 0px
+    box-shadow: 0px 4px 4px #0000001a
     @include media-breakpoint-up(desktop)
         nav 
             padding-bottom: pxToRem(20)
@@ -44,7 +45,7 @@ header#document-header
                         color: $color-accent
     @include media-breakpoint-up(desktop)
         .dropdown-menu
-            margin-top: 1px
+            border-top: 1px solid $marron-secondaire-3
             padding-top: $spacing-5
             max-height: calc(100vh - var(--header-height) - 100px)
             overflow: visible
@@ -56,7 +57,7 @@ header#document-header
                 background: var(--color-background)
                 bottom:  0
                 content: ""
-                height: 200px 
+                height: 100% 
                 left: -10px
                 position: absolute
                 transform: rotate(4deg)
