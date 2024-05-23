@@ -226,10 +226,6 @@ items:
       target: "/formations/se-former-tout-au-long-de-la-vie/"
       kind: page
       children: []
-    - title: Formations courtes
-      target: "/formations/formations-courtes/"
-      kind: page
-      children: []
     - title: Diplômes d'université (DU)
       target: "/formations/diplomes-duniversite/"
       kind: page
