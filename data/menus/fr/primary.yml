@@ -56,7 +56,11 @@ items:
   - title: Nos réseaux nationaux
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Assemblée des directeurs d’IUT (ADIUT)
+      target: 'https://www.iut.fr/organisation-de-ladiut/ '
+      kind: url
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
