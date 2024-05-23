@@ -57,10 +57,6 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Assemblée des directeurs d'IUT (ADIUT)
-      target: 'https://www.iut.fr/organisation-de-ladiut/ '
-      kind: url
-      children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
       target: 'https://www.unpiut.fr/ '
       kind: url
