@@ -65,6 +65,10 @@ items:
       target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
       kind: page
       children: []
+    - title: Union nationale des présidents d'IUT (UNPIUT)
+      target: 'https://www.unpiut.fr/ '
+      kind: url
+      children: []
   - title: Rejoindre l'IUT
     target: ''
     kind: blank
