@@ -251,8 +251,8 @@ items:
       kind: page
       children: []
     - title: Faire sa demande de bourse
-      target: "/vie-etudiante/faire-sa-demande-de-bourse/"
-      kind: page
+      target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
+      kind: url
       children: []
     - title: Se loger
       target: "/vie-etudiante/se-loger/"
