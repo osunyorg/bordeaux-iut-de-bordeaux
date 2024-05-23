@@ -62,8 +62,8 @@ items:
       kind: url
       children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
-      target: "/nos-reseaux-nationaux/union-nationale-presidents-iut/"
-      kind: page
+      target: 'https://www.unpiut.fr/ '
+      kind: url
       children: []
   - title: Rejoindre l'IUT
     target: ''
