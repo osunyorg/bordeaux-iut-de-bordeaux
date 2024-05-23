@@ -73,16 +73,8 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Candidater en BUT 1
-      target: "/rejoindre-liut/candidater-en-but-1/"
-      kind: page
-      children: []
-    - title: Candidater en BUT 2
-      target: "/rejoindre-liut/candidater-en-but-2/"
-      kind: page
-      children: []
-    - title: Candidater en Pass'BUT
-      target: "/rejoindre-liut/candidater-en-passbut/"
+    - title: Candidater en BUT 1, BUT 2 et Pass'BUT
+      target: "/rejoindre-liut/candidater-en-but/"
       kind: page
       children: []
     - title: Candidater en licence professionnelle
@@ -230,6 +222,10 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Se former tout au long de la vie
+      target: "/formations/se-former-tout-au-long-de-la-vie/"
+      kind: page
+      children: []
     - title: VAE et VAPP
       target: "/formations/vae-et-vapp/"
       kind: page
@@ -244,10 +240,6 @@ items:
       children: []
     - title: Diplôme d'État (DE) - Médiateur familial
       target: "/formations/diplome-etat/"
-      kind: page
-      children: []
-    - title: Pass'BUT
-      target: "/rejoindre-liut/candidater-en-passbut/"
       kind: page
       children: []
 - title: Vie étudiante
