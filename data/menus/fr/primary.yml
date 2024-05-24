@@ -338,16 +338,16 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Innover avec le technoShop
-      target: "/entreprise/innover-avec-le-technoshop/"
-      kind: page
-      children: []
     - title: Recruter un alternant
       target: "/entreprise/recruter-un-alternant/"
       kind: page
       children: []
-    - title: Former ses collaborateurs
-      target: "/entreprise/former-ses-collaborateurs/"
+    - title: Se former tout au long de la vie
+      target: "/formations/se-former-tout-au-long-de-la-vie/"
+      kind: page
+      children: []
+    - title: Innover avec le TechnoShop
+      target: "/nous-decouvrir/nos-espaces-technologiques/"
       kind: page
       children: []
 
