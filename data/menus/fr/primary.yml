@@ -286,6 +286,10 @@ items:
       target: "/vie-etudiante/etre-alternant/"
       kind: page
       children: []
+    - title: Harcèlement et discrimination
+      target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
+      kind: url
+      children: []
   - title: Après
     target: ''
     kind: blank
