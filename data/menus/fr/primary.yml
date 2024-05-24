@@ -286,10 +286,6 @@ items:
       target: "/vie-etudiante/etre-alternant/"
       kind: page
       children: []
-    - title: Harcèlement et discrimination
-      target: "/vie-etudiante/harcelement-discrimination/"
-      kind: page
-      children: []
   - title: Après
     target: ''
     kind: blank
