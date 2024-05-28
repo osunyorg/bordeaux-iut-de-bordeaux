@@ -234,6 +234,10 @@ items:
       target: "/formations/diplomes-duniversite/"
       kind: page
       children: []
+    - title: Diplôme d'État (DE) - Médiateur familial
+      target: "/formations/mediateur-familial/"
+      kind: program
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
