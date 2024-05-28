@@ -222,8 +222,12 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Se former tout au long de la vie
+    - title: VAE et VAPP
       target: "/formations/se-former-tout-au-long-de-la-vie/#vapp-et-vae"
+      kind: url
+      children: []
+    - title: Formations courtes
+      target: https://bordeaux-iut-de-bordeaux.web.deuxfleurs.fr/formations/se-former-tout-au-long-de-la-vie/#formations-courtes
       kind: url
       children: []
     - title: Diplômes d'université (DU)
