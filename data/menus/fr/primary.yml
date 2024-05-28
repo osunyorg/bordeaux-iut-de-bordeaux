@@ -318,10 +318,6 @@ items:
       target: "/vie-etudiante/international-vie-etudiante/etudier-a-letranger/"
       kind: page
       children: []
-    - title: Diplôme d'université international
-      target: "/vie-etudiante/international-vie-etudiante/"
-      kind: page
-      children: []
 - title: Entreprise
   target: ''
   kind: blank
