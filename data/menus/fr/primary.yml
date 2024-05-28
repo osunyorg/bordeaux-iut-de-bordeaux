@@ -263,27 +263,27 @@ items:
     kind: blank
     children:
     - title: Services à l'étudiant
-      target: "/vie-etudiante/services-a-letudiant/"
+      target: "/vie-etudiante/pendant/services-a-letudiant/"
       kind: page
       children: []
     - title: Bibliothèques universitaires
-      target: "/vie-etudiante/bibliotheques-universitaires/"
+      target: "/vie-etudiante/pendant/bibliotheques-universitaires/"
       kind: page
       children: []
     - title: Etudiant à besoins spécifiques (PHASE)
-      target: "/vie-etudiante/phase/"
+      target: "/vie-etudiante/pendant/phase/"
       kind: page
       children: []
     - title: Activités d'ouverture et de personnalisation (AOP)
-      target: "/vie-etudiante/aop/"
+      target: "/vie-etudiante/pendant/aop/"
       kind: page
       children: []
     - title: Activités sportives
-      target: "/vie-etudiante/activites-sportives/"
+      target: "/vie-etudiante/pendant/activites-sportives/"
       kind: page
       children: []
     - title: Être alternant
-      target: "/vie-etudiante/etre-alternant/"
+      target: "/vie-etudiante/pendant/etre-alternant/"
       kind: page
       children: []
     - title: Harcèlement et discrimination
@@ -295,11 +295,11 @@ items:
     kind: blank
     children:
     - title: Retirer son diplôme
-      target: "/vie-etudiante/retirer-son-diplome/"
+      target: "/vie-etudiante/apres/retirer-son-diplome/"
       kind: page
       children: []
     - title: Devenir de nos diplomés
-      target: "/vie-etudiante/devenir-de-nos-diplomes/"
+      target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
       kind: page
       children: []
     - title: Offres d'emploi
@@ -311,7 +311,7 @@ items:
     kind: blank
     children:
     - title: Étudier à l'étranger
-      target: "/vie-etudiante/etudier-a-letranger/"
+      target: "/vie-etudiante/diplome-duniversite-international/etudier-a-letranger/"
       kind: page
       children: []
     - title: Diplôme d'université international
