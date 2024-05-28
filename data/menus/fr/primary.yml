@@ -223,8 +223,8 @@ items:
     kind: blank
     children:
     - title: Se former tout au long de la vie
-      target: "/formations/se-former-tout-au-long-de-la-vie/"
-      kind: page
+      target: "/formations/se-former-tout-au-long-de-la-vie/#vapp-et-vae"
+      kind: url
       children: []
     - title: Diplômes d'université (DU)
       target: "/formations/diplomes-duniversite/"
