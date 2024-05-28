@@ -243,11 +243,11 @@ items:
     kind: blank
     children:
     - title: S'immerger à l'IUT
-      target: "/vie-etudiante/immerger-a-liut/"
+      target: "/vie-etudiante/avant/immerger-a-liut/"
       kind: page
       children: []
     - title: Inscription administrative
-      target: "/vie-etudiante/inscription-administrative/"
+      target: "/vie-etudiante/avant/inscription-administrative/"
       kind: page
       children: []
     - title: Faire sa demande de bourse
