@@ -351,7 +351,7 @@ items:
       kind: page
       children: []
     - title: Innover avec le TechnoShop
-      target: "/nous-decouvrir/nos-espaces-technologiques/"
-      kind: page
+      target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
+      kind: url
       children: []
 
