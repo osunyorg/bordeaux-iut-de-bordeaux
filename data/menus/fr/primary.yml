@@ -74,8 +74,8 @@ items:
     kind: blank
     children:
     - title: Candidater en BUT 1, BUT 2 et Pass'BUT
-      target: "#"
-      kind: url
+      target: "/rejoindre-liut/candidater-en-but/"
+      kind: page
       children: []
     - title: Candidater en licence professionnelle
       target: "/rejoindre-liut/candidater-en-licence-professionnelle-1/"
