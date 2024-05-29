@@ -249,19 +249,20 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Pour plus d’informations, consultez le service PHASE
+      
     ranks:
-      self: 3
+      self: false
+      children: 3
     data:
-      page: 
-        path: "/vie-etudiante/pendant/phase/"
-        slug: "phase"
-        file: "pages/vie-etudiante/pendant/phase/_index.html"
-      show_main_description: false
+      show_main_description: true
       show_descriptions: true
       show_images: true
       layout: grid
       pages:
+        - path: "/vie-etudiante/pendant/phase/"
+          slug: "phase"
+          file: "pages/vie-etudiante/pendant/phase/_index.html"
+          external: false
 
 
   - kind: block
