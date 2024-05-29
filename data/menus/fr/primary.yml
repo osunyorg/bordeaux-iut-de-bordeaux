@@ -78,8 +78,8 @@ items:
       kind: url
       children: []
     - title: Candidater en licence professionnelle
-      target: "#"
-      kind: url
+      target: "/rejoindre-liut/candidater-en-licence-professionnelle-1/"
+      kind: page
       children: []
     - title: Offres d'emploi
       target: "/rejoindre-liut/offres-demploi/"
