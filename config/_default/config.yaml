@@ -21,22 +21,64 @@ params:
         tablet:   800
         desktop:  2000
     sections:
+      categories:
+        hero:
+          desktop:  2000
+        hero_term:
+          desktop:  2000
+      diplomas:
+        hero:
+          desktop:  2000
+        hero_single:
+          desktop:  2000
       home:
         hero:
-          mobile:   400
-          tablet:   800
+          desktop:  2000
+      events:
+        hero:
+          desktop:  2000
+        hero_single:
+          desktop:  2000
+        item:
+          desktop:  2000
+      organizations:
+        hero:
+          desktop:  2000
+      pages:
+        hero:
+          desktop:  2000
+        item:
+          desktop:  2000
+      papers:
+        hero:
+          desktop:  2000
+      posts:
+        hero:
+          desktop:  2000
+        hero_single:
+          desktop:  2000
+        item:
+          desktop:  2000
+      projects:
+        hero:
+          desktop:  2000
+        hero_single:
+          desktop:  2000
+        item:
           desktop:  2000
       programs:
         hero:
-          mobile:   400
-          tablet:   800
+          desktop:  2000
+      publications:
+        hero:
+          desktop:  2000
+      volumes:
+        hero:
+          desktop:  2000
+      locations:
+        hero:
+          desktop:  2000
+        hero_single:
           desktop:  2000
         item:
-          mobile:   350
-          tablet:   450
-          desktop:  600
-      posts:
-        hero_single:
-          mobile:   400
-          tablet:   800
           desktop:  2000
