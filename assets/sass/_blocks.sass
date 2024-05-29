@@ -105,10 +105,14 @@
                             display: block
                             width: fit-content
                             margin-top: $spacing-3
+                            margin-bottom: $spacing-3
                             padding: 13.5px 25px
                             border: 1px solid $color-text
                             transition: background-color 0.3s ease
                             transition: color 0.3s ease
+                            @include in-page-without-sidebar
+                                position: absolute
+                                top: 100%
                         &:hover
                             &::after
                                 color: var(--btn-hover-color)
@@ -117,12 +121,7 @@
                         aspect-ratio: 1
                         margin: 0
                 &--grid
-                    display: grid
-                    grid-gap: var(--grid-gutter)
-                    grid-template-columns: repeat(1, 1fr)
-                    @include media-breakpoint-up(md)
-                        grid-template-columns: repeat(2, 1fr)
-                    @include media-breakpoint-up(desktop)
+                    @include in-page-without-sidebar
                         grid-template-columns: repeat(4, 1fr)
         &-posts 
             &--list
