@@ -141,11 +141,11 @@ items:
         target: "/formations/genie-biologique/agronomie/"
         kind: program
         children: []
-      - title: Diététique et Nutrition
+      - title: Diététique et nutrition
         target: "/formations/genie-biologique/genie-biologique-dietetique-et-nutrition/"
         kind: program
         children: []
-      - title: Sciences de l’Aliment et Biotechnologie
+      - title: Sciences de l’aliment et biotechnologie
         target: "/formations/genie-biologique/genie-biologique-sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
