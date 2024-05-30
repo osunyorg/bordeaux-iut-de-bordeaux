@@ -177,7 +177,7 @@ items:
       target: "/formations/mesures-physiques/"
       kind: program
       children: []
-    - title: Qualité Logistique Industrielle et Organisation
+    - title: Qualité logistique industrielle et organisation
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
