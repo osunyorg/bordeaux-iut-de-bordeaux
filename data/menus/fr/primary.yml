@@ -197,24 +197,24 @@ items:
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
       children: []
-    - title: Commercialisation des Produits Alimentaires
+    - title: Commercialisation des produits alimentaires
       target: "/formations/commercialisation-des-produits-alimentaires/"
       kind: program
       children: []
-    - title: Comptabilité et Paie - Gestion de la Paie et du Social
+    - title: Comptabilité et paie - Gestion de la paie et du social
       target: "/formations/comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
       kind: program
       children: []
-    - title: 'Métiers de l’Immobilier : Gestion et Administration de Biens'
+    - title: 'Métiers de l’immobilier : Gestion et administration de biens'
       target: "/formations/metiers-de-limmobilier-gestion-et-administration-de-biens/"
       kind: program
       children: []
-    - title: 'Métiers de l’Immobilier : Transaction et Commercialisation de Biens
-        Immobiliers'
+    - title: 'Métiers de l’immobilier : Transaction et commercialisation de biens
+        immobiliers'
       target: "/formations/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/"
       kind: program
       children: []
-    - title: Organisation, Management des Services de l’Automobile
+    - title: Organisation, management des services de l’automobile
       target: "/formations/organisation-management-des-services-de-lautomobile/"
       kind: program
       children: []
