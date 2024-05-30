@@ -165,7 +165,7 @@ items:
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
-    - title: Hygiène – Sécurité – Environnement
+    - title: Hygiène, sécurité, environnement
       target: "/formations/hygiene-securite-environnement/"
       kind: program
       children: []
