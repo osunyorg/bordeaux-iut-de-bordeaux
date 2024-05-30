@@ -34,23 +34,23 @@ items:
       kind: page
       children: []
   - title: Nos 4 sites de formation
-    target: "/les-4-sites-de-formation/"
+    target: "/sites/"
     kind: page
     children:
     - title: Agen
-      target: "/les-4-sites-de-formation/site-d-agen/"
+      target: "/sites/site-d-agen/"
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: "/les-4-sites-de-formation/site-de-bordeaux-bastide/"
+      target: "/sites/site-de-bordeaux-bastide/"
       kind: location
       children: []
     - title: Gradignan
-      target: "/les-4-sites-de-formation/site-de-gradignan/"
+      target: "/sites/site-de-gradignan/"
       kind: location
       children: []
     - title: Périgueux
-      target: "/les-4-sites-de-formation/site-de-perigueux/"
+      target: "/sites/site-de-perigueux/"
       kind: location
       children: []
   - title: Nos réseaux nationaux
