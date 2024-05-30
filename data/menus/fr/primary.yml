@@ -181,7 +181,7 @@ items:
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
-    - title: Science et Génie des Matériaux
+    - title: Science et génie des matériaux
       target: "/formations/science-et-genie-des-materiaux/"
       kind: program
       children: []
