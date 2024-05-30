@@ -97,7 +97,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Carrières Sociales
+    - title: Carrières sociales
       target: "/formations/carrieres-sociales/"
       kind: program
       children:
