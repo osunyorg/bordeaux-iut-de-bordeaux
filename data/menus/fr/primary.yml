@@ -133,7 +133,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Génie Biologique
+    - title: Génie biologique
       target: "/formations/genie-biologique/"
       kind: program
       children:
@@ -149,19 +149,19 @@ items:
         target: "/formations/genie-biologique/genie-biologique-sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
-    - title: Génie Chimique – Génie des Procédés
+    - title: Génie chimique – Génie des procédés
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
       children: []
-    - title: Génie Civil – Construction Durable
+    - title: Génie civil – Construction durable
       target: "/formations/genie-civil-construction-durable/"
       kind: program
       children: []
-    - title: Génie Électrique et Informatique Industrielle
+    - title: Génie électrique et informatique industrielle
       target: "/formations/genie-electrique-et-informatique-industrielle/"
       kind: program
       children: []
-    - title: Génie Mécanique et Productique
+    - title: Génie mécanique et productique
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
