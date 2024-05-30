@@ -173,7 +173,7 @@ items:
       target: "/formations/informatique/"
       kind: program
       children: []
-    - title: Mesures Physiques
+    - title: Mesures physiques
       target: "/formations/mesures-physiques/"
       kind: program
       children: []
