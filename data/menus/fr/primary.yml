@@ -117,7 +117,7 @@ items:
       target: "/formations/gestion-des-entreprises-et-des-administrations/"
       kind: program
       children: []
-    - title: Management de la Logistique et des Transports
+    - title: Management de la logistique et des transports
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
       children: []
