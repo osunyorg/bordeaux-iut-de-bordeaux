@@ -189,7 +189,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: 'Activités Juridiques : Assistant Juridique'
+    - title: 'Activités juridiques : assistant juridique'
       target: "/formations/activites-juridiques-assistant-juridique/"
       kind: program
       children: []
