@@ -109,11 +109,11 @@ items:
         target: "/formations/carrieres-sociales/villes-et-territoires-durables/"
         kind: program
         children: []
-    - title: Gestion Administrative et Commerciale des Organisations
+    - title: Gestion administrative et commerciale des organisations
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
       children: []
-    - title: Gestion des Entreprises et des Administrations
+    - title: Gestion des entreprises et des administrations
       target: "/formations/gestion-des-entreprises-et-des-administrations/"
       kind: program
       children: []
