@@ -38,7 +38,7 @@ items:
     kind: page
     children:
     - title: Agen
-      target: "/sites-formation/site-d-agen/"
+      target: "/sites-formation/agen/"
       kind: location
       children: []
     - title: Bordeaux-Bastide
