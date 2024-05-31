@@ -3,10 +3,12 @@
     {{ $parent := .Params.parent }}
     {{ $locations := .Params.locations}}
     {{ $isBUT := false}}
+    {{ $isLP := false}}
     {{- with .Params.diplomas -}}
       {{- $diploma := site.GetPage (printf "/diplomas/%s" .) -}}
       {{- with $diploma -}}
         {{ $isBUT = ( in .Params.short_name "BUT" )}}
+        {{ $isLP = ( in .Params.short_name "LP" )}}
         <dl class="essential">
           <dt>{{ i18n "programs.diploma" }}</dt>
           <dd><a href="{{ .Permalink }}">{{ partial "PrepareHTML" .Title }}</a></dd>
@@ -64,9 +66,10 @@
         </div>
       </div>
     </div>
-    {{ if $isBUT}}
-      <div class="but-logo">
-        <img src="/assets/images/butcontrole.png" alt="logo BUT"/>
+    {{ if (or $isBUT $isLP) }}
+      <div class="diploma-logo">
+        {{ if $isBUT }} <img src="/assets/images/LF_02_BUT.png" alt="logo BUT"/> {{ end }}
+        {{ if $isLP }} <img src="/assets/images/LF_02_LP.png" alt="logo LP"/> {{ end }}
       </div>
     {{end}}
 </div>
