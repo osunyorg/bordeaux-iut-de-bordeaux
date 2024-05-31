@@ -101,11 +101,11 @@ items:
       target: "/formations/carrieres-sociales/"
       kind: program
       children:
-      - title: Animation Sociale et SocioCulturelle
+      - title: Animation sociale et socioculturelle
         target: "/formations/carrieres-sociales/animation-sociale-et-socioculturelle/"
         kind: program
         children: []
-      - title: Villes et Territoires Durables
+      - title: Villes et territoires durables
         target: "/formations/carrieres-sociales/villes-et-territoires-durables/"
         kind: program
         children: []
@@ -189,7 +189,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: 'Assurance, banque, finance : chargé de clientèle - gestion du patrimoine'
+    - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
       children: []
@@ -227,7 +227,7 @@ items:
       kind: url
       children: []
     - title: Diplômes d'Université (DU)
-      target: "/formations/diplomes-duniversite/"
+      target: "/formations/autres-formations/diplomes-duniversite/"
       kind: page
       children: []
     - title: Diplôme d'État (DE) - Médiateur familial
@@ -327,11 +327,11 @@ items:
     kind: blank
     children:
     - title: Taxe d'apprentissage
-      target: "/entreprise/taxe-apprentissage/"
+      target: "/entreprise/nous-accompagner/taxe-apprentissage/"
       kind: page
       children: []
     - title: Participer à la formation
-      target: "/entreprise/participer-a-la-formation/"
+      target: "/entreprise/nous-accompagner/participer-a-la-formation/"
       kind: page
       children: []
   - title: Vous accompagner
@@ -339,11 +339,11 @@ items:
     kind: blank
     children:
     - title: Recruter un alternant
-      target: "/entreprise/recruter-un-alternant/"
+      target: "/entreprise/vous-accompagner/recruter-un-alternant/"
       kind: page
       children: []
     - title: Se former tout au long de la vie
-      target: "/formations/se-former-tout-au-long-de-la-vie/"
+      target: "/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/"
       kind: page
       children: []
     - title: Innover avec le TechnoShop
