@@ -327,11 +327,11 @@ items:
     kind: blank
     children:
     - title: Taxe d'apprentissage
-      target: "/entreprise/taxe-apprentissage/"
+      target: "/entreprise/nous-accompagner/taxe-apprentissage/"
       kind: page
       children: []
     - title: Participer à la formation
-      target: "/entreprise/participer-a-la-formation/"
+      target: "/entreprise/nous-accompagner/participer-a-la-formation/"
       kind: page
       children: []
   - title: Vous accompagner
