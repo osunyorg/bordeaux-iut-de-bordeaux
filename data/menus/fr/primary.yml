@@ -243,7 +243,7 @@ items:
     kind: blank
     children:
     - title: S'immerger à l'IUT
-      target: "/vie-etudiante/avant/immerger-a-liut/"
+      target: "/vie-etudiante/avant/immerger-iut/"
       kind: page
       children: []
     - title: Inscription administrative
