@@ -102,10 +102,13 @@ header#document-header
                                 *
                                     font-style: italic
                                     font-size: pxToRem(15)
-html.has-menu-opened
-    body
-        &::after
-            mix-blend-mode: multiply  
+
+html
+    &.has-menu-opened, 
+    &.has-offcanvas-opened
+        body
+            &::after
+                mix-blend-mode: multiply
 
 body:not(.persons__page)
     .hero 
