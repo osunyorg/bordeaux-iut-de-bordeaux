@@ -263,7 +263,7 @@ items:
     kind: blank
     children:
     - title: Services à l'étudiant
-      target: "/vie-etudiante/pendant/services-a-letudiant/"
+      target: "/vie-etudiante/pendant/services-etudiant/"
       kind: page
       children: []
     - title: Bibliothèques universitaires
