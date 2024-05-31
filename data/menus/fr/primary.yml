@@ -101,7 +101,7 @@ items:
       target: "/formations/carrieres-sociales/"
       kind: program
       children:
-      - title: Animation Sociale et SocioCulturelle
+      - title: Animation sociale et socioculturelle
         target: "/formations/carrieres-sociales/animation-sociale-et-socioculturelle/"
         kind: program
         children: []
