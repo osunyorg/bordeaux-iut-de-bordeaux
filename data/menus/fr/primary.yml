@@ -105,7 +105,7 @@ items:
         target: "/formations/carrieres-sociales/animation-sociale-et-socioculturelle/"
         kind: program
         children: []
-      - title: Villes et Territoires Durables
+      - title: Villes et territoires durables
         target: "/formations/carrieres-sociales/villes-et-territoires-durables/"
         kind: program
         children: []
