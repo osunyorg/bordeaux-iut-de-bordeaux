@@ -299,7 +299,7 @@ items:
       kind: page
       children: []
     - title: Devenir de nos diplomés
-      target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
+      target: "/vie-etudiante/apres/devenir-des-diplomes/"
       kind: page
       children: []
     - title: Offres d'emploi
