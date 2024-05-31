@@ -339,11 +339,11 @@ items:
     kind: blank
     children:
     - title: Recruter un alternant
-      target: "/entreprise/recruter-un-alternant/"
+      target: "/entreprise/vous-accompagner/recruter-un-alternant/"
       kind: page
       children: []
     - title: Se former tout au long de la vie
-      target: "/formations/se-former-tout-au-long-de-la-vie/"
+      target: "/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/"
       kind: page
       children: []
     - title: Innover avec le TechnoShop
