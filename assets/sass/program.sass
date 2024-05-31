@@ -9,8 +9,10 @@ body.programs__section, body.diplomas__term
             @include media-breakpoint-up(desktop)
                 display: flex
                 gap: calc(var(--grid-gutter)) 
-                h1
-                    width: columns(7)      
+                > div 
+                    width: columns(7)
+                    .lead
+                        width: auto
                 picture
                     margin-top: 0
                     width: columns(5)          

@@ -24,14 +24,19 @@
   <div class="container">
     <div class="content">
       <div class="hero-text">
+        <div>
           <h1>{{ partial "PrepareHTML" $title }}</h1>
-            {{with .Params.logo}}
-            {{ partial "commons/image.html"
-            (dict
-              "image"    .
-              "lazy"     false
-            ) }}
-            {{end}}
+          {{ if $subtitle }}
+            <p {{ if $subtitle_is_summary }} class="lead" {{ end }}>{{ partial "PrepareHTML" $subtitle }}</p>
+          {{ end }}
+        </div>
+        {{with .Params.logo}}
+          {{ partial "commons/image.html"
+          (dict
+            "image"    .
+            "lazy"     false
+          ) }}
+        {{end}}
         {{ with $button }}
           {{ if and .display .target .label }}
             <a href="{{ .target }}" class="btn">{{ .label }}</a>

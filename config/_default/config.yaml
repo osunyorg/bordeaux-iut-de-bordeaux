@@ -11,7 +11,7 @@ params:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo-blanc.svg"
   summary:
-    position: "hero"
+    position: hero
   image_sizes:
     design_system:
       lightbox:
