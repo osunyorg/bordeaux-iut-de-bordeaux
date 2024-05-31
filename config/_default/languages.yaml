@@ -21,7 +21,7 @@ fr:
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    locations: /sites/:slug/
+    locations: /sites-formation/:slug/
     diplomas: /formations/diplomes/:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
