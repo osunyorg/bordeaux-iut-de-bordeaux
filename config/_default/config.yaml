@@ -16,10 +16,18 @@ params:
     design_system:
       lightbox:
         disabled: true
+
       hero:
-        mobile:   400
-        tablet:   800
         desktop:  2000
+    blocks:
+      call_to_action:
+        tablet:   700
+        desktop:  900
+      persons:
+        desktop:  170
+      gallery:
+        carousel:
+          desktop:  700
     sections:
       categories:
         hero:
@@ -40,7 +48,9 @@ params:
         hero_single:
           desktop:  2000
         item:
-          desktop:  2000
+          mobile:   110
+          tablet:   250
+          desktop:  300
       organizations:
         hero:
           desktop:  2000
@@ -69,6 +79,10 @@ params:
       programs:
         hero:
           desktop:  2000
+        item:
+          mobile:   150
+          tablet:   200
+          desktop:  410
       publications:
         hero:
           desktop:  2000
@@ -81,4 +95,5 @@ params:
         hero_single:
           desktop:  2000
         item:
-          desktop:  2000
+          tablet:   800
+          desktop:  600
