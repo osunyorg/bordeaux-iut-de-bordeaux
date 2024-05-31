@@ -14,7 +14,7 @@ items:
       kind: page
       children: []
     - title: L'équipe de direction
-      target: "/nous-decouvrir/lequipe-de-direction/"
+      target: "/nous-decouvrir/equipe-de-direction/"
       kind: page
       children: []
     - title: Le Conseil d'IUT
