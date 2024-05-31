@@ -42,11 +42,11 @@ items:
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: "/sites-formation/site-de-bordeaux-bastide/"
+      target: "/sites-formation/bordeaux-bastide/"
       kind: location
       children: []
     - title: Gradignan
-      target: "/sites-formation/site-de-gradignan/"
+      target: "/sites-formation/gradignan/"
       kind: location
       children: []
     - title: Périgueux
