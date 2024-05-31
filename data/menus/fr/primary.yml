@@ -38,19 +38,19 @@ items:
     kind: page
     children:
     - title: Agen
-      target: "/sites-formation/site-d-agen/"
+      target: "/sites-formation/agen/"
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: "/sites-formation/site-de-bordeaux-bastide/"
+      target: "/sites-formation/bordeaux-bastide/"
       kind: location
       children: []
     - title: Gradignan
-      target: "/sites-formation/site-de-gradignan/"
+      target: "/sites-formation/gradignan/"
       kind: location
       children: []
     - title: Périgueux
-      target: "/sites-formation/site-de-perigueux/"
+      target: "/sites-formation/perigueux/"
       kind: location
       children: []
   - title: Nos réseaux nationaux
