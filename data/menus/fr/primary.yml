@@ -189,7 +189,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: 'Assurance, banque, finance : chargé de clientèle - gestion du patrimoine'
+    - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
       children: []
