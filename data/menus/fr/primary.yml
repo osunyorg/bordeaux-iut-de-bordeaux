@@ -189,10 +189,6 @@ items:
     target: ''
     kind: blank
     children:
-    - title: 'Activités juridiques : assistant juridique'
-      target: "/formations/activites-juridiques-assistant-juridique/"
-      kind: program
-      children: []
     - title: 'Assurance, banque, finance : chargé de clientèle - gestion du patrimoine'
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
