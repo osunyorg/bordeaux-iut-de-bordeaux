@@ -311,7 +311,7 @@ items:
     kind: blank
     children:
     - title: Étudier à l'étranger
-      target: "/vie-etudiante/international-vie-etudiante/etudier-a-letranger/"
+      target: "/vie-etudiante/international-vie-etudiante/etudier-etranger/"
       kind: page
       children: []
     - title: Diplôme d'Université International
