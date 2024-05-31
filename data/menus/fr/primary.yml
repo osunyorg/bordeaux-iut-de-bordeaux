@@ -82,7 +82,7 @@ items:
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/rejoindre-iut/offres-demploi/"
+      target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
     - title: Contacts
@@ -303,7 +303,7 @@ items:
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/rejoindre-iut/offres-demploi/"
+      target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
   - title: À l'international
