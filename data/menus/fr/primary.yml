@@ -22,7 +22,7 @@ items:
       kind: page
       children: []
     - title: Nos espaces technologiques
-      target: "/nous-decouvrir/nos-espaces-technologiques/"
+      target: "/nous-decouvrir/espaces-technologiques-iut-bordeaux/"
       kind: page
       children: []
     - title: Nos projets
