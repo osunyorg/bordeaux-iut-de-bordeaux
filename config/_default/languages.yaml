@@ -31,7 +31,6 @@ fr:
     persons_categories: /equipe/:slug/
     administrators: /equipe/:slug/roles/
     researchers: /equipe/:slug/publications/
-    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
