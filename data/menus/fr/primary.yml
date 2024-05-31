@@ -327,7 +327,7 @@ items:
     kind: blank
     children:
     - title: Taxe d'apprentissage
-      target: "/entreprise/taxe-dapprentissage/"
+      target: "/entreprise/taxe-apprentissage/"
       kind: page
       children: []
     - title: Participer à la formation
