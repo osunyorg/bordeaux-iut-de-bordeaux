@@ -26,7 +26,7 @@ items:
       kind: page
       children: []
     - title: Nos projets
-      target: "/nous-decouvrir/nos-projets/"
+      target: "/nous-decouvrir/projets-iut-bordeaux/"
       kind: page
       children: []
     - title: Salons et portes ouvertes
