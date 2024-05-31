@@ -50,7 +50,7 @@ items:
       kind: location
       children: []
     - title: Périgueux
-      target: "/sites-formation/site-de-perigueux/"
+      target: "/sites-formation/perigueux/"
       kind: location
       children: []
   - title: Nos réseaux nationaux
