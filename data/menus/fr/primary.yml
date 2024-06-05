@@ -10,47 +10,47 @@ items:
     kind: blank
     children:
     - title: Notre institut
-      target: "/nous-decouvrir/notre-institut/"
+      target: "/iut-de-bordeaux/nous-decouvrir/notre-institut/"
       kind: page
       children: []
     - title: L'équipe de direction
-      target: "/nous-decouvrir/equipe-de-direction/"
+      target: "/iut-de-bordeaux/nous-decouvrir/equipe-de-direction/"
       kind: page
       children: []
     - title: Le Conseil d'IUT
-      target: "/nous-decouvrir/conseil-iut-bordeaux/"
+      target: "/iut-de-bordeaux/nous-decouvrir/conseil-iut-bordeaux/"
       kind: page
       children: []
     - title: Nos espaces technologiques
-      target: "/nous-decouvrir/espaces-technologiques-iut-bordeaux/"
+      target: "/iut-de-bordeaux/nous-decouvrir/espaces-technologiques-iut-bordeaux/"
       kind: page
       children: []
     - title: Nos projets
-      target: "/nous-decouvrir/projets-iut-bordeaux/"
+      target: "/iut-de-bordeaux/nous-decouvrir/projets-iut-bordeaux/"
       kind: page
       children: []
     - title: Salons et portes ouvertes
-      target: "/nous-decouvrir/salons-portes-ouvertes/"
+      target: "/iut-de-bordeaux/nous-decouvrir/salons-portes-ouvertes/"
       kind: page
       children: []
   - title: Nos 4 sites de formation
-    target: "/sites-formation/"
+    target: "/iut-de-bordeaux/sites-formation/"
     kind: page
     children:
     - title: Agen
-      target: "/sites-formation/agen/"
+      target: "/iut-de-bordeaux/sites-formation/agen/"
       kind: location
       children: []
     - title: Bordeaux-Bastide
-      target: "/sites-formation/bordeaux-bastide/"
+      target: "/iut-de-bordeaux/sites-formation/bordeaux-bastide/"
       kind: location
       children: []
     - title: Gradignan
-      target: "/sites-formation/gradignan/"
+      target: "/iut-de-bordeaux/sites-formation/gradignan/"
       kind: location
       children: []
     - title: Périgueux
-      target: "/sites-formation/perigueux/"
+      target: "/iut-de-bordeaux/sites-formation/perigueux/"
       kind: location
       children: []
   - title: Nos réseaux nationaux
@@ -62,7 +62,7 @@ items:
       kind: url
       children: []
     - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
-      target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
+      target: "/iut-de-bordeaux/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
       kind: page
       children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
@@ -74,19 +74,19 @@ items:
     kind: blank
     children:
     - title: Candidater en BUT 1, BUT 2 et Pass'BUT
-      target: "/rejoindre-iut/candidater-en-but/"
+      target: "/iut-de-bordeaux/rejoindre-iut/candidater-en-but/"
       kind: page
       children: []
     - title: Candidater en licence professionnelle
-      target: "/rejoindre-iut/candidater-en-licence-professionnelle-1/"
+      target: "/iut-de-bordeaux/rejoindre-iut/candidater-en-licence-professionnelle-1/"
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/rejoindre-iut/offres-emploi/"
+      target: "/iut-de-bordeaux/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
     - title: Contacts
-      target: "/rejoindre-iut/contacts/"
+      target: "/iut-de-bordeaux/rejoindre-iut/contacts/"
       kind: page
       children: []
 - title: Formations
@@ -303,7 +303,7 @@ items:
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/rejoindre-iut/offres-emploi/"
+      target: "/iut-de-bordeaux/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
   - title: À l'international
