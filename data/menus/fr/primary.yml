@@ -74,19 +74,19 @@ items:
     kind: blank
     children:
     - title: Candidater en BUT 1, BUT 2 et Pass'BUT
-      target: "/iut-de-bordeaux/rejoindre-iut/candidater-en-but/"
+      target: "/rejoindre-iut/candidater-en-but/"
       kind: page
       children: []
     - title: Candidater en licence professionnelle
-      target: "/iut-de-bordeaux/rejoindre-iut/candidater-en-licence-professionnelle-1/"
+      target: "/rejoindre-iut/candidater-en-licence-professionnelle-1/"
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/iut-de-bordeaux/rejoindre-iut/offres-emploi/"
+      target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
     - title: Contacts
-      target: "/iut-de-bordeaux/rejoindre-iut/contacts/"
+      target: "/rejoindre-iut/contacts/"
       kind: page
       children: []
 - title: Formations
@@ -303,7 +303,7 @@ items:
       kind: page
       children: []
     - title: Offres d'emploi
-      target: "/iut-de-bordeaux/rejoindre-iut/offres-emploi/"
+      target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
   - title: À l'international
