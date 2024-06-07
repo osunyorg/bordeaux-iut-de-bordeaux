@@ -9,10 +9,10 @@ phone: ""
 administrators:
   - "pascale-vergely"
 administrators_description:
-  "pascale-vergely": >
+  "pascale-vergely": >-
     Direction de la communication
 roles:
-  - title: >
+  - title: >-
       Direction de la communication
     persons:
       - "pascale-vergely"
