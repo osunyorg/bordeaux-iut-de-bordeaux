@@ -331,7 +331,7 @@ items:
       target: "/entreprise/nous-accompagner/taxe-apprentissage/"
       kind: page
       children: []
-    - title: Participer à la formation
+    - title: Enseigner dans nos formations
       target: "/entreprise/nous-accompagner/participer-a-la-formation/"
       kind: page
       children: []
