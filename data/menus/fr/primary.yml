@@ -315,6 +315,10 @@ items:
       target: "/formations/international/"
       kind: program
       children: []
+    - title: Diplôme d'université d'études technologiques internationales (DUETI)
+      target: "/formations/etudes-technologiques-internationales/"
+      kind: program
+      children: []
 - title: Entreprise
   target: ''
   kind: blank
