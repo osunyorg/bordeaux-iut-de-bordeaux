@@ -311,7 +311,7 @@ items:
       target: "/vie-etudiante/international-vie-etudiante/etudier-etranger/"
       kind: page
       children: []
-    - title: Diplôme d'Université International
+    - title: Diplôme d'université International
       target: "/formations/international/"
       kind: program
       children: []
