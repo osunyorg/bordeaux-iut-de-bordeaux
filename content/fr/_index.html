@@ -69,40 +69,6 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: locations
-    title: >-
-      Nos quatre sites de formation
-    ranks:
-      self: 2
-      children: 3
-    data:
-      locations:
-        - slug: "agen"
-        - slug: "bordeaux-bastide"
-        - slug: "gradignan"
-        - slug: "perigueux"
-
-
-  - kind: block
-    template: pages
-    title: >-
-      
-    ranks:
-      self: false
-      children: 2
-    data:
-      show_main_description: false
-      show_descriptions: true
-      show_images: true
-      layout: large
-      pages:
-        - path: "/formations/"
-          slug: "formations"
-          file: "programs/_index.html"
-          external: false
-
-
-  - kind: block
     template: key_figures
     title: >-
       En quelques chiffres
@@ -188,6 +154,40 @@ contents:
 
           target_blank: false
 
+
+
+  - kind: block
+    template: locations
+    title: >-
+      Nos quatre sites de formation
+    ranks:
+      self: 2
+      children: 3
+    data:
+      locations:
+        - slug: "agen"
+        - slug: "bordeaux-bastide"
+        - slug: "gradignan"
+        - slug: "perigueux"
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      show_main_description: false
+      show_descriptions: true
+      show_images: true
+      layout: large
+      pages:
+        - path: "/formations/"
+          slug: "formations"
+          file: "programs/_index.html"
+          external: false
 
 
   - kind: block
