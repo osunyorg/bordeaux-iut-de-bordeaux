@@ -117,12 +117,12 @@ items:
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
       children: []
-    - title: Techniques de commercialisation Périgueux
-      target: "/formations/techniques-de-commercialisation-perigueux/"
-      kind: program
-      children: []
     - title: Techniques de commercialisation Bordeaux
       target: "/formations/techniques-de-commercialisation-bordeaux/"
+      kind: program
+      children: []
+    - title: Techniques de commercialisation Périgueux
+      target: "/formations/techniques-de-commercialisation-perigueux/"
       kind: program
       children: []
   - title: 'BUT : industrie et production'
