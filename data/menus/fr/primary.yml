@@ -231,6 +231,10 @@ items:
       target: "/formations/mediateur-familial/"
       kind: program
       children: []
+    - title: Pass'BUT
+      target: "/pass-but/"
+      kind: page
+      children: []
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
