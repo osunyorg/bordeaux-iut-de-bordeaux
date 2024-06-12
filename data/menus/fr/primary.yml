@@ -243,13 +243,13 @@ items:
       target: "/vie-etudiante/avant/immerger-iut/"
       kind: page
       children: []
-    - title: Inscription administrative
-      target: "/vie-etudiante/avant/inscription-administrative/"
-      kind: page
-      children: []
     - title: Faire sa demande de bourse
       target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
       kind: url
+      children: []
+    - title: Inscription administrative
+      target: "/vie-etudiante/avant/inscription-administrative/"
+      kind: page
       children: []
     - title: Se loger
       target: https://www.etudiant.gouv.fr/fr/vous-loger-1901
