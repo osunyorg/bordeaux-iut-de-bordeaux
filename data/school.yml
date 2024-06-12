@@ -6,14 +6,5 @@ zipcode: "33175"
 city: "Gradignan"
 country: "France"
 phone: ""
-administrators:
-  - "pascale-vergely"
-administrators_description:
-  "pascale-vergely": >-
-    Direction de la communication
-roles:
-  - title: >-
-      Direction de la communication
-    persons:
-      - "pascale-vergely"
+roles: []
 ---
