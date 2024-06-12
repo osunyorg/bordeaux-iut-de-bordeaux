@@ -232,7 +232,7 @@ items:
       kind: program
       children: []
     - title: Pass'BUT
-      target: "/pass-but/"
+      target: "/formations/pass-but/"
       kind: page
       children: []
 - title: Vie étudiante
