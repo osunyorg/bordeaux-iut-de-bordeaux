@@ -25,10 +25,6 @@ items:
       target: "/nous-decouvrir/espaces-technologiques-iut-bordeaux/"
       kind: page
       children: []
-    - title: Nos projets
-      target: "/nous-decouvrir/projets-iut-bordeaux/"
-      kind: page
-      children: []
     - title: Salons et portes ouvertes
       target: "/nous-decouvrir/salons-portes-ouvertes/"
       kind: page
@@ -197,7 +193,8 @@ items:
       target: "/formations/commercialisation-des-produits-alimentaires/"
       kind: program
       children: []
-    - title: Comptabilité et paie - Gestion de la paie et du social
+    - title: 'Métiers de la gestion et de la comptabilité : comptabilité et paie -
+        Gestion de la paie et du social'
       target: "/formations/comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
       kind: program
       children: []
