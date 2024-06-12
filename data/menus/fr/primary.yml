@@ -267,7 +267,7 @@ items:
       target: "/vie-etudiante/pendant/bibliotheques-universitaires/"
       kind: page
       children: []
-    - title: Etudiant à besoins spécifiques (PHASE)
+    - title: Étudiant à besoins spécifiques (PHASE)
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
       children: []
