@@ -332,7 +332,7 @@ items:
       kind: page
       children: []
     - title: Enseigner dans nos formations
-      target: "/entreprise/nous-accompagner/participer-a-la-formation/"
+      target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
       kind: page
       children: []
   - title: Vous accompagner
