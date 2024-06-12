@@ -1,10 +1,6 @@
 ---
 title: Outils
 items:
-- title: Espace Numérique de Travail (ENT)
-  target: https://ent.u-bordeaux.fr
-  kind: url
-  children: []
 - title: Intranet
   target: https://intranet.iut.u-bordeaux.fr
   kind: url
