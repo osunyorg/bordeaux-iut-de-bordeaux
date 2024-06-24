@@ -126,8 +126,8 @@ items:
       kind: program
       children: []
   - title: 'BUT : industrie et production'
-    target: ''
-    kind: blank
+    target: "/formations/diplomes/bachelor-universitaire-de-technologie/"
+    kind: diploma
     children:
     - title: Génie biologique
       target: "/formations/genie-biologique/"
