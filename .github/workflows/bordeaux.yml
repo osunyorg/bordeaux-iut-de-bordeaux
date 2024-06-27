@@ -20,6 +20,9 @@ jobs:
       - name: 🔎 Check IP
         run: curl https://api.ipify.org
 
+      - name: 🔎 Test Telnet
+        run: telnet ${{ secrets.BSSH_HOST }} ${{ secrets.BSSH_PORT }}
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
