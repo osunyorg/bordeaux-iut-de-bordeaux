@@ -20,9 +20,6 @@ jobs:
       - name: 🔎 Check IP
         run: curl https://api.ipify.org
 
-      - name: 🔎 Test Telnet
-        run: telnet ${{ secrets.BSSH_HOST }} ${{ secrets.BSSH_PORT }}
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -49,6 +46,9 @@ jobs:
 
       - name: Adding Known Hosts
         run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: 🔎 Test Telnet
+        run: telnet ${{ secrets.BSSH_HOST }} ${{ secrets.BSSH_PORT }}
 
       - name: Deploy with scp-via-bssh
         env:
