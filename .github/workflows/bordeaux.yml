@@ -17,6 +17,9 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 1    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: 🔎 Check IP
+        run: curl https://api.ipify.org
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -42,7 +45,7 @@ jobs:
           known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
 
       - name: Adding Known Hosts
-        run: ssh-keyscan -v -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
+        run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with scp-via-bssh
         env:
