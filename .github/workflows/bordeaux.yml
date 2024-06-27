@@ -42,7 +42,7 @@ jobs:
           known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
 
       - name: Adding Known Hosts
-        run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
+        run: ssh-keyscan -v -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with scp-via-bssh
         env:
