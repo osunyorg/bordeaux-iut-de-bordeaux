@@ -57,6 +57,8 @@ header#document-header
                 width: 110%
                 z-index: -1
                 
+    .has-children-active
+        color: $color-accent
     .menu 
         a, 
         span
@@ -175,17 +177,15 @@ body:not(.persons__page)
                             padding-right: var(--grid-gutter)
                             width: var(--grid-width)
 
-
 footer#document-footer
     padding-top: 0
     @include media-breakpoint-up(desktop)
         padding-bottom: 0
-    a
+    a,
+    a:hover
         text-decoration: none 
         transition-property: color
-        &:hover
-            text-decoration: none
-            transition-property: color
+
     .container 
         padding: $spacing-5 var(--grid-gutter)
         gap: var(--grid-gutter)
@@ -256,9 +256,6 @@ footer#document-footer
                     flex-direction: row
                     flex-wrap: wrap
                     padding: $spacing-3 var(--grid-gutter)
-                    // width: var(--grid-width)
-                    // margin-left: auto
-                    // margin-right: auto
                     h3
                         padding: pxToRem(6) 0
                     .nav-social
