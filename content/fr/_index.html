@@ -238,6 +238,33 @@ contents:
       self: false
       children: 2
     data:
+      show_main_description: true
+      show_descriptions: false
+      show_images: true
+      layout: grid
+      pages:
+        - path: "/formations/"
+          slug: "formations"
+          file: "programs/_index.html"
+          external: false
+        - path: "/vie-etudiante/"
+          slug: "vie-etudiante"
+          file: "pages/vie-etudiante/_index.html"
+          external: false
+        - path: "/nous-decouvrir/notre-institut/"
+          slug: "notre-institut"
+          file: "pages/nous-decouvrir/notre-institut/_index.html"
+          external: false
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
       show_main_description: false
       show_descriptions: true
       show_images: true
@@ -281,33 +308,6 @@ contents:
         - slug: "bordeaux-bastide"
         - slug: "gradignan"
         - slug: "perigueux"
-
-
-  - kind: block
-    template: pages
-    title: >-
-      
-    ranks:
-      self: false
-      children: 2
-    data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
-        - path: "/formations/"
-          slug: "formations"
-          file: "programs/_index.html"
-          external: false
-        - path: "/vie-etudiante/"
-          slug: "vie-etudiante"
-          file: "pages/vie-etudiante/_index.html"
-          external: false
-        - path: "/nous-decouvrir/notre-institut/"
-          slug: "notre-institut"
-          file: "pages/nous-decouvrir/notre-institut/_index.html"
-          external: false
 
 
 
