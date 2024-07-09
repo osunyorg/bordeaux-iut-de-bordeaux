@@ -16,7 +16,17 @@
   </div>
   <div class="footer-partners">
       <img src="/assets/images/uni-bordeaux.svg" alt="Université de Bordeaux" loading="lazy" />
-      <a href="/linstitut/#decouvrez-liut-de-bordeaux" class="btn">Contact</a>
+      {{ $buttonsMenu := partial "GetMenu" "footer-bouton-contact" }}
+      {{ with $buttonsMenu}}
+        <div class="buttons-footer">
+          {{ $items := $buttonsMenu.items }}
+          {{range $items}}
+            {{if eq .kind "page"}}
+              <a href="{{.target}}" class="btn">{{.title}}</a>
+            {{end}}
+          {{end}}
+        </div>
+      {{end}}
   </div>
 </div>
 
