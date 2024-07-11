@@ -219,10 +219,12 @@ footer#document-footer
                     border: $btn-border
                     border-color: $color-background
                     display: inline-block
-                    min-width: var(--btn-min-width)
+                    min-width: $btn-min-width
                     padding: $btn-padding
                     text-align: center
                     transition: background .3s ease, border .3s ease, color .3s ease
+                    @include media-breakpoint-up(desktop)
+                        min-width: $btn-min-width-desktop
                     &:hover
                         border-color: $color-text
                         color: $color-text
