@@ -212,13 +212,23 @@ footer#document-footer
             img
                 width: pxToRem(250)
                 opacity: 40%
-            .btn
-                border-color: $color-background
-                transition: background .3s ease, color .3s ease
-                &:hover
-                    border-color: $color-text
-                    color: $color-text
-                    background-color: $color-background
+            .nav-level-1 
+                a
+                    appearance: none
+                    background: transparent
+                    border: $btn-border
+                    border-color: $color-background
+                    display: inline-block
+                    min-width: $btn-min-width
+                    padding: $btn-padding
+                    text-align: center
+                    transition: background .3s ease, border .3s ease, color .3s ease
+                    @include media-breakpoint-up(desktop)
+                        min-width: $btn-min-width-desktop
+                    &:hover
+                        border-color: $color-text
+                        color: $color-text
+                        background-color: $color-background
         @include media-breakpoint-up(desktop)
             display: flex
             .footer-partners

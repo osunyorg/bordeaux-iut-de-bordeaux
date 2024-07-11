@@ -16,7 +16,14 @@
   </div>
   <div class="footer-partners">
       <img src="/assets/images/uni-bordeaux.svg" alt="Université de Bordeaux" loading="lazy" />
-      <a href="/linstitut/#decouvrez-liut-de-bordeaux" class="btn">Contact</a>
+      {{ partial "commons/menu.html"
+        (dict
+          "kind" "footer-bouton-contact"
+          "dropdown" false
+          "level" 1
+          "context" .
+        ) 
+      }}
   </div>
 </div>
 
