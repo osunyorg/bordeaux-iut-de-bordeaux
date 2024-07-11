@@ -31,14 +31,13 @@ header#document-header
                     &:hover
                         color: $color-accent
 
-    @include media-breakpoint-up(desktop) // CUSTOM dropdown menu en desktop avec barre en biais
+    @include media-breakpoint-up(xl) // CUSTOM dropdown menu en desktop avec barre en biais
         .dropdown-menu
             border-top: 1px solid $marron-secondaire-3
             max-height: calc(100vh - var(--header-height) - 100px)
             overflow: visible
-            padding-top: $spacing-5
             .nav-level-2
-                max-height: calc(100vh - var(--header-height) - 200px)
+                max-height: calc(100vh - var(--header-height) - 100px - var(--spacing-3))
                 overflow: auto
                 padding-bottom: 0
             &::after
@@ -78,6 +77,8 @@ header#document-header
                     > span,
                     > a
                         @include h3
+                        @include media-breakpoint-down(xl)
+                            font-size: pxToRem(24)
                     .nav-level-3
                         padding-top: $spacing-3
                         > li, *
