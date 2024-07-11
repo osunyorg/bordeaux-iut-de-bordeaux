@@ -66,8 +66,8 @@ items:
       kind: url
       children: []
   - title: Rejoindre l'IUT
-    target: ''
-    kind: blank
+    target: "/rejoindre-iut/"
+    kind: page
     children:
     - title: Candidater en BUT 1, BUT 2 et Pass'BUT
       target: "/rejoindre-iut/candidater-en-but/"

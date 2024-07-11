@@ -1,0 +1,8 @@
+---
+title: 'Footer - Bouton Contact '
+items:
+- title: Contact
+  target: "/rejoindre-iut/contacts/"
+  kind: page
+  children: []
+
