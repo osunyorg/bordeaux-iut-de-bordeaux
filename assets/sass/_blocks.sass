@@ -1,6 +1,6 @@
 .blocks
     .block
-        h2.block-title
+        .block-title
             @include h3
             font-style: italic
 
@@ -74,14 +74,14 @@
                 .location
                     .location-content
                         .location-title::after
-                            content: ""
+                            content: "" 
                         &::after
                             content: "Découvrir le site"
                             display: block
                             width: fit-content
                             margin-top: $spacing-3
                             margin-bottom: $spacing-3
-                            padding: 13.5px 25px
+                            padding: 14px 25px
                             border: 1px solid $color-text
                             transition: background-color 0.3s ease
                             transition: color 0.3s ease
@@ -121,7 +121,7 @@
             &--large.with-images
                 @include in-page-without-sidebar
                     .page
-                        gap: var(--column-width)
+                        gap: var(--grid-gutter)
                         justify-content: space-between
                         .page-content
                             width: calc((var(--column-width)* 6) + var(--grid-gutter)*(5))
