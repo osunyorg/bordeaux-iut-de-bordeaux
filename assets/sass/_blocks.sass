@@ -4,7 +4,7 @@
             @include h3
             font-style: italic
 
-        &-call_to_action
+        &-call_to_action--accent_background
             .container 
                 width: var(--grid-width)
                 .block-content
@@ -12,9 +12,10 @@
                     .call_to_action 
                         .actions 
                             a
-                                border: 1px solid #fff
-                                &:hover
-                                    border-color: transparent
+                                --btn-background: var(--color-accent)
+                                --btn-color: var(--color-background)
+                                --btn-hover-background: var(--color-background)
+                                --btn-hover-color: var(--color-text)
             @include in-page-without-sidebar
                 overflow: hidden
                 position: relative
@@ -31,14 +32,13 @@
                         transform: rotate(-4deg)
                         transform-origin: bottom left
                         width: 120%
-                        z-index: 1
+                        z-index: -1
                     &--with-image
                         &::before
                             top: calc(100% - 100px)
                         .actions
                             margin-bottom: 100px
                 picture
-                    z-index: 2
                     grid-column: 7 / 13
 
         &-gallery
