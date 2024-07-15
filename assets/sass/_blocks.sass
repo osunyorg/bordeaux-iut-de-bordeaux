@@ -59,16 +59,24 @@
                     dl
                         dt, strong
                             color: $color-accent
-                @include media-breakpoint-up(sm)
-                    @include grid(2)
+                        @include media-breakpoint-down(md)
+                            display: flex
+                            align-items: center
+                            justify-content: flex-start
+                            dt
+                                display: flex
+                                align-items: center
+                                strong
+                                    margin-left: $spacing-3
+                                img
+                                    margin-bottom: 0
+                            dd
+                                margin-top: 0
+                @include media-breakpoint-up(md)
                     text-align: center
                     img
                         margin-left: auto
                         margin-right: auto
-                @include in-page-with-sidebar
-                    grid-template-columns: repeat(3, 1fr)
-                @include media-breakpoint-up(desktop)
-                    @include grid(4)
 
         &-locations
             .locations
