@@ -220,7 +220,7 @@ items:
       kind: url
       children: []
     - title: Formations courtes
-      target: "/formations/se-former-tout-au-long-de-la-vie/#formations-courtes"
+      target: "/entreprises/se-former-tout-au-long-de-la-vie/#formations-courtes"
       kind: url
       children: []
     - title: Diplômes d'université (DU)
