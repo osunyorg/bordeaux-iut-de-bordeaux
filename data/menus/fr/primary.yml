@@ -133,7 +133,7 @@ items:
       target: "/formations/genie-biologique/"
       kind: program
       children:
-      - title: "- Agronomie"
+      - title: "• Agronomie"
         target: "/formations/genie-biologique/agronomie/"
         kind: program
         children: []
