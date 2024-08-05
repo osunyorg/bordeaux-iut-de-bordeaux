@@ -30,43 +30,40 @@ header#document-header
                         content: ""
                     &:hover
                         color: $color-accent
-
-    @include media-breakpoint-up(xl) // CUSTOM dropdown menu en desktop avec barre en biais
-        .dropdown-menu
-            border-top: 1px solid $marron-secondaire-3
-            max-height: calc(100vh - var(--header-height) - 100px)
-            overflow: visible
-            .nav-level-2
-                max-height: calc(100vh - var(--header-height) - 100px - var(--spacing-3))
-                overflow: auto
-                padding-bottom: 0
-            &::after
-                background: $color-background
-                bottom: 0
-                content: ""
-                height: 100% 
-                left: -10px
-                position: absolute
-                transform: rotate(4deg)
-                transform-origin: bottom left
-                width: 110%
-                z-index: -1
-            .nav-level-4
-                li
-                    a::before
-                        content: "• "
-                
     .has-children-active
         color: $color-accent
-    .menu 
+    .menu
         a, 
         span
             &[aria-expanded]::after
                 display: none
             &[aria-expanded*="true"]
                 color: $color-accent !important
-
-        .nav-level-1 
+        .nav-level-1
+            @media screen and (min-height: 800px) and (min-width: 1200px) // CUSTOM dropdown menu en desktop avec barre en biais
+                .dropdown-menu
+                    border-top: 1px solid $marron-secondaire-3
+                    max-height: calc(100vh - var(--header-height) - 100px)
+                    overflow: visible
+                    .nav-level-2
+                        max-height: calc(100vh - var(--header-height) - 100px - var(--spacing-3))
+                        overflow: auto
+                        padding-bottom: 0
+                    &::after
+                        background: $color-background
+                        bottom: 0
+                        content: ""
+                        height: 100% 
+                        left: -10px
+                        position: absolute
+                        transform: rotate(4deg)
+                        transform-origin: bottom left
+                        width: 110%
+                        z-index: -1
+                    .nav-level-4
+                        li
+                            a::before
+                                content: "• "
             > li 
                 > span, 
                 > a
@@ -81,10 +78,11 @@ header#document-header
                     > span,
                     > a
                         @include h3
-                        @include media-breakpoint-down(xl)
-                            font-size: pxToRem(24)
+                        @media screen and (max-height: 900px), screen and (max-width: 1600px)
+                            font-size: var(--h4-size)
                     .nav-level-3
-                        padding-top: $spacing-3
+                        @media screen and (min-height: 900px)
+                            padding-top: $spacing-3
                         > li, *
                             font-family: $body-font-family                                         
                         .nav-level-4
