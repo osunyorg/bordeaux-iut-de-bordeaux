@@ -115,6 +115,21 @@ header#document-header
             width: columns(9)
 
 body:not(.persons__page)
+    $positions: (top: top, center: center, bottom: bottom)
+    @each $position in map-keys($positions) 
+        &.page-image-#{$position}
+            .hero 
+                @include media-breakpoint-up(desktop)
+                    &--with-image,
+                    &--image-portrait,
+                    &--image-square
+                        > .container
+                            .content
+                                figure
+                                    picture
+                                        img 
+                                            object-position: $position   
+    
     .hero 
         @include media-breakpoint-down(desktop)
             &--with-image,
