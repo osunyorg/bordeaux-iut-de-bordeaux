@@ -7,6 +7,11 @@
       </a>
       <div class="program-details">
         <div>
+          {{- with $program.Params.summary }}
+          <div class="description">
+            {{- . }}
+          </div>
+          {{ end }}
           {{- with .children -}}
             <ol>
               {{- range . -}}
@@ -18,18 +23,15 @@
               {{ end }}
             </ol>
           {{end}}
-          <div> 
+          <div class="details-more"> 
             <a href="{{ .path }}" title="En savoir plus" class="btn">En savoir plus</a>
-            {{ with $program.Params.downloadable_summary }}
-              {{- $file := partial "GetMedia" . -}}
-              {{- if $file -}}
-                {{- $url := $file.url -}}
-                {{- if site.Params.keycdn -}}
-                  {{- $url = $file.direct_url -}}
-                {{- end -}}
-                <a href="{{ $url }}" download target="_blank" class="btn">{{ i18n "commons.download.singular_name" }}</a>
-              {{- end -}}
-            {{ end }}
+            {{with $program.Params.logo}}
+              {{ partial "commons/image.html"
+              (dict
+                "image"    .
+                "lazy"     false
+              ) }}
+            {{end}}
           </div>
         </div>
         {{with $program.Params.roles}}
