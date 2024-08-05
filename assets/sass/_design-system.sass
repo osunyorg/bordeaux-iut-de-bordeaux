@@ -117,7 +117,8 @@ header#document-header
 body:not(.persons__page)
     $positions: (top: top, center: center, bottom: bottom)
     @each $position in map-keys($positions) 
-        &.page-image-#{$position}
+        &.page-image-#{$position},
+        &.image-#{$position}
             .hero 
                 @include media-breakpoint-up(desktop)
                     &--with-image,
