@@ -84,12 +84,13 @@
                     .location-content
                         .location-title::after
                             content: "" 
-                        &::after
-                            content: "Découvrir le site"
-                            display: block
+                        &:hover
+                            .more
+                                background: var(--btn-hover-background)
+                                color: var(--btn-hover-color)
+                        .more
                             width: fit-content
                             margin-top: $spacing-3
-                            margin-bottom: $spacing-3
                             padding: 14px 25px
                             border: 1px solid $color-text
                             transition: background-color 0.3s ease
@@ -97,16 +98,9 @@
                             @include in-page-without-sidebar
                                 position: absolute
                                 top: 100%
-                        &:hover
-                            &::after
-                                color: var(--btn-hover-color)
-                                background: var(--btn-hover-background)
                     .media
                         aspect-ratio: 1
                         margin: 0
-                &--grid
-                    @include in-page-without-sidebar
-                        grid-template-columns: repeat(4, 1fr)
 
         &-pages
             .page-title
