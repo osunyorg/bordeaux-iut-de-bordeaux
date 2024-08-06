@@ -128,22 +128,27 @@ body.programs__section, body.diplomas__term
         padding-bottom: var(--grid-gutter)
         .hero-text
             margin-bottom: 0
-            picture
+            .btn
+                display: none
+            .logo
                 margin-top: $spacing-3
-                display: block
+                width: columns(5)         
             @include media-breakpoint-up(desktop)
                 display: flex
                 gap: calc(var(--grid-gutter)) 
-                > div 
+                > hgroup 
                     width: columns(7)
                     .lead
                         width: auto
-                picture
-                    margin-top: 0
-                    width: columns(5)          
+                .logo
                     align-self: end
-                    img
+                    picture
+                        margin-top: 0    
+                        width: 100%
+                        display: block
                         max-width: columns(3)
+                        img
+                            width: 100%
 
         .essential-container
             .container
