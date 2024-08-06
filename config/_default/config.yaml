@@ -16,6 +16,10 @@ params:
     design_system:
       lightbox:
         disabled: true
+  programs:
+    index:
+      options:
+        blocks_position: "after-objectives"
 
       hero:
         desktop:  2000

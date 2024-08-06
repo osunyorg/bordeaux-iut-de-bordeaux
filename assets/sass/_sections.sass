@@ -194,6 +194,8 @@ body.programs__section, body.diplomas__term
     .document-content
         counter-reset: section
         .content
+            .featured-image
+                display: none
             grid-gap: 0
             &:not(:last-child)
                 padding-bottom: 0
@@ -207,8 +209,6 @@ body.programs__section, body.diplomas__term
                 @include media-breakpoint-up(desktop)
                     margin-top: $spacing-6
                     padding-top: 0
-            
-                
             > h2 
                 @include h3
                 font-style: italic
