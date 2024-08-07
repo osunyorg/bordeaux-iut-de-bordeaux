@@ -8,9 +8,8 @@
             .container 
                 width: var(--grid-width)
                 .block-content
-                    padding: var(--grid-gutter)
-                    .call_to_action 
-                        .actions 
+                    .call_to_action
+                        .actions
                             a
                                 --btn-background: var(--color-accent)
                                 --btn-color: var(--color-background)
@@ -21,20 +20,20 @@
                 position: relative
                 z-index: 0
                 .call_to_action
-                    min-height: 300px
-                    &::before
-                        background: var(--color-background)
-                        content: ""
-                        height: 100%
-                        left: 0
-                        position: absolute 
-                        top: calc(100%)
-                        transform: rotate(-4deg)
-                        transform-origin: bottom left
-                        width: 120%
-                        z-index: -1
+                    padding: var(--grid-gutter-negative)
                     &--with-image
+                        min-height: 300px
                         &::before
+                            background: var(--color-background)
+                            content: ""
+                            height: 100%
+                            left: 0
+                            position: absolute
+                            top: calc(100%)
+                            transform: rotate(-4deg)
+                            transform-origin: bottom left
+                            width: 120%
+                            z-index: -1
                             top: calc(100% - 100px)
                         .actions
                             margin-bottom: 100px
@@ -62,18 +61,16 @@
                         dt, strong
                             color: $color-accent
                         @include media-breakpoint-down(md)
-                            display: flex
                             align-items: center
-                            justify-content: flex-start
+                            display: flex
+                            gap: $spacing-1
                             dt
                                 display: flex
                                 align-items: center
-                                strong
-                                    margin-left: $spacing-3
-                                img
-                                    margin-bottom: 0
+                                gap: $spacing-2
                             dd
-                                margin-top: 0
+                                margin-top: auto
+                                margin-bottom: auto
                 @include media-breakpoint-up(md)
                     text-align: center
                     img
