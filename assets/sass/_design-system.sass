@@ -25,11 +25,13 @@ header#document-header
                     padding-right: $spacing-3
                 a
                     color: $color-background
-                    transition-property: color
+                    text-decoration-color: $color-background 
+                    transition-property: color, text-decoration-color
                     &::after
                         content: ""
                     &:hover
-                        color: $color-accent
+                        color: $marron-secondaire-1
+                        text-decoration-color: $marron-secondaire-1
     .has-children-active
         color: $color-accent
     .menu
@@ -100,7 +102,6 @@ header#document-header
         width: 100%
         .breadcrumb-nav
             margin: 0 auto
-            width: var(--grid-width)
             .breadcrumb
                 height: pxToRem(50)
                 padding-left: var(--grid-gutter)
