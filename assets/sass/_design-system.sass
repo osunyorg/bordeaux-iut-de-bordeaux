@@ -170,17 +170,18 @@ body:not(.persons__page)
                         order: 1
                         overflow: hidden
                         width: 100%
-                        &::before
-                            background: var(--color-background)
-                            content: ""
-                            height: calc(100% - 100px)
-                            position: absolute 
-                            right: 0
-                            top: 100%
-                            transform: rotate(4deg)
-                            transform-origin: top right
-                            width: 120%
-                            z-index: 1
+                        @include media-breakpoint-up(desktop)
+                            &::before
+                                background: var(--color-background)
+                                content: ""
+                                height: calc(100% - 100px)
+                                position: absolute 
+                                right: 0
+                                top: 100%
+                                transform: rotate(4deg)
+                                transform-origin: top right
+                                width: 120%
+                                z-index: 1
                     .hero-text
                         margin-left: var(--grid-gutter)
                         margin-right: var(--grid-gutter)
@@ -189,7 +190,7 @@ body:not(.persons__page)
                         @include media-breakpoint-up(desktop)
                             margin-left: auto
                             margin-right: auto
-                            margin-top: - $spacing-3
+                            margin-top: 0
                             padding-left: var(--grid-gutter)
                             padding-right: var(--grid-gutter)
                             width: var(--grid-width)

@@ -1,7 +1,7 @@
 ////// SECTION ACCUEIL
 .page__home
     .hero--with-image
-        > .container 
+        > .container
             .content
                 .hero-text
                     @include media-breakpoint-up(desktop)
@@ -121,85 +121,62 @@
                 font-family: $heading-font-family
                 font-size: $body-size-desktop
 
-
 ////// SECTION PROGRAMS 
-body.programs__section, body.diplomas__term 
+body.programs__section, body.diplomas__term
     .hero
-        padding-bottom: var(--grid-gutter)
-        .hero-text
-            margin-bottom: 0
-            picture
-                margin-top: $spacing-3
-                display: block
-            @include media-breakpoint-up(desktop)
-                display: flex
-                gap: calc(var(--grid-gutter)) 
-                > div 
-                    width: columns(7)
+        .container
+            .content
+                flex-wrap: nowrap
+            .hero-content
+                order: 2
+                width: var(--grid-width)
+                margin: 0 auto
+                padding: 0 var(--grid-gutter)
+                .hero-text
+                    padding: 0
+                    margin: 0
                     .lead
                         width: auto
-                picture
-                    margin-top: 0
-                    width: columns(5)          
-                    align-self: end
-                    img
-                        max-width: columns(3)
-
+                @include media-breakpoint-up(desktop)
+                    display: flex
+                    flex-direction: row-reverse
+                    justify-content: space-between
+                    .hero-text
+                        width: columns(7)
+                    .hero-logos
+                        flex-direction: row
+                        align-items: center
+                        margin-top: 0                        
+                        justify-content: start
         .essential-container
             .container
-                display: flex
-                flex-direction: row
-                flex-wrap: wrap
-                gap: calc(var(--grid-gutter)) 
-                justify-content: space-around
-                @include media-breakpoint-up(desktop)
-                    justify-content: start
-            .essential
-                display: grid
-                grid-template-columns: repeat(6, 1fr)
-                grid-gap: 0
-                height: fit-content
-                width: 100%
-                @include media-breakpoint-up(desktop)
-                    width: columns(7)
-                    
-                dt, dd
-                    padding: $spacing-2 0
-                dt:not(:last-of-type) 
-                    border-bottom: 1px solid $marron-secondaire-3             
-                dd
-                    text-align: right
-                    font-size: pxToRem(19)
-                    font-weight: 400    
-                dd:not(:last-of-type)  
-                    border-bottom: 1px solid $marron-secondaire-3
-                dt
-                    font-family: $heading-font-family
-                    font-size: pxToRem(22)
-                    font-weight: 400
-            .buttons 
-                flex-direction: column
-                a, button
-                    justify-content: center
-                    min-width: columns(3)
-                a[download] 
-                    background-color: var(--color-text)
-                    border: $btn-border
-                    &:hover
-                        color: var(--color-text)
-                        background-color: var(--color-background)
-                        
-            .diploma-logo
-                img
-                    max-width: pxToRem(110)
-                    
+                .hero-essential
+                    height: fit-content
+                    width: 100%
+                    @include media-breakpoint-up(desktop)
+                        grid-gap: 0
+                        width: columns(7)
+                        dt:not(:last-of-type) 
+                            border-bottom: 1px solid $marron-secondaire-3             
+                        dd
+                            text-align: right
+                            font-size: pxToRem(19)
+                            font-weight: 400    
+                            
+                        dd:not(:last-of-type)  
+                            border-bottom: 1px solid $marron-secondaire-3
+                        dt
+                            font-family: $heading-font-family
+                            font-size: pxToRem(22)
+                            font-weight: 400
+
     .document-content
         counter-reset: section
         .content
             grid-gap: 0
             &:not(:last-child)
                 padding-bottom: 0
-            section:first-of-type:not(.block) 
+            section:first-of-type:not(.block)
                 margin-top: 0
             .blocks
                 padding-top: 0
@@ -209,9 +186,8 @@ body.programs__section, body.diplomas__term
                 @include media-breakpoint-up(desktop)
                     margin-top: $spacing-6
                     padding-top: 0
-            
-                
-            > h2 
+
+            > h2
                 @include h3
                 font-style: italic
                 @include media-breakpoint-down(desktop)
@@ -219,7 +195,7 @@ body.programs__section, body.diplomas__term
                         @include h1
                         font-style: normal
                         counter-increment: section
-                        content: counter(section) ". "
+                        content: counter(section) "."
                 @include media-breakpoint-up(desktop)
                     &::after
                         margin-top: $spacing-1
@@ -258,7 +234,7 @@ body.programs__section, body.diplomas__term
                         background-image: url('/assets/images/contact-logo.svg')
                         background-repeat: no-repeat
                         background-size: contain
-                    a 
+                    a
                         text-decoration: none
                         color: $color-accent
                 @include media-breakpoint-down(sm)
