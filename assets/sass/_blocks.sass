@@ -46,14 +46,14 @@
             &--carousel
                 @include in-page-without-sidebar
                     background-color: $color-background
-                figure:not(.is-active)
-                    opacity: 50%
-                @include media-breakpoint-up(desktop)
-                    figure
-                        picture
+                figure
+                    picture
+                        img
+                            height: 200px
+                        @include media-breakpoint-up(desktop)
                             img
                                 height: 465px
-
+                                
         &-key_figures
             ul
                 li
