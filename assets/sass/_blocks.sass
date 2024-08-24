@@ -5,7 +5,7 @@
             font-style: italic
 
         &-call_to_action--accent_background
-            .container 
+            .container
                 width: var(--grid-width)
                 .block-content
                     .call_to_action
@@ -50,7 +50,7 @@
                     opacity: 50%
                 @include media-breakpoint-up(desktop)
                     figure
-                        picture 
+                        picture
                             img
                                 height: 465px
 
@@ -79,27 +79,26 @@
 
         &-locations
             .locations
+                @include media-breakpoint-up(desktop)
+                    @include grid(4)
                 .location
                     .location-content
-                        .location-title::after
-                            content: "" 
-                        &:hover
-                            .more
-                                background: var(--btn-hover-background)
-                                color: var(--btn-hover-color)
-                        .more
-                            width: fit-content
+                        height: 100%
+                        .location-description
                             margin-top: $spacing-3
-                            padding: 14px 25px
-                            border: 1px solid $color-text
-                            transition: background-color 0.3s ease
-                            transition: color 0.3s ease
-                            @include in-page-without-sidebar
-                                position: absolute
-                                top: 100%
+                            a
+                                border: 1px solid $color-text
+                                margin-top: $spacing-3
+                                padding: 14px 25px
+                                transition: background-color 0.3s ease
+                                transition: color 0.3s ease
+                                width: fit-content
+                                &:hover
+                                    background: var(--btn-hover-background)
+                                    color: var(--btn-hover-color)
                     .media
-                        aspect-ratio: 1
-                        margin: 0
+                        picture
+                            aspect-ratio: 1
 
         &-pages
             .page-title
@@ -128,7 +127,7 @@
                             font-family: $heading-font-family
                             .page-title
                                 margin-bottom: $spacing-4
-                            > p 
+                            > p
                                 font-size: pxToRem(27)
                                 line-height: 130%
                                 font-weight: 300
@@ -138,12 +137,12 @@
                             margin-top: $spacing-4
                             &::after
                                 content: ""
-            
+
                 &:nth-child(even of .block-pages--large.with-images)
                     @include media-breakpoint-up(desktop)
                         .media
                             order: 1
-                            margin-bottom: 0                      
+                            margin-bottom: 0
 
         &-posts
             &.block-titled
@@ -153,7 +152,7 @@
                             a
                                 &::after
                                     content: ""
-            &--list                   
+            &--list
                 .list
                     .post
                         @include media-breakpoint-up(desktop)
