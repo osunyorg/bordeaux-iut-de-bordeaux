@@ -9,12 +9,14 @@
                 width: var(--grid-width)
                 .block-content
                     .call_to_action
+                        color: #000
                         .actions
                             a
                                 --btn-background: var(--color-accent)
-                                --btn-color: var(--color-background)
-                                --btn-hover-background: var(--color-background)
-                                --btn-hover-color: var(--color-text)
+                                --btn-color: #000
+                                --btn-hover-background: #000
+                                --btn-hover-color: var(--color-accent)
+                                border-color: #000
             @include in-page-without-sidebar
                 overflow: hidden
                 position: relative
@@ -38,7 +40,7 @@
                         .actions
                             margin-bottom: 100px
                         figcaption
-                            color: $marron-secondaire-1
+                            color: #000
                 picture
                     grid-column: 7 / 13
 
@@ -59,7 +61,7 @@
                 li
                     dl
                         dt, strong
-                            color: $color-accent
+                            color: $blue-large
                         @include media-breakpoint-down(md)
                             align-items: center
                             display: flex
@@ -108,12 +110,12 @@
                         text-decoration: none
                         transition-property: color
                         &:hover
-                            color: $color-accent
+                            color: $blue-normal
                             text-decoration: none
                         &::after
                             content: ""
             p.more.meta
-                color: $color-accent
+                color: $blue-normal
                 font-family: $heading-font-family
                 font-weight: 300
 

@@ -1,5 +1,5 @@
 html
-    &.has-menu-opened, 
+    &.has-menu-opened,
     &.has-offcanvas-opened
         body
             &::after
@@ -21,26 +21,26 @@ header#document-header
                 margin: $spacing-1 0
                 padding-left: $spacing-3
                 &:not(:last-child)
-                    border-right: 1px solid $color-background
+                    border-right: 1px solid #000
                     padding-right: $spacing-3
                 a
-                    color: $color-background
-                    text-decoration-color: $color-background 
-                    transition-property: color, text-decoration-color
+                    color: #000
+                    text-decoration: none
+                    transition-property: color
                     &::after
                         content: ""
                     &:hover
-                        color: $marron-secondaire-1
-                        text-decoration-color: $marron-secondaire-1
+                        text-decoration: underline
+                        text-decoration-thickness: 1px
     .has-children-active
         color: $color-accent
     .menu
-        a, 
+        a,
         span
             &[aria-expanded]::after
                 display: none
             &[aria-expanded*="true"]
-                color: $color-accent !important
+                color: $blue-normal !important
         .nav-level-1
             @media screen and (min-height: 800px) and (min-width: 1200px) // CUSTOM dropdown menu en desktop avec barre en biais
                 .dropdown-menu
@@ -55,7 +55,7 @@ header#document-header
                         background: $color-background
                         bottom: 0
                         content: ""
-                        height: 100% 
+                        height: 100%
                         left: -10px
                         position: absolute
                         transform: rotate(4deg)
@@ -66,10 +66,10 @@ header#document-header
                         li
                             a::before
                                 content: "• "
-            > li 
-                > span, 
+            > li
+                > span,
                 > a
-                    font-family: $body-font-family            
+                    font-family: $body-font-family
                     font-size: $body-size-desktop
                 a
                     text-decoration: none
@@ -86,14 +86,20 @@ header#document-header
                         @media screen and (min-height: 900px)
                             padding-top: $spacing-3
                         > li, *
-                            font-family: $body-font-family                                         
+                            font-family: $body-font-family
                         .nav-level-4
                             > li
                                 margin-top: $spacing-1
                                 *
                                     font-style: italic
                                     font-size: pxToRem(15)
-
+.toc ol .active
+    color: $blue-normal
+    
+ol.programs
+    > li
+        a:hover
+            color: $blue-normal
 .hero
     + .breadcrumb-container
         background-color: $marron-secondaire-4
@@ -115,10 +121,10 @@ header#document-header
 
 body:not(.persons__page)
     $positions: (top: top, center: center, bottom: bottom)
-    @each $position in map-keys($positions) 
+    @each $position in map-keys($positions)
         &.page-image-#{$position},
         &.image-#{$position}
-            .hero 
+            .hero
                 @include media-breakpoint-up(desktop)
                     &--with-image,
                     &--image-portrait,
@@ -127,10 +133,10 @@ body:not(.persons__page)
                             .content
                                 figure
                                     picture
-                                        img 
-                                            object-position: $position   
-    
-    .hero 
+                                        img
+                                            object-position: $position
+
+    .hero
         @include media-breakpoint-down(desktop)
             &--with-image,
             &--image-portrait,
@@ -138,7 +144,7 @@ body:not(.persons__page)
                 .container
                     margin-bottom: 0
         @include media-breakpoint-up(desktop)
-            padding-bottom: var(--header-height) 
+            padding-bottom: var(--header-height)
         &--with-image,
         &--image-portrait,
         &--image-square
@@ -175,7 +181,7 @@ body:not(.persons__page)
                                 background: var(--color-background)
                                 content: ""
                                 height: calc(100% - 100px)
-                                position: absolute 
+                                position: absolute
                                 right: 0
                                 top: 100%
                                 transform: rotate(4deg)
@@ -201,10 +207,10 @@ footer#document-footer
         padding-bottom: 0
     a,
     a:hover
-        text-decoration: none 
+        text-decoration: none
         transition-property: color
 
-    .container 
+    .container
         padding: $spacing-5 var(--grid-gutter)
         gap: var(--grid-gutter)
         .footer-iut
@@ -216,9 +222,9 @@ footer#document-footer
                 img
                     opacity: 40%
             .footer-site
-                border-left: 1px solid  $marron-secondaire-1
+                border-left: 1px solid $marron-secondaire-1
                 padding-left: $spacing-3
-                p, 
+                p,
                 address
                     margin: 0
                     font-size: $body-size-desktop
@@ -234,7 +240,7 @@ footer#document-footer
             img
                 width: pxToRem(250)
                 opacity: 40%
-            .nav-level-1 
+            .nav-level-1
                 a
                     appearance: none
                     background: transparent
@@ -261,6 +267,9 @@ footer#document-footer
     div.footer
         &-social
             background-color: $color-accent
+            color: #000
+            a
+                color: #000
             .social-container
                 max-width: var(--grid-width)
                 margin: auto
@@ -299,13 +308,13 @@ footer#document-footer
                                     padding-left: 0
                             li:not(:last-child) 
                                 margin-right: $spacing-5
-        
+
         &-legals
             border-top: 1px solid $marron-secondaire-1
-            color: $marron-secondaire-2
+            color: $marron-secondaire-3
             padding: $spacing-5 var(--grid-gutter)
             a
-                color: $marron-secondaire-2 !important
+                color: $marron-secondaire-3 !important
                 &:hover
                     color: $color-accent !important
             @include media-breakpoint-up(desktop)
@@ -319,5 +328,5 @@ footer#document-footer
                         display: block
                         margin: 0
                         padding: $spacing-2 0
-                    li:not(:last-child) 
+                    li:not(:last-child)
                         margin-right: $spacing-3
