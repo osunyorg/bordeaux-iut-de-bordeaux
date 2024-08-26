@@ -5,17 +5,19 @@
             font-style: italic
 
         &-call_to_action--accent_background
+            --cta-background-color: #009fe2
             .container
                 width: var(--grid-width)
                 .block-content
                     .call_to_action
                         color: #000
+
                         .actions
                             a
-                                --btn-background: var(--color-accent)
+                                --btn-background: #009fe2
                                 --btn-color: #000
                                 --btn-hover-background: #000
-                                --btn-hover-color: var(--color-accent)
+                                --btn-hover-color: #009fe2
                                 border-color: #000
             @include in-page-without-sidebar
                 overflow: hidden
@@ -110,12 +112,11 @@
                         text-decoration: none
                         transition-property: color
                         &:hover
-                            color: $blue-normal
                             text-decoration: none
                         &::after
                             content: ""
             p.more.meta
-                color: $blue-normal
+                color: $color-accent
                 font-family: $heading-font-family
                 font-weight: 300
 

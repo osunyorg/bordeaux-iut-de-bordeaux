@@ -9,7 +9,7 @@ header#document-header
     border-bottom: 0px
     box-shadow: 0px 4px 4px #0000001a
     .top-menu // menu ENT en top page
-        background-color: $color-accent
+        background-color: $blue-background
         padding: 0
         ul
             margin: 0
@@ -40,7 +40,7 @@ header#document-header
             &[aria-expanded]::after
                 display: none
             &[aria-expanded*="true"]
-                color: $blue-normal !important
+                color: $color-accent !important
         .nav-level-1
             @media screen and (min-height: 800px) and (min-width: 1200px) // CUSTOM dropdown menu en desktop avec barre en biais
                 .dropdown-menu
@@ -93,13 +93,7 @@ header#document-header
                                 *
                                     font-style: italic
                                     font-size: pxToRem(15)
-.toc ol .active
-    color: $blue-normal
-    
-ol.programs
-    > li
-        a:hover
-            color: $blue-normal
+
 .hero
     + .breadcrumb-container
         background-color: $marron-secondaire-4
@@ -266,7 +260,7 @@ footer#document-footer
                 justify-content: space-between
     div.footer
         &-social
-            background-color: $color-accent
+            background-color: $blue-background
             color: #000
             a
                 color: #000
