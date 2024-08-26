@@ -64,6 +64,9 @@
                     dl
                         dt, strong
                             color: $blue-large
+                        picture.is-png
+                            img
+                                max-width: initial
                         @include media-breakpoint-down(md)
                             align-items: center
                             display: flex
@@ -107,7 +110,6 @@
         &-pages
             .page-title
                 @include in-page-without-sidebar
-                    font-size: pxToRem(44)
                     a
                         text-decoration: none
                         transition-property: color
@@ -130,6 +132,7 @@
                             font-family: $heading-font-family
                             .page-title
                                 margin-bottom: $spacing-4
+                                font-size: pxToRem(44)
                             > p
                                 font-size: pxToRem(27)
                                 line-height: 130%
