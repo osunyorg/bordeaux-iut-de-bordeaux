@@ -173,20 +173,6 @@ body.programs__section, body.diplomas__term
     .document-content
         counter-reset: section
         .content
-            grid-gap: 0
-            &:not(:last-child)
-                padding-bottom: 0
-            section:first-of-type:not(.block)
-                margin-top: 0
-            .blocks
-                padding-top: 0
-            .block
-                margin-top: $spacing-5
-                margin-bottom: 0
-                @include media-breakpoint-up(desktop)
-                    margin-top: $spacing-6
-                    padding-top: 0
-
             > h2
                 @include h3
                 font-style: italic
