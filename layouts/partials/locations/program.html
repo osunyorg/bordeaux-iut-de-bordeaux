@@ -1,5 +1,4 @@
 <li>
-  {{ . }}
   <div class="program-content">
     <a href="{{ .hugo.permalink }}" title="{{ safeHTML (i18n "commons.more_aria" (dict "Title" .title)) }}">
       {{ $short_name := (site.GetPage (printf "/diplomas/%s" .diplomas)).Params.short_name }}

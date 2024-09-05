@@ -7,11 +7,9 @@
         &-call_to_action--accent_background
             --cta-background-color: #009fe2
             .container
-                width: var(--grid-width)
                 .block-content
                     .call_to_action
                         color: #000
-
                         .actions
                             a
                                 --btn-background: #009fe2
@@ -24,39 +22,24 @@
                 position: relative
                 z-index: 0
                 .call_to_action
-                    padding: var(--grid-gutter-negative)
                     &--with-image
-                        min-height: 300px
                         &::before
                             background: var(--color-background)
                             content: ""
                             height: 100%
                             left: 0
                             position: absolute
-                            top: calc(100%)
-                            transform: rotate(-4deg)
+                            top: calc(100% - var(--spacing-6))
                             transform-origin: bottom left
+                            transform: rotate(-4deg)
                             width: 120%
                             z-index: -1
-                            top: calc(100% - 100px)
                         .actions
-                            margin-bottom: 100px
+                            margin-bottom: $spacing-6
                         figcaption
                             color: #000
-                picture
-                    grid-column: 7 / 13
-
-        &-gallery
-            &--carousel
-                @include in-page-without-sidebar
-                    background-color: $color-background
-                figure
-                    picture
-                        img
-                            height: 200px
-                        @include media-breakpoint-up(desktop)
-                            img
-                                height: 465px
+                        picture
+                            grid-column: 7 / 13
                                 
         &-key_figures
             ul
@@ -91,19 +74,19 @@
                     @include grid(4)
                 .location
                     .location-content
-                        height: 100%
                         .location-description
                             margin-top: $spacing-3
-                            a
+                            p.more
                                 border: 1px solid $color-text
                                 margin-top: $spacing-3
                                 padding: 14px 25px
                                 transition: background-color 0.3s ease
                                 transition: color 0.3s ease
                                 width: fit-content
-                                &:hover
-                                    background: var(--btn-hover-background)
-                                    color: var(--btn-hover-color)
+                    &:hover
+                        p.more
+                            background: var(--btn-hover-background)
+                            color: var(--btn-hover-color)
                     .media
                         picture
                             aspect-ratio: 1

@@ -117,78 +117,69 @@ header#document-header
             @include media-breakpoint-up(desktop)
                 width: columns(9)
 
-body:not(.persons__page)
-    $positions: (top: top, center: center, bottom: bottom)
-    @each $position in map-keys($positions)
-        &.page-image-#{$position},
-        &.image-#{$position}
-            .hero
-                @include media-breakpoint-up(desktop)
-                    &--with-image,
-                    &--image-portrait,
-                    &--image-square
-                        > .container
-                            .content
-                                figure
-                                    picture
-                                        img
-                                            object-position: $position
 
-    .hero
-        @include media-breakpoint-down(desktop)
-            &--with-image,
-            &--image-portrait,
-            &--image-square
-                .container
-                    margin-bottom: 0
-        @include media-breakpoint-up(desktop)
-            padding-bottom: var(--header-height)
-        &--with-image,
-        &--image-portrait,
-        &--image-square
-            > .container
-                .content
-                    display: flex
-                    padding-top: 0
-                    .hero-text
-                        margin-top: 40vh
-                        z-index: 2
-                        @include media-breakpoint-up(md)
-                            margin-top: 60vh
-                    figure
-                        position: absolute
-                        left: 0
-                        right: 0
-                        overflow: hidden
-                        height: 40vh
-                        min-width: 100%
-                        margin: 0
-                        @include media-breakpoint-up(md)
-                            height: 60vh
-                        figcaption
-                            bottom: 0
-                            left: initial
-                        picture
-                            height: 100%
-                            img
-                                aspect-ratio: 5/3
-                                height: 100%
-                                object-fit: cover
-                                object-position: center
-                                width: 100%
-                        &::before
-                            background: var(--color-background)
-                            content: ""
-                            height: calc(100%)
-                            position: absolute
-                            right: 0
-                            top: calc(40vh - calc(0.1 * 100vw))
-                            transform: rotate(4deg)
-                            transform-origin: bottom left
-                            width: 120%
-                            z-index: 1
-                            @include media-breakpoint-up(md)
-                                top: calc(60vh - calc(0.1 * 100vw))
+$positions: (top: top, center: center, bottom: bottom)
+@each $position in map-keys($positions)
+    body:not(.persons__page).page-image-#{$position} .hero--with-image,
+    body:not(.persons__page).image-#{$position} .hero--with-image,
+    .programs__section.page-image-#{$position} .hero,
+    .programs__section.image-#{$position} .hero,
+        > .container
+            .content
+                img
+                    object-position: $position
+
+body:not(.persons__page) .hero--with-image,
+.programs__section .hero
+    > .container
+        .content
+            display: flex
+            padding-top: 0
+            .hero-text
+                margin-top: 40vh
+                z-index: 2
+                @include media-breakpoint-up(md)
+                    margin-top: 60vh
+            figure
+                position: absolute
+                left: 0
+                right: 0
+                overflow: hidden
+                height: 40vh
+                min-width: 100%
+                margin: 0
+                @include media-breakpoint-up(md)
+                    height: 60vh
+                figcaption
+                    top: 0
+                    left: initial
+                    color: #fff
+                    &::before
+                        background: none
+                    .credit
+                        background: $color-text
+
+                picture
+                    height: 100%
+                    img
+                        aspect-ratio: 5/3
+                        height: 100%
+                        object-fit: cover
+                        object-position: center
+                        width: 100%
+                &::before
+                    background: var(--color-background)
+                    content: ""
+                    height: calc(100%)
+                    position: absolute
+                    right: 0
+                    top: calc(40vh - calc(0.1 * 100vw))
+                    transform: rotate(4deg)
+                    transform-origin: bottom left
+                    width: 120%
+                    z-index: 1
+                    @include media-breakpoint-up(md)
+                        top: calc(60vh - calc(0.1 * 100vw))
 
 footer#document-footer
     padding-top: 0
