@@ -109,9 +109,13 @@ header#document-header
                 li
                     a, span
                         font-size: $meta-size
-    @include media-breakpoint-up(desktop)
-        .lead
-            width: columns(9)
+
+.hero,
+.hero--with-image
+    .content
+        .hero-text 
+            @include media-breakpoint-up(desktop)
+                width: columns(9)
 
 body:not(.persons__page)
     $positions: (top: top, center: center, bottom: bottom)
@@ -143,57 +147,48 @@ body:not(.persons__page)
         &--image-portrait,
         &--image-square
             > .container
-                margin-bottom: 0
-                overflow: hidden
-                padding-left: 0
-                padding-right: 0
-                padding-top: 0
-                width: 100%
                 .content
                     display: flex
-                    flex-direction: column
                     padding-top: 0
+                    .hero-text
+                        margin-top: 40vh
+                        z-index: 2
+                        @include media-breakpoint-up(md)
+                            margin-top: 60vh
                     figure
+                        position: absolute
+                        left: 0
+                        right: 0
+                        overflow: hidden
+                        height: 40vh
+                        min-width: 100%
+                        margin: 0
+                        @include media-breakpoint-up(md)
+                            height: 60vh
                         figcaption
                             bottom: 0
                             left: initial
                         picture
+                            height: 100%
                             img
                                 aspect-ratio: 5/3
                                 height: 100%
                                 object-fit: cover
                                 object-position: center
                                 width: 100%
-                                @include media-breakpoint-up(desktop)
-                                    max-height: 655px
-                        margin: 0
-                        order: 1
-                        overflow: hidden
-                        width: 100%
-                        @include media-breakpoint-up(desktop)
-                            &::before
-                                background: var(--color-background)
-                                content: ""
-                                height: calc(100% - 100px)
-                                position: absolute
-                                right: 0
-                                top: 100%
-                                transform: rotate(4deg)
-                                transform-origin: top right
-                                width: 120%
-                                z-index: 1
-                    .hero-text
-                        margin-left: var(--grid-gutter)
-                        margin-right: var(--grid-gutter)
-                        order: 2
-                        z-index: 2
-                        @include media-breakpoint-up(desktop)
-                            margin-left: auto
-                            margin-right: auto
-                            margin-top: 0
-                            padding-left: var(--grid-gutter)
-                            padding-right: var(--grid-gutter)
-                            width: var(--grid-width)
+                        &::before
+                            background: var(--color-background)
+                            content: ""
+                            height: calc(100%)
+                            position: absolute
+                            right: 0
+                            top: calc(40vh - calc(0.1 * 100vw))
+                            transform: rotate(4deg)
+                            transform-origin: bottom left
+                            width: 120%
+                            z-index: 1
+                            @include media-breakpoint-up(md)
+                                top: calc(60vh - calc(0.1 * 100vw))
 
 footer#document-footer
     padding-top: 0

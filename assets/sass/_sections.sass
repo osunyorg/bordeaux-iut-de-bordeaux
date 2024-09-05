@@ -5,7 +5,7 @@
             .content
                 .hero-text
                     @include media-breakpoint-up(desktop)
-                        width: columns(5)
+                        width: columns(7)
     .blocks
         .block
             &-key_figures
@@ -126,49 +126,29 @@ body.programs__section, body.diplomas__term
     .hero
         .container
             .content
-                flex-wrap: nowrap
-            .hero-content
-                order: 2
-                width: var(--grid-width)
-                margin: 0 auto
-                padding: 0 var(--grid-gutter)
                 .hero-text
-                    padding: 0
-                    margin: 0
-                    .lead
-                        width: auto
-                @include media-breakpoint-up(desktop)
-                    display: flex
-                    flex-direction: row-reverse
-                    justify-content: space-between
-                    .hero-text
-                        width: columns(7)
-                    .hero-logos
-                        flex-direction: row
-                        align-items: center
-                        margin-top: 0                        
-                        justify-content: start
-        .essential-container
-            .container
-                .hero-essential
-                    height: fit-content
-                    width: 100%
                     @include media-breakpoint-up(desktop)
-                        grid-gap: 0
                         width: columns(7)
-                        dt:not(:last-of-type) 
-                            border-bottom: 1px solid $marron-secondaire-3             
-                        dd
-                            text-align: right
-                            font-size: pxToRem(19)
-                            font-weight: 400    
-                            
-                        dd:not(:last-of-type)  
-                            border-bottom: 1px solid $marron-secondaire-3
-                        dt
-                            font-family: $heading-font-family
-                            font-size: pxToRem(22)
-                            font-weight: 400
+                .hero-logos
+                    flex-direction: row
+        .essential-container
+            .hero-essential
+                @include media-breakpoint-up(desktop)
+                    grid-gap: 0
+                    width: columns(7)
+                    dt:not(:last-of-type) 
+                        border-bottom: 1px solid $marron-secondaire-3             
+                    dd
+                        text-align: right
+                        font-size: pxToRem(19)
+                        font-weight: 400    
+                        
+                    dd:not(:last-of-type)  
+                        border-bottom: 1px solid $marron-secondaire-3
+                    dt
+                        font-family: $heading-font-family
+                        font-size: pxToRem(22)
+                        font-weight: 400
 
     .document-content
         counter-reset: section
@@ -190,6 +170,15 @@ body.programs__section, body.diplomas__term
                         font-style: normal
                         counter-increment: section
                         content: counter(section) "."
+            .featured-image
+                display: none
+            
+            section:not(:first-child):not(.block)
+                @include media-breakpoint-up(desktop)
+                    margin-top: 0
+            section:not(:first-of-type):not(.block)
+                @include media-breakpoint-up(desktop)
+                    margin-top: $spacing-6  
             .blocks
                 .block
                     h2.block-title
