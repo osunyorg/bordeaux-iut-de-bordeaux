@@ -93,22 +93,20 @@
                         img
                             aspect-ratio: 1
 
-        &-pages
-            .page-title
-                @include in-page-without-sidebar
-                    a
-                        text-decoration: none
-                        transition-property: color
-                        &:hover
+        &-pages--large.with-images
+                .page-title
+                        a
                             text-decoration: none
-                        &::after
-                            content: ""
-            p.more.meta
-                color: $color-accent
-                font-family: $heading-font-family
-                font-weight: 300
+                            transition-property: color
+                            &:hover
+                                text-decoration: none
+                            &::after
+                                content: ""
+                p.more.meta
+                    color: $color-accent
+                    font-family: $heading-font-family
+                    font-weight: 300
 
-            &--large.with-images
                 @include in-page-without-sidebar
                     .page
                         gap: var(--grid-gutter)
