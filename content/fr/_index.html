@@ -198,26 +198,6 @@ contents:
 
 
   - kind: block
-    template: locations
-    title: >-
-      Nos quatre sites de formation
-    ranks:
-      self: 2
-      children: 3
-    data:
-      layout: grid
-      options:
-        image: true
-        summary: true
-
-      locations:
-        - slug: "agen"
-        - slug: "bordeaux-bastide"
-        - slug: "gradignan"
-        - slug: "perigueux"
-
-
-  - kind: block
     template: call_to_action
     title: >-
       Inscription administrative en ligne
@@ -247,6 +227,47 @@ contents:
 
 
   - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      options:
+        image: true
+        main_summary: false
+        summary: true
+
+      layout: large
+      pages:
+        - path: "/vie-etudiante/"
+          slug: "vie-etudiante"
+          file: "pages/vie-etudiante/_index.html"
+          external: false
+
+
+  - kind: block
+    template: locations
+    title: >-
+      Nos quatre sites de formation
+    ranks:
+      self: 2
+      children: 3
+    data:
+      layout: grid
+      options:
+        image: true
+        summary: true
+
+      locations:
+        - slug: "agen"
+        - slug: "bordeaux-bastide"
+        - slug: "gradignan"
+        - slug: "perigueux"
+
+
+  - kind: block
     template: posts
     title: >-
       À la une
@@ -269,27 +290,6 @@ contents:
         - "2024/2024-07-09-salons-etudiants-et-jpo-2024-1"
         - "2024/2024-01-01-salons-etudiants-et-jpo-2024"
         - "2023/2023-12-04-food-trucks"
-
-
-  - kind: block
-    template: pages
-    title: >-
-      
-    ranks:
-      self: false
-      children: 2
-    data:
-      options:
-        image: true
-        main_summary: false
-        summary: true
-
-      layout: large
-      pages:
-        - path: "/vie-etudiante/"
-          slug: "vie-etudiante"
-          file: "pages/vie-etudiante/_index.html"
-          external: false
 
 
 
