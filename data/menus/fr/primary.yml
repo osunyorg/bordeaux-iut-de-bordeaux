@@ -275,10 +275,6 @@ items:
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
       children: []
-    - title: Activités d'ouverture et de personnalisation (AOP)
-      target: "/vie-etudiante/pendant/activites-ouverture-personnalisation-aop/"
-      kind: page
-      children: []
     - title: Activités sportives
       target: "/vie-etudiante/pendant/activites-sportives/"
       kind: page
