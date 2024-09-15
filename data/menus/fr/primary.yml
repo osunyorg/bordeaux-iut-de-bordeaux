@@ -271,6 +271,10 @@ items:
       target: "/vie-etudiante/pendant/bibliotheques-universitaires/"
       kind: page
       children: []
+    - title: Activités d’ouverture et de personnalisation (AOP)
+      target: "/vie-etudiante/pendant/activites-douverture-et-de-personnalisation-aop/"
+      kind: page
+      children: []
     - title: Étudiant à besoins spécifiques (PHASE)
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
@@ -286,10 +290,6 @@ items:
     - title: Harcèlement et discrimination
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
       kind: url
-      children: []
-    - title: Activités d’ouverture et de personnalisation (AOP)
-      target: "/vie-etudiante/pendant/activites-douverture-et-de-personnalisation-aop/"
-      kind: page
       children: []
   - title: Après
     target: ''
