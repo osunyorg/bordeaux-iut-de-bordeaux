@@ -1,10 +1,6 @@
 ---
 title: Sur-menu
 items:
-- title: 'Actualités & Évènements '
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: ENT
   target: https://ent.u-bordeaux.fr/
   kind: url
