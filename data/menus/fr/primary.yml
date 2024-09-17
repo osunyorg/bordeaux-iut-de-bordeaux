@@ -6,8 +6,8 @@ items:
   kind: blank
   children:
   - title: Nous découvrir
-    target: ''
-    kind: blank
+    target: "/nous-decouvrir/"
+    kind: page
     children:
     - title: Notre institut
       target: "/nous-decouvrir/notre-institut/"
