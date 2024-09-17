@@ -355,8 +355,4 @@ items:
       target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
       kind: url
       children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 
