@@ -9,4 +9,8 @@ items:
   target: https://intranet.iut.u-bordeaux.fr/main/doku.php
   kind: url
   children: []
+- title: 'Actualités & Évènements '
+  target: "/actualites/"
+  kind: page
+  children: []
 
