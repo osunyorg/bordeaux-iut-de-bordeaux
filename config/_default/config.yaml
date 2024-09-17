@@ -10,13 +10,15 @@ params:
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/logo-blanc.svg"
+  pages:
+    index:
+      truncate_description: 0
   summary:
     position: hero
   image_sizes:
     design_system:
       lightbox:
         disabled: true
-
       hero:
         desktop:  2000
     blocks:
