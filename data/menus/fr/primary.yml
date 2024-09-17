@@ -359,4 +359,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Contacts
+  target: "/rejoindre-iut/contacts/"
+  kind: page
+  children: []
 
