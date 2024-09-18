@@ -5,17 +5,17 @@
             font-style: italic
 
         &-call_to_action--accent_background
-            --cta-background-color: #009fe2
+            --cta-background-color: $color-official-blue
             .container
                 .block-content
                     .call_to_action
                         color: #000
                         .actions
                             a
-                                --btn-background: #009fe2
+                                --btn-background: $color-official-blue
                                 --btn-color: #000
                                 --btn-hover-background: #000
-                                --btn-hover-color: #009fe2
+                                --btn-hover-color: $color-official-blue
                                 border-color: #000
             @include in-page-without-sidebar
                 overflow: hidden
@@ -46,7 +46,7 @@
                 li
                     dl
                         dt, strong
-                            color: $blue-large
+                            color: $color-official-blue
                         picture.is-png
                             img
                                 max-width: initial
