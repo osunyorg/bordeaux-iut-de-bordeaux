@@ -235,6 +235,50 @@ items:
       target: "/formations/pass-but/"
       kind: page
       children: []
+- title: Vie étudiante
+  target: "/vie-etudiante/"
+  kind: page
+  children:
+  - title: Avant
+    target: ''
+    kind: blank
+    children:
+    - title: Faire sa demande de bourse
+      target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
+      kind: url
+      children: []
+    - title: Se loger
+      target: https://www.etudiant.gouv.fr/fr/vous-loger-1901
+      kind: url
+      children: []
+  - title: Pendant
+    target: ''
+    kind: blank
+    children:
+    - title: Harcèlement et discrimination
+      target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
+      kind: url
+      children: []
+  - title: Après
+    target: ''
+    kind: blank
+    children:
+    - title: Offres d'emploi
+      target: "/rejoindre-iut/offres-emploi/"
+      kind: page
+      children: []
+  - title: À l'international
+    target: ''
+    kind: blank
+    children:
+    - title: Diplôme d'université International
+      target: "/formations/international/"
+      kind: program
+      children: []
+    - title: Diplôme d'université d'études technologiques internationales (DUETI)
+      target: "/formations/etudes-technologiques-internationales/"
+      kind: program
+      children: []
 - title: Entreprise
   target: ''
   kind: blank
