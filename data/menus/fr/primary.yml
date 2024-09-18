@@ -279,6 +279,14 @@ items:
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
       children: []
+    - title: Activités sportives
+      target: "/vie-etudiante/pendant/activites-sportives/"
+      kind: page
+      children: []
+    - title: Être alternant
+      target: "/vie-etudiante/pendant/etre-alternant/"
+      kind: page
+      children: []
     - title: Harcèlement et discrimination
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
       kind: url
@@ -287,6 +295,14 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Retirer son diplôme
+      target: "/vie-etudiante/apres/retirer-son-diplome/"
+      kind: page
+      children: []
+    - title: Devenir de nos diplomés
+      target: "/vie-etudiante/apres/devenir-des-diplomes/"
+      kind: page
+      children: []
     - title: Offres d'emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
@@ -295,6 +311,10 @@ items:
     target: ''
     kind: blank
     children:
+    - title: Étudier à l'étranger
+      target: "/vie-etudiante/international-vie-etudiante/etudier-etranger/"
+      kind: page
+      children: []
     - title: Diplôme d'université International
       target: "/formations/international/"
       kind: program
