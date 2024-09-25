@@ -4,12 +4,23 @@ html
         body
             &::after
                 mix-blend-mode: multiply
+.block-title a,
+.page-title a,
+a.title,
+p.more.meta
+    &::after
+        color: $color-official-blue
+
+ul
+    list-style-type: '\0025C6'
+    li::marker
+        color: $color-official-blue
 
 header#document-header
     border-bottom: 0px
     box-shadow: 0px 4px 4px #0000001a
     .top-menu // menu ENT en top page
-        background-color: $blue-background
+        background-color: $color-official-blue
         padding: 0
         ul
             margin: 0
@@ -249,7 +260,7 @@ footer#document-footer
                 width: 100%
     div.footer
         &-social
-            background-color: $blue-background
+            background-color: $color-official-blue
             color: #000
             a
                 color: #000
@@ -300,8 +311,6 @@ footer#document-footer
             padding: $spacing-5 var(--grid-gutter)
             a
                 color: $marron-secondaire-3 !important
-                &:hover
-                    color: $color-accent !important
             @include media-breakpoint-up(desktop)
                 padding: $spacing-3 var(--grid-gutter)
                 width: 100%

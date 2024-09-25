@@ -1,40 +1,47 @@
 .blocks
     .block
+        &:last-child
+            &:is(.block-call_to_action, .block-chapter--accent_background, .block-chapter--alt_background, .block-timeline--horizontal, .block-pages--cards)
+                margin-bottom: $block-space-y
         .block-title
             @include h3
             font-style: italic
-
-        &-call_to_action--accent_background
-            @include in-page-without-sidebar
-                overflow: hidden
-                position: relative
-                z-index: 0
-                .call_to_action
-                    &--with-image
-                        &::before
-                            background: var(--color-background)
-                            content: ""
-                            height: 100%
-                            left: 0
-                            position: absolute
-                            top: calc(100%)
-                            transform-origin: bottom left
-                            transform: rotate(-4deg)
-                            width: 120%
-                            z-index: -1
-                        .actions
-                            margin-bottom: $spacing-6
-                        figcaption
-                            color: #000
-                        figure
-                            grid-column: 7 / 13
+            text-transform: none
+        &-call_to_action
+            .block-title
+                @include in-page-with-sidebar
+                    text-transform: none
+            &--accent_background
+                @include in-page-without-sidebar
+                    overflow: hidden
+                    position: relative
+                    z-index: 0
+                    .call_to_action
+                        &--with-image
+                            &::before
+                                background: var(--color-background)
+                                content: ""
+                                height: 100%
+                                left: 0
+                                position: absolute
+                                top: calc(100%)
+                                transform-origin: bottom left
+                                transform: rotate(-4deg)
+                                width: 120%
+                                z-index: -1
+                            .actions
+                                margin-bottom: $spacing-6
+                            figcaption
+                                color: #000
+                            figure
+                                grid-column: 7 / 13
                                 
         &-key_figures
             ul
                 li
                     dl
                         dt, strong
-                            color: var(--color-official-blue)
+                            color: $color-official-blue
                         picture.is-png
                             img
                                 max-width: initial
@@ -64,8 +71,8 @@
                             transition-property: color
                             &:hover
                                 text-decoration: none
-                            &::after
-                                content: ""
+                            // &::after
+                            //     content: ""
                 p.more.meta
                     color: $color-accent
                     font-family: $heading-font-family
@@ -98,14 +105,6 @@
                             order: 1
                             margin-bottom: 0
 
-        &-posts
-            &.block-titled
-                .block-content
-                    .top
-                        .block-title
-                            a
-                                &::after
-                                    content: ""
             &--list
                 .list
                     .post
