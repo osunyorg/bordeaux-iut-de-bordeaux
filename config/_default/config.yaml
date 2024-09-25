@@ -15,6 +15,14 @@ params:
       truncate_description: 0
   summary:
     position: hero
+  locations:
+    default_image: false
+    index:
+      truncate_description: 200
+      layout: grid # grid | list
+      options:
+        summary: true
+        image: true
   image_sizes:
     design_system:
       lightbox:
