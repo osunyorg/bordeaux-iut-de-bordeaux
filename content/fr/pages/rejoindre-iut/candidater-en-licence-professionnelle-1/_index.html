@@ -284,6 +284,29 @@ contents:
     position: 4
     rank: 2
   - kind: block
+    template: chapter
+    title: >-
+      
+    ranks:
+      self: false
+    data:
+      layout: no_background
+      text: >-
+        <p><b>Vous êtes sportif de bon ou de haut niveau, personne en situation de handicap et/ou de longue maladie ou artiste confirmé</b>, vous pouvez bénéficier d’un accompagnement spécifique. Pour en savoir plus, consultez notre page dédiée.<br></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
     template: call_to_action
     title: >-
       
@@ -313,26 +336,24 @@ contents:
 
 
   - kind: block
-    template: chapter
+    template: pages
     title: >-
       
     ranks:
       self: false
+      children: 3
     data:
-      layout: no_background
-      text: >-
-        <p><b>Vous êtes sportif de bon ou de haut niveau, personne en situation de handicap et/ou de longue maladie ou artiste confirmé</b>, vous pouvez bénéficier d’un accompagnement spécifique. Pour en savoir plus, consultez notre page dédiée.<br></p>
+      options:
+        image: true
+        main_summary: false
+        summary: false
 
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
+      layout: grid
+      pages:
+        - path: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
+          slug: "etudiants-besoins-specifiques-phase"
+          file: "pages/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/_index.html"
+          external: false
 
 
 
