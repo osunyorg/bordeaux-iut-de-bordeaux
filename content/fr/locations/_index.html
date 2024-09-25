@@ -57,31 +57,12 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: pages
-    title: >-
-      Nos 4 sites de formation
-    ranks:
-      self: 2
-    data:
-      page: 
-        path: "/sites-formation/"
-        slug: "sites-formation"
-        file: "locations/_index.html"
-      options:
-        image: true
-        main_summary: true
-        summary: true
-
-      layout: grid
-      pages:
-
-
-  - kind: block
     template: locations
     title: >-
       
     ranks:
       self: false
+      children: 2
     data:
       layout: grid
       options:
@@ -89,6 +70,10 @@ contents:
         summary: true
 
       locations:
+        - slug: "agen"
+        - slug: "bordeaux-bastide"
+        - slug: "gradignan"
+        - slug: "perigueux"
 
 
 
