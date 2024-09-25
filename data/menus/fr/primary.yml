@@ -182,7 +182,7 @@ items:
       kind: program
       children: []
   - title: Licences professionnelles
-    target: "/formations/diplomes/licence-professionnelle/"
+    target: "/formations/diplomes/licences-professionnelles/"
     kind: diploma
     children:
     - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
