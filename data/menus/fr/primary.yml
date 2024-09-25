@@ -69,7 +69,7 @@ items:
     target: "/rejoindre-iut/"
     kind: page
     children:
-    - title: Candidater en BUT 1, BUT 2 et Pass'BUT
+    - title: Candidater en BUT 1, BUT 2, BUT 3 et Pass'BUT
       target: "/rejoindre-iut/candidater-en-but/"
       kind: page
       children: []
