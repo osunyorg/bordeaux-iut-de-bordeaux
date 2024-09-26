@@ -50,8 +50,8 @@ items:
       kind: location
       children: []
   - title: Nos réseaux nationaux
-    target: ''
-    kind: blank
+    target: "/nos-reseaux-nationaux/"
+    kind: page
     children:
     - title: Assemblée des directeurs d’IUT (ADIUT)
       target: 'https://www.iut.fr/organisation-de-ladiut/ '
