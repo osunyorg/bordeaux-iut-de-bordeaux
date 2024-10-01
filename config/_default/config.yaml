@@ -1,1 +1,4 @@
 theme: bordeaux-hugo-theme
+params:
+  debug:
+    productionUrl: "https://bordeaux-iut-de-bordeaux.web.deuxfleurs.fr"
