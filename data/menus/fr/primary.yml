@@ -211,9 +211,9 @@ items:
       target: "/formations/organisation-management-des-services-de-lautomobile/"
       kind: program
       children: []
-  - title: 'Autres '
-    target: ''
-    kind: blank
+  - title: Autres
+    target: "/formations/autres/"
+    kind: page
     children:
     - title: VAE et VAPP
       target: "/formations/se-former-tout-au-long-de-la-vie/#vapp-et-vae"
