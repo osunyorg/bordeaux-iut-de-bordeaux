@@ -32,7 +32,23 @@ items:
   - title: Nos 4 sites de formation
     target: "/sites-formation/"
     kind: page
-    children: []
+    children:
+    - title: Agen
+      target: "/sites-formation/agen/"
+      kind: location
+      children: []
+    - title: Bordeaux-Bastide
+      target: "/sites-formation/bordeaux-bastide/"
+      kind: location
+      children: []
+    - title: Gradignan
+      target: "/sites-formation/gradignan/"
+      kind: location
+      children: []
+    - title: Périgueux
+      target: "/sites-formation/perigueux/"
+      kind: location
+      children: []
   - title: Nos réseaux nationaux
     target: "/nos-reseaux-nationaux/"
     kind: page
@@ -208,7 +224,7 @@ items:
       kind: url
       children: []
     - title: Diplômes d'université (DU)
-      target: "/formations/autres-formations/diplomes-duniversite/"
+      target: "/formations/autres/diplomes-duniversite/"
       kind: page
       children: []
     - title: Diplôme d'État (DE) - Médiateur familial
