@@ -244,7 +244,7 @@ items:
     kind: page
     children:
     - title: S'immerger à l'IUT
-      target: "/vie-etudiante/avant/immerger-iut/"
+      target: "/vie-etudiante/avant/s-immerger-iut/"
       kind: page
       children: []
     - title: Faire sa demande de bourse
