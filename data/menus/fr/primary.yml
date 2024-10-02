@@ -292,8 +292,8 @@ items:
       kind: url
       children: []
   - title: Après
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/apres/"
+    kind: page
     children:
     - title: Retirer son diplôme
       target: "/vie-etudiante/apres/retirer-son-diplome/"
