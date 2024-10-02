@@ -308,11 +308,11 @@ items:
       kind: page
       children: []
   - title: À l'international
-    target: "/vie-etudiante/vie-etudiante-international/"
+    target: "/vie-etudiante/a-l-international/"
     kind: page
     children:
     - title: Étudier à l'étranger
-      target: "/vie-etudiante/vie-etudiante-international/etudier-etranger/"
+      target: "/vie-etudiante/a-l-international/etudier-etranger/"
       kind: page
       children: []
     - title: Diplôme d'université International
