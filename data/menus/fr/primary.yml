@@ -308,8 +308,8 @@ items:
       kind: page
       children: []
   - title: À l'international
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/vie-etudiante-international/"
+    kind: page
     children:
     - title: Étudier à l'étranger
       target: "/vie-etudiante/vie-etudiante-international/etudier-etranger/"
