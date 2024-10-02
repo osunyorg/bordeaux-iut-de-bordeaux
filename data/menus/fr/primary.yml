@@ -138,7 +138,7 @@ items:
         kind: program
         children: []
       - title: Diététique et nutrition
-        target: "/formations/genie-biologique/genie-biologique-dietetique-et-nutrition/"
+        target: "/formations/genie-biologique/dietetique-et-nutrition/"
         kind: program
         children: []
       - title: Sciences de l’aliment et biotechnologie
