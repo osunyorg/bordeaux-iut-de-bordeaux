@@ -126,7 +126,7 @@ items:
       kind: program
       children: []
   - title: 'BUT : industrie et production'
-    target: "/formations/diplomes/but-industrie-et-production-1/"
+    target: "/formations/diplomes/but-industrie-et-production/"
     kind: diploma
     children:
     - title: Génie biologique
