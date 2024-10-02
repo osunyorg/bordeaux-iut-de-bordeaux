@@ -328,8 +328,8 @@ items:
   kind: blank
   children:
   - title: Nous accompagner
-    target: ''
-    kind: blank
+    target: "/entreprise/nous-accompagner/"
+    kind: page
     children:
     - title: Taxe d'apprentissage
       target: "/entreprise/nous-accompagner/taxe-apprentissage/"
