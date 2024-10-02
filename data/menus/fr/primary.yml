@@ -240,8 +240,8 @@ items:
   kind: page
   children:
   - title: Avant
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/avant/"
+    kind: page
     children:
     - title: S'immerger à l'IUT
       target: "/vie-etudiante/avant/immerger-iut/"
