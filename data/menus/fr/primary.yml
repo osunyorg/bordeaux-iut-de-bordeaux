@@ -142,7 +142,7 @@ items:
         kind: program
         children: []
       - title: Sciences de l’aliment et biotechnologie
-        target: "/formations/genie-biologique/genie-biologique-sciences-de-laliment-et-biotechnologie/"
+        target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
     - title: Génie chimique – Génie des procédés
