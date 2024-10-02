@@ -300,7 +300,7 @@ items:
       kind: page
       children: []
     - title: Devenir de nos diplomés
-      target: "/vie-etudiante/apres/devenir-des-diplomes/"
+      target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
       kind: page
       children: []
     - title: Offres d'emploi
