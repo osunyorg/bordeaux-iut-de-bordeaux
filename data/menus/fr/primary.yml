@@ -74,7 +74,7 @@ items:
       kind: page
       children: []
     - title: Candidater en licence professionnelle
-      target: "/rejoindre-iut/candidater-en-licence-professionnelle-1/"
+      target: "/rejoindre-iut/candidater-en-licence-professionnelle/"
       kind: page
       children: []
     - title: Offres d'emploi
