@@ -272,7 +272,7 @@ items:
       kind: page
       children: []
     - title: Activités d’ouverture et de personnalisation (AOP)
-      target: "/vie-etudiante/pendant/activites-douverture-et-de-personnalisation-aop/"
+      target: "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
       kind: page
       children: []
     - title: Étudiant à besoins spécifiques (PHASE)
