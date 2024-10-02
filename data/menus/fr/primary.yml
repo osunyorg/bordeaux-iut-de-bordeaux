@@ -340,8 +340,8 @@ items:
       kind: page
       children: []
   - title: Vous accompagner
-    target: ''
-    kind: blank
+    target: "/entreprise/vous-accompagner/"
+    kind: page
     children:
     - title: Recruter un alternant
       target: "/entreprise/vous-accompagner/recruter-un-alternant/"
