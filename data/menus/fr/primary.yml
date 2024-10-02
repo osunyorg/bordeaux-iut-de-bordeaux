@@ -260,8 +260,8 @@ items:
       kind: url
       children: []
   - title: Pendant
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/pendant/"
+    kind: page
     children:
     - title: Services à l'étudiant
       target: "/vie-etudiante/pendant/services-etudiant/"
