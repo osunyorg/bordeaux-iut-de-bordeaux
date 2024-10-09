@@ -21,12 +21,12 @@ breadcrumbs:
   - title: >-
       Après
 
-full_width: true
+full_width: false
 design:
-  full_width: true
+  full_width: false
   toc:
     present: false
-    offcanvas: true
+    offcanvas: false
 
 position: 3
 weight: 3
@@ -38,7 +38,7 @@ bodyclass: >-
 
 children:
   - "pages/vie-etudiante/apres/retirer-son-diplome/_index.html"
-  - "pages/vie-etudiante/apres/devenir-des-diplomes/_index.html"
+  - "pages/vie-etudiante/apres/devenir-de-nos-diplomes/_index.html"
 meta_description: >-
   Après la vie étudiante à l'IUT de Bordeaux.
 
@@ -52,10 +52,40 @@ header_cta:
   label: >-
     
   target: ""
+  external: false
 contents_reading_time:
   seconds: 0
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: pages
+    title: >-
+      
+    ranks:
+      self: false
+      children: 2
+    data:
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - path: "/vie-etudiante/apres/retirer-son-diplome/"
+          slug: "retirer-son-diplome"
+          file: "pages/vie-etudiante/apres/retirer-son-diplome/_index.html"
+          external: false
+        - path: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
+          slug: "devenir-de-nos-diplomes"
+          file: "pages/vie-etudiante/apres/devenir-de-nos-diplomes/_index.html"
+          external: false
+        - path: "/rejoindre-iut/offres-emploi/"
+          slug: "offres-emploi"
+          file: "pages/rejoindre-iut/offres-emploi/_index.html"
+          external: false
+
+
 
 ---

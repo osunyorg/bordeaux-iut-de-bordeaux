@@ -74,7 +74,7 @@ items:
       kind: page
       children: []
     - title: Candidater en licence professionnelle
-      target: "/rejoindre-iut/candidater-en-licence-professionnelle-1/"
+      target: "/rejoindre-iut/candidater-en-licence-professionnelle/"
       kind: page
       children: []
     - title: Offres d'emploi
@@ -126,7 +126,7 @@ items:
       kind: program
       children: []
   - title: 'BUT : industrie et production'
-    target: "/formations/diplomes/but-industrie-et-production-1/"
+    target: "/formations/diplomes/but-industrie-et-production/"
     kind: diploma
     children:
     - title: Génie biologique
@@ -138,11 +138,11 @@ items:
         kind: program
         children: []
       - title: Diététique et nutrition
-        target: "/formations/genie-biologique/genie-biologique-dietetique-et-nutrition/"
+        target: "/formations/genie-biologique/dietetique-et-nutrition/"
         kind: program
         children: []
       - title: Sciences de l’aliment et biotechnologie
-        target: "/formations/genie-biologique/genie-biologique-sciences-de-laliment-et-biotechnologie/"
+        target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
     - title: Génie chimique – Génie des procédés
@@ -240,11 +240,11 @@ items:
   kind: page
   children:
   - title: Avant
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/avant/"
+    kind: page
     children:
     - title: S'immerger à l'IUT
-      target: "/vie-etudiante/avant/immerger-iut/"
+      target: "/vie-etudiante/avant/s-immerger-iut/"
       kind: page
       children: []
     - title: Faire sa demande de bourse
@@ -260,8 +260,8 @@ items:
       kind: url
       children: []
   - title: Pendant
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/pendant/"
+    kind: page
     children:
     - title: Services à l'étudiant
       target: "/vie-etudiante/pendant/services-etudiant/"
@@ -272,7 +272,7 @@ items:
       kind: page
       children: []
     - title: Activités d’ouverture et de personnalisation (AOP)
-      target: "/vie-etudiante/pendant/activites-douverture-et-de-personnalisation-aop/"
+      target: "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
       kind: page
       children: []
     - title: Étudiant à besoins spécifiques (PHASE)
@@ -292,15 +292,15 @@ items:
       kind: url
       children: []
   - title: Après
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/apres/"
+    kind: page
     children:
     - title: Retirer son diplôme
       target: "/vie-etudiante/apres/retirer-son-diplome/"
       kind: page
       children: []
     - title: Devenir de nos diplomés
-      target: "/vie-etudiante/apres/devenir-des-diplomes/"
+      target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
       kind: page
       children: []
     - title: Offres d'emploi
@@ -308,11 +308,11 @@ items:
       kind: page
       children: []
   - title: À l'international
-    target: ''
-    kind: blank
+    target: "/vie-etudiante/a-l-international/"
+    kind: page
     children:
     - title: Étudier à l'étranger
-      target: "/vie-etudiante/vie-etudiante-international/etudier-etranger/"
+      target: "/vie-etudiante/a-l-international/etudier-etranger/"
       kind: page
       children: []
     - title: Diplôme d'université International
@@ -328,8 +328,8 @@ items:
   kind: blank
   children:
   - title: Nous accompagner
-    target: ''
-    kind: blank
+    target: "/entreprise/nous-accompagner/"
+    kind: page
     children:
     - title: Taxe d'apprentissage
       target: "/entreprise/nous-accompagner/taxe-apprentissage/"
@@ -340,8 +340,8 @@ items:
       kind: page
       children: []
   - title: Vous accompagner
-    target: ''
-    kind: blank
+    target: "/entreprise/vous-accompagner/"
+    kind: page
     children:
     - title: Recruter un alternant
       target: "/entreprise/vous-accompagner/recruter-un-alternant/"
