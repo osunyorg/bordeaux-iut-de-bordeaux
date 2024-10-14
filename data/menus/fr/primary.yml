@@ -90,7 +90,7 @@ items:
   kind: page
   children:
   - title: 'BUT : administration et services'
-    target: "/formations/diplomes/but-administration-et-services/"
+    target: "/formations/diplomes/but-tertiaire/"
     kind: diploma
     children:
     - title: Carrières sociales
@@ -126,7 +126,7 @@ items:
       kind: program
       children: []
   - title: 'BUT : industrie et production'
-    target: "/formations/diplomes/but-industrie-et-production/"
+    target: "/formations/diplomes/but-secondaire/"
     kind: diploma
     children:
     - title: Génie biologique
