@@ -4,5 +4,7 @@ custom:
 
 programs:
   website: Site de la formation
-  location: Sites de formation
+  location:
+    one: Site de formation
+    other: Sites de formation
   _other: Alternance
