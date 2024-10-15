@@ -145,11 +145,11 @@ items:
         target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
-    - title: Génie chimique – Génie des procédés
+    - title: Génie chimique - Génie des procédés
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
       children: []
-    - title: Génie civil – Construction durable
+    - title: Génie civil - Construction durable
       target: "/formations/genie-civil-construction-durable/"
       kind: program
       children: []
