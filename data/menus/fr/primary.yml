@@ -89,7 +89,7 @@ items:
   target: "/formations/"
   kind: page
   children:
-  - title: 'BUT : administration et services'
+  - title: BUT administration et services
     target: "/formations/diplomes/but-tertiaire/"
     kind: diploma
     children:
