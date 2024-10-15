@@ -8,4 +8,5 @@ params:
       programs:
         options:
           button: true
+          contact: true
           logo: true
