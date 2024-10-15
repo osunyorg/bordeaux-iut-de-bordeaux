@@ -125,7 +125,7 @@ items:
       target: "/formations/techniques-de-commercialisation-perigueux/"
       kind: program
       children: []
-  - title: 'BUT : industrie et production'
+  - title: BUT industrie et production
     target: "/formations/diplomes/but-secondaire/"
     kind: diploma
     children:
