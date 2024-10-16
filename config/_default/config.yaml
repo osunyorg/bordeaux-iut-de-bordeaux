@@ -3,6 +3,12 @@ removePathAccents: true
 params:
   debug:
     productionUrl: "https://bordeaux-iut-de-bordeaux.web.deuxfleurs.fr"
+  diplomas:
+    single:
+      programs:
+        options:
+          image: true
+          summary: true
   locations:
     single:
       programs:
