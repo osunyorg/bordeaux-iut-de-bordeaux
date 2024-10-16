@@ -10,3 +10,8 @@ params:
           button: true
           contact: true
           logo: true
+  programs:
+    index:
+      options:
+        image: true
+        summary: true
