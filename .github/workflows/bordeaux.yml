@@ -45,7 +45,7 @@ jobs:
         run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
 
       - name: Deploy with rsync through Bastion
-        run: rsync -avz --delete -e "ssh -J ${{ secrets.BSSH_USER }}@${{ secrets.BSSH_HOST }}:${{ secrets.BSSH_PORT }} -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
+        run: rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -J ${{ secrets.BSSH_USER }}@${{ secrets.BSSH_HOST }}:${{ secrets.BSSH_PORT }} -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
 
       - name: Notification Slack en cas d'échec
         uses: ravsamhq/notify-slack-action@2.3.0
