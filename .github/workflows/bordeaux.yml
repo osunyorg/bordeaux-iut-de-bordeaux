@@ -44,12 +44,8 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy with scp-via-bssh
-        env:
-          BSSH_USER: ${{ secrets.BSSH_USER }}
-          BSSH_HOST: ${{ secrets.BSSH_HOST }}
-          BSSH_PORT: ${{ secrets.BSSH_PORT }}
-        run: ./bin/scp-via-bssh -r public ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
+      - name: Deploy with rsync through Bastion
+        run: rsync -avz --delete -e "ssh -J ${{ secrets.BSSH_USER }}@${{ secrets.BSSH_HOST }}:${{ secrets.BSSH_PORT }} -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
 
       - name: Notification Slack en cas d'échec
         uses: ravsamhq/notify-slack-action@2.3.0
