@@ -54,10 +54,22 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 5
+  seconds: 7
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Pages du site
+    slug: >-
+      pages-du-site
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
@@ -66,7 +78,7 @@ contents:
       
     ranks:
       self: false
-      children: 2
+      children: 3
     data:
       options:
         image: true
@@ -83,6 +95,18 @@ contents:
           slug: "inscription-administrative"
           file: "pages/vie-etudiante/avant/inscription-administrative/_index.html"
           external: false
+
+
+  - kind: block
+    template: title
+    title: >-
+      Liens externes
+    slug: >-
+      liens-externes
+    ranks:
+      self: 2
+    data:
+      layout: classic
 
 
   - kind: block
