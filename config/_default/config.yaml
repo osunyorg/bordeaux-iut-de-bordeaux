@@ -21,3 +21,8 @@ params:
       options:
         image: true
         summary: true
+    single:
+      children:
+        options:
+          image: true
+          summary: true
