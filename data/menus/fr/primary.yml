@@ -215,7 +215,7 @@ items:
     target: "/formations/autres/"
     kind: page
     children:
-    - title: VAE et VAPP
+    - title: VAPP et VAE
       target: "/formations/se-former-tout-au-long-de-la-vie/#vapp-et-vae"
       kind: url
       children: []
