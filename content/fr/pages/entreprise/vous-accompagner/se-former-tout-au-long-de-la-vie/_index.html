@@ -150,7 +150,7 @@ contents:
     data:
       layout: no_background
       text: >-
-        <p>Tous les cursus de formations diplômantes sont ouverts au public relevant de la formation continue et de l’alternance. Nous vous offrons la possibilité de réaliser un parcours « sur mesure » dans tous nos cycles diplômants (avec ou sans objectif d’obtenir un diplôme).</p><p>Les Bachelors universitaires de technologie (BUT) et les Licences professionnelles (LP) peuvent être suivis dans le cadre d’une reprise d’études et en alternance (contrat d’apprentissage ou contrat de professionnalisation).</p>
+        <p><b>Tous les cursus de formations diplômantes sont ouverts au public relevant de la formation continue et de l’alternance</b>. Nous vous offrons la possibilité de réaliser un parcours « sur mesure » dans tous nos cycles diplômants (avec ou sans objectif d’obtenir un diplôme).</p><p>Les Bachelors universitaires de technologie (<b>BUT</b>) et les Licences professionnelles (<b>LP</b>) <b>peuvent être suivis dans le cadre d’une reprise d’études et en alternance</b> (contrat d’apprentissage ou contrat de professionnalisation).</p>
 
       notes: >-
         
@@ -925,6 +925,41 @@ contents:
           text: >-
             
 
+
+
+  - kind: block
+    template: pages
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      self: 2
+      children: 3
+    data:
+      page:
+        path: "/formations/"
+        slug: "formations"
+        file: "programs/_index.html"
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: grid
+      pages:
+        - path: "/formations/diplomes/"
+          slug: "diplomes"
+          file: "diplomas/_index.html"
+          external: false
+        - path: "/formations/autres/"
+          slug: "autres"
+          file: "pages/formations/autres/_index.html"
+          external: false
+        - path: "/formations/pass-but/"
+          slug: "pass-but"
+          file: "pages/formations/pass-but/_index.html"
+          external: false
 
 
 
