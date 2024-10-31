@@ -117,7 +117,7 @@ items:
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
       children: []
-    - title: Techniques de commercialisation Bordeaux
+    - title: Techniques de commercialisation - Bordeaux
       target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
       children: []
