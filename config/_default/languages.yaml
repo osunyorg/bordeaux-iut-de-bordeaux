@@ -27,8 +27,6 @@ fr:
     diplomas: /formations/diplomes/:slug/
     programs: /formations/:slug/
     publications: /publications/:year-:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
