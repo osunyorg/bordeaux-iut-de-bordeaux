@@ -121,7 +121,7 @@ items:
       target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
       children: []
-    - title: Techniques de commercialisation Périgueux
+    - title: Techniques de commercialisation - Périgueux
       target: "/formations/techniques-de-commercialisation-perigueux/"
       kind: program
       children: []
