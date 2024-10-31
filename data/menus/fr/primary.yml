@@ -327,18 +327,6 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Nous accompagner
-    target: "/entreprise/nous-accompagner/"
-    kind: page
-    children:
-    - title: Taxe d'apprentissage
-      target: "/entreprise/nous-accompagner/taxe-apprentissage/"
-      kind: page
-      children: []
-    - title: Enseigner dans nos formations
-      target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
-      kind: page
-      children: []
   - title: Vous accompagner
     target: "/entreprise/vous-accompagner/"
     kind: page
@@ -354,5 +342,17 @@ items:
     - title: Innover avec le TechnoShop
       target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
       kind: url
+      children: []
+  - title: Nous accompagner
+    target: "/entreprise/nous-accompagner/"
+    kind: page
+    children:
+    - title: Taxe d'apprentissage
+      target: "/entreprise/nous-accompagner/taxe-apprentissage/"
+      kind: page
+      children: []
+    - title: Enseigner dans nos formations
+      target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
+      kind: page
       children: []
 
