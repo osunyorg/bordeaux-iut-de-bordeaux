@@ -256,7 +256,7 @@ items:
       kind: page
       children: []
     - title: Se loger
-      target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
+      target: "/vie-etudiante/avant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
       kind: url
       children: []
   - title: Pendant
