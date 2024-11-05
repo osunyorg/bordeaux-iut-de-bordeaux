@@ -248,8 +248,8 @@ items:
       kind: page
       children: []
     - title: Faire sa demande de bourse
-      target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
-      kind: url
+      target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/"
+      kind: page
       children: []
     - title: Inscription administrative
       target: "/vie-etudiante/avant/inscription-administrative/"
