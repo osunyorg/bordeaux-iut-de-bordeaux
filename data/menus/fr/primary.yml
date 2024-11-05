@@ -323,6 +323,10 @@ items:
       target: "/formations/etudes-technologiques-internationales/"
       kind: program
       children: []
+- title: Obtenir une bourse ou un logement universitaire
+  target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/"
+  kind: page
+  children: []
 - title: Entreprise
   target: ''
   kind: blank
@@ -355,8 +359,4 @@ items:
       target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
       kind: page
       children: []
-- title: Obtenir une bourse ou un logement universitaire
-  target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/"
-  kind: page
-  children: []
 
