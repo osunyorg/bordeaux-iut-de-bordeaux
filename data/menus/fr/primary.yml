@@ -247,10 +247,6 @@ items:
       target: "/vie-etudiante/avant/s-immerger-iut/"
       kind: page
       children: []
-    - title: Obtenir une bourse ou un logement universitaire
-      target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/"
-      kind: page
-      children: []
     - title: Faire sa demande de bourse
       target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
       kind: url
