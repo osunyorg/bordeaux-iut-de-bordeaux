@@ -248,7 +248,7 @@ items:
       kind: page
       children: []
     - title: Faire sa demande de bourse
-      target: "/vie-etudiante/pendant/services-etudiant/obtenir-une-bourse-ou-un-logement-universitaire/"
+      target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
       kind: page
       children: []
     - title: Inscription administrative
