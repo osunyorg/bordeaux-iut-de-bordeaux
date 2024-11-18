@@ -17,7 +17,7 @@ items:
       target: "/nous-decouvrir/equipe-de-direction/"
       kind: page
       children: []
-    - title: Le Conseil d'IUT
+    - title: Le conseil d'IUT
       target: "/nous-decouvrir/conseil-iut-bordeaux/"
       kind: page
       children: []
@@ -57,13 +57,13 @@ items:
       target: 'https://www.iut.fr/organisation-de-ladiut/ '
       kind: url
       children: []
-    - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
-      target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
-      kind: page
-      children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
       target: 'https://www.unpiut.fr/ '
       kind: url
+      children: []
+    - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
+      target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
+      kind: page
       children: []
   - title: Rejoindre l'IUT
     target: "/rejoindre-iut/"
@@ -248,15 +248,15 @@ items:
       kind: page
       children: []
     - title: Faire sa demande de bourse
-      target: https://www.etudiant.gouv.fr/fr/guide-de-letudiant
-      kind: url
+      target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
+      kind: page
       children: []
     - title: Inscription administrative
       target: "/vie-etudiante/avant/inscription-administrative/"
       kind: page
       children: []
     - title: Se loger
-      target: https://www.etudiant.gouv.fr/fr/vous-loger-1901
+      target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
       kind: url
       children: []
   - title: Pendant
