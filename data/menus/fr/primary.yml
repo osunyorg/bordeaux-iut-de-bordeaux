@@ -57,13 +57,13 @@ items:
       target: 'https://www.iut.fr/organisation-de-ladiut/ '
       kind: url
       children: []
-    - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
-      target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
-      kind: page
-      children: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
       target: 'https://www.unpiut.fr/ '
       kind: url
+      children: []
+    - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
+      target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
+      kind: page
       children: []
   - title: Rejoindre l'IUT
     target: "/rejoindre-iut/"
