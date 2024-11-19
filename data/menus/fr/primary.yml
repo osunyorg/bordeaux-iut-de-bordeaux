@@ -17,7 +17,7 @@ items:
       target: "/nous-decouvrir/equipe-de-direction/"
       kind: page
       children: []
-    - title: Le conseil d'IUT
+    - title: Le conseil de l'IUT
       target: "/nous-decouvrir/conseil-iut-de-bordeaux/"
       kind: page
       children: []
