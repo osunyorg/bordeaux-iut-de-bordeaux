@@ -26,11 +26,9 @@ fr:
     posts_categories: /actualites/:slug/
     diplomas: /formations/diplomes/:slug/
     programs: /formations/:slug/
-    publications: /publications/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     administrators: /equipe/:slug/roles/
-    researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
