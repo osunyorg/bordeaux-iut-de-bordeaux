@@ -5,4 +5,5 @@ items:
   target: "/rejoindre-iut/contacts/"
   kind: page
   children: []
+  file: content/fr/pages/rejoindre-iut/contacts/_index.html
 
