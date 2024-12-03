@@ -302,7 +302,7 @@ items:
       children: []
       file: content/fr/pages/vie-etudiante/avant/s-immerger-iut/_index.html
     - title: Césure post-bac
-      target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure/
+      target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
       kind: url
       children: []
     - title: Faire sa demande de bourse
