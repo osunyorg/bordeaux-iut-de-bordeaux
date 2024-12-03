@@ -339,6 +339,10 @@ items:
       kind: page
       children: []
       file: content/fr/pages/vie-etudiante/pendant/activites-ouverture-et-personnalisation/_index.html
+    - title: Césure en BUT
+      target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure/
+      kind: url
+      children: []
     - title: Étudiant à besoins spécifiques (PHASE)
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
@@ -356,10 +360,6 @@ items:
       file: content/fr/pages/vie-etudiante/pendant/etre-alternant/_index.html
     - title: Harcèlement et discrimination
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
-      kind: url
-      children: []
-    - title: Césure en BUT
-      target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure/
       kind: url
       children: []
     file: content/fr/pages/vie-etudiante/pendant/_index.html
