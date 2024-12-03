@@ -358,6 +358,10 @@ items:
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
       kind: url
       children: []
+    - title: Césure en BUT
+      target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure/
+      kind: url
+      children: []
     file: content/fr/pages/vie-etudiante/pendant/_index.html
   - title: Après
     target: "/vie-etudiante/apres/"
