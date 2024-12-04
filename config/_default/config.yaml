@@ -1,6 +1,7 @@
 theme: bordeaux-hugo-theme
 removePathAccents: true
 params:
+  plausible: www.iut.u-bordeaux.fr
   debug:
     productionUrl: "https://bordeaux-iut-de-bordeaux.web.deuxfleurs.fr"
   diplomas:
