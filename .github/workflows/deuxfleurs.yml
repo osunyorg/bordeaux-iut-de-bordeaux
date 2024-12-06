@@ -31,6 +31,8 @@ jobs:
         extended: true
 
     - name: Compilation du site
+      env:
+        HUGO_ENV: staging
       run: yarn osuny build
 
     - name: Déploiement Garage
@@ -38,6 +40,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.DEUXFLEURS_ACCESS_KEY }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.DEUXFLEURS_SECRET }}
+        HUGO_ENV: staging
 
     - name: Notification Slack en cas d'échecs
       uses: ravsamhq/notify-slack-action@2.3.0

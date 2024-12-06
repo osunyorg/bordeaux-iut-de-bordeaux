@@ -1,4 +1,4 @@
-baseURL: https://www-bw.iut.u-bordeaux.fr
+baseURL: https://bordeaux-iut-de-bordeaux.web.deuxfleurs.fr
 
 ## LANGUAGE
 defaultContentLanguage: fr
@@ -13,3 +13,7 @@ deployment:
     - pattern: "^.+\\.(png|jpg|jpeg|gif|webp)$"
       cacheControl: "max-age=31536000, no-transform, public"
       gzip: false
+  ## DEUXFLEURS
+  targets:
+    - name: "staging"
+      URL: "s3://bordeaux-iut-de-bordeaux?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"

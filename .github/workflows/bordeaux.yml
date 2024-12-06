@@ -33,8 +33,6 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        env:
-          HUGO_ENV: staging
         run: yarn osuny build
 
       - name: Install SSH Key
