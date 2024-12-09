@@ -7,17 +7,34 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      x: >-
-        https://x.com/IUT_de_Bordeaux
-      linkedin: >-
-        https://www.linkedin.com/school/iut-de-bordeaux
-      youtube: >-
-        https://www.youtube.com/@iutdebordeaux
-      instagram: >-
-        https://www.instagram.com/iutdebordeaux/
-      facebook: >-
-        https://www.facebook.com/iutdebordeaux
+    contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            iutdebordeaux
+          value: >-
+            https://www.facebook.com/iutdebordeaux
+        instagram:
+          label: >-
+            iutdebordeaux
+          value: >-
+            https://instagram.com/iutdebordeaux
+        linkedin:
+          label: >-
+            linkedin.comschooliut-de-bordeaux
+          value: >-
+            https://www.linkedin.com/school/iut-de-bordeaux
+        x:
+          label: >-
+            IUT_de_Bordeaux
+          value: >-
+            https://x.com/IUT_de_Bordeaux
+        youtube:
+          label: >-
+            iutdebordeaux
+          value: >-
+            https://www.youtube.com/@iutdebordeaux
+
   permalinks:
     locations: /sites-formation/:slug/
     events: /agenda/:year-:month-:day-:slug/
