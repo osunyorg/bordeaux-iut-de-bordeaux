@@ -377,10 +377,6 @@ items:
       kind: page
       children: []
       file: content/fr/pages/vie-etudiante/apres/devenir-de-nos-diplomes/_index.html
-    - title: Alumni | université de Bordeaux
-      target: https://alumni.u-bordeaux.fr/
-      kind: url
-      children: []
     - title: Offres d'emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
