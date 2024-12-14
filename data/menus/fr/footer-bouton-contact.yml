@@ -5,5 +5,6 @@ items:
   target: "/rejoindre-iut/contacts/"
   kind: page
   children: []
+  path: "/pages/rejoindre-iut/contacts"
   file: content/fr/pages/rejoindre-iut/contacts/_index.html
 

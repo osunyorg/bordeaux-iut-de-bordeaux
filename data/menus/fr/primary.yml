@@ -13,27 +13,33 @@ items:
       target: "/nous-decouvrir/notre-institut/"
       kind: page
       children: []
+      path: "/pages/nous-decouvrir/notre-institut"
       file: content/fr/pages/nous-decouvrir/notre-institut/_index.html
     - title: L'équipe de direction
       target: "/nous-decouvrir/equipe-de-direction/"
       kind: page
       children: []
+      path: "/pages/nous-decouvrir/equipe-de-direction"
       file: content/fr/pages/nous-decouvrir/equipe-de-direction/_index.html
     - title: Le conseil de l'IUT
       target: "/nous-decouvrir/conseil-iut-de-bordeaux/"
       kind: page
       children: []
+      path: "/pages/nous-decouvrir/conseil-iut-de-bordeaux"
       file: content/fr/pages/nous-decouvrir/conseil-iut-de-bordeaux/_index.html
     - title: Nos espaces technologiques
       target: "/nous-decouvrir/nos-espaces-technologiques/"
       kind: page
       children: []
+      path: "/pages/nous-decouvrir/nos-espaces-technologiques"
       file: content/fr/pages/nous-decouvrir/nos-espaces-technologiques/_index.html
     - title: Salons et portes ouvertes
       target: "/nous-decouvrir/salons-portes-ouvertes/"
       kind: page
       children: []
+      path: "/pages/nous-decouvrir/salons-portes-ouvertes"
       file: content/fr/pages/nous-decouvrir/salons-portes-ouvertes/_index.html
+    path: "/pages/nous-decouvrir"
     file: content/fr/pages/nous-decouvrir/_index.html
   - title: Nos 4 sites de formation
     target: "/sites-formation/"
@@ -43,22 +49,27 @@ items:
       target: "/sites-formation/agen/"
       kind: location
       children: []
+      path: "/locations/agen"
       file: content/fr/locations/agen/_index.html
     - title: Bordeaux-Bastide
       target: "/sites-formation/bordeaux-bastide/"
       kind: location
       children: []
+      path: "/locations/bordeaux-bastide"
       file: content/fr/locations/bordeaux-bastide/_index.html
     - title: Gradignan
       target: "/sites-formation/gradignan/"
       kind: location
       children: []
+      path: "/locations/gradignan"
       file: content/fr/locations/gradignan/_index.html
     - title: Périgueux
       target: "/sites-formation/perigueux/"
       kind: location
       children: []
+      path: "/locations/perigueux"
       file: content/fr/locations/perigueux/_index.html
+    path: "/locations"
     file: content/fr/locations/_index.html
   - title: Nos réseaux nationaux
     target: "/nos-reseaux-nationaux/"
@@ -76,7 +87,9 @@ items:
       target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
       kind: page
       children: []
+      path: "/pages/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine"
       file: content/fr/pages/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/_index.html
+    path: "/pages/nos-reseaux-nationaux"
     file: content/fr/pages/nos-reseaux-nationaux/_index.html
   - title: Rejoindre l'IUT
     target: "/rejoindre-iut/"
@@ -86,22 +99,27 @@ items:
       target: "/rejoindre-iut/candidater-en-but/"
       kind: page
       children: []
+      path: "/pages/rejoindre-iut/candidater-en-but"
       file: content/fr/pages/rejoindre-iut/candidater-en-but/_index.html
     - title: Candidater en licence professionnelle
       target: "/rejoindre-iut/candidater-en-licence-professionnelle/"
       kind: page
       children: []
+      path: "/pages/rejoindre-iut/candidater-en-licence-professionnelle"
       file: content/fr/pages/rejoindre-iut/candidater-en-licence-professionnelle/_index.html
     - title: Offres d'emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
+      path: "/pages/rejoindre-iut/offres-emploi"
       file: content/fr/pages/rejoindre-iut/offres-emploi/_index.html
     - title: Contacts
       target: "/rejoindre-iut/contacts/"
       kind: page
       children: []
+      path: "/pages/rejoindre-iut/contacts"
       file: content/fr/pages/rejoindre-iut/contacts/_index.html
+    path: "/pages/rejoindre-iut"
     file: content/fr/pages/rejoindre-iut/_index.html
 - title: Formations
   target: "/formations/"
@@ -119,38 +137,47 @@ items:
         target: "/formations/carrieres-sociales/animation-sociale-et-socioculturelle/"
         kind: program
         children: []
+        path: "/programs/carrieres-sociales/animation-sociale-et-socioculturelle"
         file: content/fr/programs/carrieres-sociales/animation-sociale-et-socioculturelle/_index.html
       - title: Villes et territoires durables
         target: "/formations/carrieres-sociales/villes-et-territoires-durables/"
         kind: program
         children: []
+        path: "/programs/carrieres-sociales/villes-et-territoires-durables"
         file: content/fr/programs/carrieres-sociales/villes-et-territoires-durables/_index.html
+      path: "/programs/carrieres-sociales"
       file: content/fr/programs/carrieres-sociales/_index.html
     - title: Gestion administrative et commerciale des organisations
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
       children: []
+      path: "/programs/gestion-administrative-et-commerciale-des-organisations"
       file: content/fr/programs/gestion-administrative-et-commerciale-des-organisations/_index.html
     - title: Gestion des entreprises et des administrations
       target: "/formations/gestion-des-entreprises-et-des-administrations/"
       kind: program
       children: []
+      path: "/programs/gestion-des-entreprises-et-des-administrations"
       file: content/fr/programs/gestion-des-entreprises-et-des-administrations/_index.html
     - title: Management de la logistique et des transports
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
       children: []
+      path: "/programs/management-de-la-logistique-et-des-transports"
       file: content/fr/programs/management-de-la-logistique-et-des-transports/_index.html
     - title: Techniques de commercialisation | Bordeaux
       target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
       children: []
+      path: "/programs/techniques-de-commercialisation-bordeaux"
       file: content/fr/programs/techniques-de-commercialisation-bordeaux/_index.html
     - title: Techniques de commercialisation | Périgueux
       target: "/formations/techniques-de-commercialisation-perigueux/"
       kind: program
       children: []
+      path: "/programs/techniques-de-commercialisation-perigueux"
       file: content/fr/programs/techniques-de-commercialisation-perigueux/_index.html
+    path: "/diplomas/but-tertiaire"
     file: content/fr/diplomas/but-tertiaire/_index.html
   - title: 'BUT : industrie et production'
     target: "/formations/diplomes/but-secondaire/"
@@ -164,63 +191,77 @@ items:
         target: "/formations/genie-biologique/agronomie/"
         kind: program
         children: []
+        path: "/programs/genie-biologique/agronomie"
         file: content/fr/programs/genie-biologique/agronomie/_index.html
       - title: Diététique et nutrition
         target: "/formations/genie-biologique/dietetique-et-nutrition/"
         kind: program
         children: []
+        path: "/programs/genie-biologique/dietetique-et-nutrition"
         file: content/fr/programs/genie-biologique/dietetique-et-nutrition/_index.html
       - title: Sciences de l’aliment et biotechnologie
         target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
         kind: program
         children: []
+        path: "/programs/genie-biologique/sciences-de-laliment-et-biotechnologie"
         file: content/fr/programs/genie-biologique/sciences-de-laliment-et-biotechnologie/_index.html
+      path: "/programs/genie-biologique"
       file: content/fr/programs/genie-biologique/_index.html
     - title: Génie chimique - Génie des procédés
       target: "/formations/genie-chimique-genie-des-procedes/"
       kind: program
       children: []
+      path: "/programs/genie-chimique-genie-des-procedes"
       file: content/fr/programs/genie-chimique-genie-des-procedes/_index.html
     - title: Génie civil - Construction durable
       target: "/formations/genie-civil-construction-durable/"
       kind: program
       children: []
+      path: "/programs/genie-civil-construction-durable"
       file: content/fr/programs/genie-civil-construction-durable/_index.html
     - title: Génie électrique et informatique industrielle
       target: "/formations/genie-electrique-et-informatique-industrielle/"
       kind: program
       children: []
+      path: "/programs/genie-electrique-et-informatique-industrielle"
       file: content/fr/programs/genie-electrique-et-informatique-industrielle/_index.html
     - title: Génie mécanique et productique
       target: "/formations/genie-mecanique-et-productique/"
       kind: program
       children: []
+      path: "/programs/genie-mecanique-et-productique"
       file: content/fr/programs/genie-mecanique-et-productique/_index.html
     - title: Hygiène, sécurité, environnement
       target: "/formations/hygiene-securite-environnement/"
       kind: program
       children: []
+      path: "/programs/hygiene-securite-environnement"
       file: content/fr/programs/hygiene-securite-environnement/_index.html
     - title: Informatique
       target: "/formations/informatique/"
       kind: program
       children: []
+      path: "/programs/informatique"
       file: content/fr/programs/informatique/_index.html
     - title: Mesures physiques
       target: "/formations/mesures-physiques/"
       kind: program
       children: []
+      path: "/programs/mesures-physiques"
       file: content/fr/programs/mesures-physiques/_index.html
     - title: Qualité logistique industrielle et organisation
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
       children: []
+      path: "/programs/qualite-logistique-industrielle-et-organisation"
       file: content/fr/programs/qualite-logistique-industrielle-et-organisation/_index.html
     - title: Science et génie des matériaux
       target: "/formations/science-et-genie-des-materiaux/"
       kind: program
       children: []
+      path: "/programs/science-et-genie-des-materiaux"
       file: content/fr/programs/science-et-genie-des-materiaux/_index.html
+    path: "/diplomas/but-secondaire"
     file: content/fr/diplomas/but-secondaire/_index.html
   - title: Licences professionnelles
     target: "/formations/diplomes/licences-professionnelles/"
@@ -230,34 +271,41 @@ items:
       target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
       kind: program
       children: []
+      path: "/programs/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine"
       file: content/fr/programs/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/_index.html
     - title: Commercialisation des produits alimentaires
       target: "/formations/commercialisation-des-produits-alimentaires/"
       kind: program
       children: []
+      path: "/programs/commercialisation-des-produits-alimentaires"
       file: content/fr/programs/commercialisation-des-produits-alimentaires/_index.html
     - title: 'Métiers de la gestion et de la comptabilité : comptabilité et paie -
         Gestion de la paie et du social'
       target: "/formations/comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
       kind: program
       children: []
+      path: "/programs/comptabilite-et-paie-gestion-de-la-paie-et-du-social"
       file: content/fr/programs/comptabilite-et-paie-gestion-de-la-paie-et-du-social/_index.html
     - title: 'Métiers de l’immobilier : Gestion et administration de biens'
       target: "/formations/metiers-de-limmobilier-gestion-et-administration-de-biens/"
       kind: program
       children: []
+      path: "/programs/metiers-de-limmobilier-gestion-et-administration-de-biens"
       file: content/fr/programs/metiers-de-limmobilier-gestion-et-administration-de-biens/_index.html
     - title: 'Métiers de l’immobilier : Transaction et commercialisation de biens
         immobiliers'
       target: "/formations/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/"
       kind: program
       children: []
+      path: "/programs/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers"
       file: content/fr/programs/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/_index.html
     - title: Organisation, management des services de l’automobile
       target: "/formations/organisation-management-des-services-de-lautomobile/"
       kind: program
       children: []
+      path: "/programs/organisation-management-des-services-de-lautomobile"
       file: content/fr/programs/organisation-management-des-services-de-lautomobile/_index.html
+    path: "/diplomas/licences-professionnelles"
     file: content/fr/diplomas/licences-professionnelles/_index.html
   - title: Autres
     target: "/formations/autres/"
@@ -275,18 +323,23 @@ items:
       target: "/formations/autres/diplomes-duniversite/"
       kind: page
       children: []
+      path: "/pages/formations/autres/diplomes-duniversite"
       file: content/fr/pages/formations/autres/diplomes-duniversite/_index.html
     - title: Diplôme d'État (DE) - Médiateur familial
       target: "/formations/mediateur-familial/"
       kind: program
       children: []
+      path: "/programs/mediateur-familial"
       file: content/fr/programs/mediateur-familial/_index.html
     - title: Pass'BUT
       target: "/formations/pass-but/"
       kind: page
       children: []
+      path: "/pages/formations/pass-but"
       file: content/fr/pages/formations/pass-but/_index.html
+    path: "/pages/formations/autres"
     file: content/fr/pages/formations/autres/_index.html
+  path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
   target: "/vie-etudiante/"
@@ -300,6 +353,7 @@ items:
       target: "/vie-etudiante/avant/s-immerger-iut/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/avant/s-immerger-iut"
       file: content/fr/pages/vie-etudiante/avant/s-immerger-iut/_index.html
     - title: Césure post-bac
       target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
@@ -309,16 +363,19 @@ items:
       target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire"
       file: content/fr/pages/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/_index.html
     - title: Inscription administrative
       target: "/vie-etudiante/avant/inscription-administrative/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/avant/inscription-administrative"
       file: content/fr/pages/vie-etudiante/avant/inscription-administrative/_index.html
     - title: Se loger
       target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
       kind: url
       children: []
+    path: "/pages/vie-etudiante/avant"
     file: content/fr/pages/vie-etudiante/avant/_index.html
   - title: Pendant
     target: "/vie-etudiante/pendant/"
@@ -328,16 +385,19 @@ items:
       target: "/vie-etudiante/pendant/services-etudiant/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/services-etudiant"
       file: content/fr/pages/vie-etudiante/pendant/services-etudiant/_index.html
     - title: Bibliothèques universitaires
       target: "/vie-etudiante/pendant/bibliotheques-universitaires/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/bibliotheques-universitaires"
       file: content/fr/pages/vie-etudiante/pendant/bibliotheques-universitaires/_index.html
     - title: Activités d’ouverture et de personnalisation (AOP)
       target: "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/activites-ouverture-et-personnalisation"
       file: content/fr/pages/vie-etudiante/pendant/activites-ouverture-et-personnalisation/_index.html
     - title: Césure en BUT
       target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
@@ -347,21 +407,25 @@ items:
       target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/etudiants-besoins-specifiques-phase"
       file: content/fr/pages/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/_index.html
     - title: Activités sportives
       target: "/vie-etudiante/pendant/activites-sportives/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/activites-sportives"
       file: content/fr/pages/vie-etudiante/pendant/activites-sportives/_index.html
     - title: Être alternant
       target: "/vie-etudiante/pendant/etre-alternant/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/pendant/etre-alternant"
       file: content/fr/pages/vie-etudiante/pendant/etre-alternant/_index.html
     - title: Harcèlement et discrimination
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
       kind: url
       children: []
+    path: "/pages/vie-etudiante/pendant"
     file: content/fr/pages/vie-etudiante/pendant/_index.html
   - title: Après
     target: "/vie-etudiante/apres/"
@@ -371,17 +435,21 @@ items:
       target: "/vie-etudiante/apres/retirer-son-diplome/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/apres/retirer-son-diplome"
       file: content/fr/pages/vie-etudiante/apres/retirer-son-diplome/_index.html
     - title: Devenir de nos diplomés
       target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/apres/devenir-de-nos-diplomes"
       file: content/fr/pages/vie-etudiante/apres/devenir-de-nos-diplomes/_index.html
     - title: Offres d'emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
       children: []
+      path: "/pages/rejoindre-iut/offres-emploi"
       file: content/fr/pages/rejoindre-iut/offres-emploi/_index.html
+    path: "/pages/vie-etudiante/apres"
     file: content/fr/pages/vie-etudiante/apres/_index.html
   - title: À l'international
     target: "/vie-etudiante/a-l-international/"
@@ -391,18 +459,23 @@ items:
       target: "/vie-etudiante/a-l-international/etudier-etranger/"
       kind: page
       children: []
+      path: "/pages/vie-etudiante/a-l-international/etudier-etranger"
       file: content/fr/pages/vie-etudiante/a-l-international/etudier-etranger/_index.html
     - title: Diplôme d'université International
       target: "/formations/international/"
       kind: program
       children: []
+      path: "/programs/international"
       file: content/fr/programs/international/_index.html
     - title: Diplôme d'université d'études technologiques internationales (DUETI)
       target: "/formations/etudes-technologiques-internationales/"
       kind: program
       children: []
+      path: "/programs/etudes-technologiques-internationales"
       file: content/fr/programs/etudes-technologiques-internationales/_index.html
+    path: "/pages/vie-etudiante/a-l-international"
     file: content/fr/pages/vie-etudiante/a-l-international/_index.html
+  path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprise
   target: ''
@@ -416,17 +489,21 @@ items:
       target: "/entreprise/vous-accompagner/recruter-un-alternant/"
       kind: page
       children: []
+      path: "/pages/entreprise/vous-accompagner/recruter-un-alternant"
       file: content/fr/pages/entreprise/vous-accompagner/recruter-un-alternant/_index.html
     - title: Se former tout au long de la vie
       target: "/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/"
       kind: page
       children: []
+      path: "/pages/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie"
       file: content/fr/pages/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/_index.html
     - title: Innover avec le TechnoShop
       target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
       kind: url
       children: []
+      path: "/pages/nous-decouvrir/nos-espaces-technologiques"
       file: content/fr/pages/nous-decouvrir/nos-espaces-technologiques/_index.html
+    path: "/pages/entreprise/vous-accompagner"
     file: content/fr/pages/entreprise/vous-accompagner/_index.html
   - title: Nous accompagner
     target: "/entreprise/nous-accompagner/"
@@ -436,11 +513,14 @@ items:
       target: "/entreprise/nous-accompagner/taxe-apprentissage/"
       kind: page
       children: []
+      path: "/pages/entreprise/nous-accompagner/taxe-apprentissage"
       file: content/fr/pages/entreprise/nous-accompagner/taxe-apprentissage/_index.html
     - title: Enseigner dans nos formations
       target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
       kind: page
       children: []
+      path: "/pages/entreprise/nous-accompagner/enseigner-dans-nos-formations"
       file: content/fr/pages/entreprise/nous-accompagner/enseigner-dans-nos-formations/_index.html
+    path: "/pages/entreprise/nous-accompagner"
     file: content/fr/pages/entreprise/nous-accompagner/_index.html
 
