@@ -1,5 +1,5 @@
 theme: bordeaux-hugo-theme
-removePathAccents: true
+_merge: deep
 params:
   plausible: www.iut.u-bordeaux.fr
   debug:
