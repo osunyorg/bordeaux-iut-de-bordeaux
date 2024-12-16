@@ -3,7 +3,7 @@ _merge: deep
 params:
   plausible: www.iut.u-bordeaux.fr
   debug:
-    productionUrl: "https://www-bw.iut.u-bordeaux.fr"
+    productionUrl: "https://www.iut.u-bordeaux.fr"
   diplomas:
     single:
       programs:
