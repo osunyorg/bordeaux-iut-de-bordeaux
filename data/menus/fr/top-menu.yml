@@ -4,9 +4,11 @@ items:
 - title: ENT
   target: https://ent.u-bordeaux.fr/
   kind: url
+  new_tab: true
   children: []
 - title: Intranet
   target: https://intranet.iut.u-bordeaux.fr/main/doku.php
   kind: url
+  new_tab: true
   children: []
 
