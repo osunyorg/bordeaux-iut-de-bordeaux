@@ -2,6 +2,11 @@
 
 baseURL: https://www.iut.u-bordeaux.fr
 
+## OSUNY
+osuny:
+  website:
+    id: dca2240f-c628-418e-93a9-10e044fe40ad
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
