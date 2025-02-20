@@ -351,12 +351,12 @@ items:
       path: "/programs/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers"
       file: content/fr/programs/metiers-de-limmobilier-transaction-et-commercialisation-de-biens-immobiliers/_index.html
     - title: Organisation, management des services de l’automobile
-      target: "/formations/lp-omsa/"
+      target: "/formations/omsa/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/lp-omsa"
-      file: content/fr/programs/lp-omsa/_index.html
+      path: "/programs/omsa"
+      file: content/fr/programs/omsa/_index.html
     path: "/diplomas/licences-professionnelles"
     file: content/fr/diplomas/licences-professionnelles/_index.html
   - title: Autres
