@@ -235,12 +235,12 @@ items:
         path: "/programs/gb/gb-dn"
         file: content/fr/programs/gb/gb-dn/_index.html
       - title: Sciences de l’aliment et biotechnologie
-        target: "/formations/gb/sciences-de-laliment-et-biotechnologie/"
+        target: "/formations/gb/gb-sab/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/gb/sciences-de-laliment-et-biotechnologie"
-        file: content/fr/programs/gb/sciences-de-laliment-et-biotechnologie/_index.html
+        path: "/programs/gb/gb-sab"
+        file: content/fr/programs/gb/gb-sab/_index.html
       path: "/programs/gb"
       file: content/fr/programs/gb/_index.html
     - title: Génie chimique - Génie des procédés
@@ -300,12 +300,12 @@ items:
       path: "/programs/qlio"
       file: content/fr/programs/qlio/_index.html
     - title: Science et génie des matériaux
-      target: "/formations/science-et-genie-des-materiaux/"
+      target: "/formations/sgm/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/science-et-genie-des-materiaux"
-      file: content/fr/programs/science-et-genie-des-materiaux/_index.html
+      path: "/programs/sgm"
+      file: content/fr/programs/sgm/_index.html
     path: "/diplomas/but-secondaire"
     file: content/fr/diplomas/but-secondaire/_index.html
   - title: Licences professionnelles
