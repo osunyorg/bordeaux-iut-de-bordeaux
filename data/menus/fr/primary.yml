@@ -165,12 +165,12 @@ items:
         path: "/programs/cs/assc"
         file: content/fr/programs/cs/assc/_index.html
       - title: Villes et territoires durables
-        target: "/formations/cs/cs-vtd/"
+        target: "/formations/cs/vtd/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/cs/cs-vtd"
-        file: content/fr/programs/cs/cs-vtd/_index.html
+        path: "/programs/cs/vtd"
+        file: content/fr/programs/cs/vtd/_index.html
       path: "/programs/cs"
       file: content/fr/programs/cs/_index.html
     - title: Gestion administrative et commerciale des organisations
@@ -221,26 +221,26 @@ items:
       new_tab: false
       children:
       - title: Agronomie
-        target: "/formations/gb/gb-agro/"
+        target: "/formations/gb/agro/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/gb/gb-agro"
-        file: content/fr/programs/gb/gb-agro/_index.html
+        path: "/programs/gb/agro"
+        file: content/fr/programs/gb/agro/_index.html
       - title: Diététique et nutrition
-        target: "/formations/gb/gb-dn/"
+        target: "/formations/gb/dn/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/gb/gb-dn"
-        file: content/fr/programs/gb/gb-dn/_index.html
+        path: "/programs/gb/dn"
+        file: content/fr/programs/gb/dn/_index.html
       - title: Sciences de l’aliment et biotechnologie
-        target: "/formations/gb/gb-sab/"
+        target: "/formations/gb/sab/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/gb/gb-sab"
-        file: content/fr/programs/gb/gb-sab/_index.html
+        path: "/programs/gb/sab"
+        file: content/fr/programs/gb/sab/_index.html
       path: "/programs/gb"
       file: content/fr/programs/gb/_index.html
     - title: Génie chimique - Génie des procédés
