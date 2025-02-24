@@ -158,12 +158,12 @@ items:
       new_tab: false
       children:
       - title: Animation sociale et socioculturelle
-        target: "/formations/cs/cs-assc/"
+        target: "/formations/cs/assc/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/cs/cs-assc"
-        file: content/fr/programs/cs/cs-assc/_index.html
+        path: "/programs/cs/assc"
+        file: content/fr/programs/cs/assc/_index.html
       - title: Villes et territoires durables
         target: "/formations/cs/cs-vtd/"
         kind: program
