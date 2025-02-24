@@ -195,19 +195,19 @@ items:
       path: "/programs/mlt"
       file: content/fr/programs/mlt/_index.html
     - title: Techniques de commercialisation | Bordeaux
-      target: "/formations/techniques-de-commercialisation-bordeaux/"
+      target: "/formations/tc-b/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/techniques-de-commercialisation-bordeaux"
-      file: content/fr/programs/techniques-de-commercialisation-bordeaux/_index.html
+      path: "/programs/tc-b"
+      file: content/fr/programs/tc-b/_index.html
     - title: Techniques de commercialisation | Périgueux
-      target: "/formations/techniques-de-commercialisation-perigueux/"
+      target: "/formations/tc-p/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/techniques-de-commercialisation-perigueux"
-      file: content/fr/programs/techniques-de-commercialisation-perigueux/_index.html
+      path: "/programs/tc-p"
+      file: content/fr/programs/tc-p/_index.html
     path: "/diplomas/but-tertiaire"
     file: content/fr/diplomas/but-tertiaire/_index.html
   - title: 'BUT : industrie et production'
