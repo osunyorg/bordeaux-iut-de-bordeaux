@@ -228,12 +228,12 @@ items:
         path: "/programs/genie-biologique/gb-agro"
         file: content/fr/programs/genie-biologique/gb-agro/_index.html
       - title: Diététique et nutrition
-        target: "/formations/genie-biologique/dietetique-et-nutrition/"
+        target: "/formations/genie-biologique/gb-dn/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/genie-biologique/dietetique-et-nutrition"
-        file: content/fr/programs/genie-biologique/dietetique-et-nutrition/_index.html
+        path: "/programs/genie-biologique/gb-dn"
+        file: content/fr/programs/genie-biologique/gb-dn/_index.html
       - title: Sciences de l’aliment et biotechnologie
         target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
         kind: program
@@ -549,12 +549,12 @@ items:
       path: "/programs/international"
       file: content/fr/programs/international/_index.html
     - title: Diplôme d'université d'études technologiques internationales (DUETI)
-      target: "/formations/etudes-technologiques-internationales/"
+      target: "/formations/dueti/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/etudes-technologiques-internationales"
-      file: content/fr/programs/etudes-technologiques-internationales/_index.html
+      path: "/programs/dueti"
+      file: content/fr/programs/dueti/_index.html
     path: "/pages/vie-etudiante/a-l-international"
     file: content/fr/pages/vie-etudiante/a-l-international/_index.html
   path: "/pages/vie-etudiante"
