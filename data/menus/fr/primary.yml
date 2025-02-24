@@ -188,12 +188,12 @@ items:
       path: "/programs/gea"
       file: content/fr/programs/gea/_index.html
     - title: Management de la logistique et des transports
-      target: "/formations/management-de-la-logistique-et-des-transports/"
+      target: "/formations/mlt/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/management-de-la-logistique-et-des-transports"
-      file: content/fr/programs/management-de-la-logistique-et-des-transports/_index.html
+      path: "/programs/mlt"
+      file: content/fr/programs/mlt/_index.html
     - title: Techniques de commercialisation | Bordeaux
       target: "/formations/techniques-de-commercialisation-bordeaux/"
       kind: program
@@ -286,12 +286,12 @@ items:
       path: "/programs/info"
       file: content/fr/programs/info/_index.html
     - title: Mesures physiques
-      target: "/formations/mesures-physiques/"
+      target: "/formations/mp/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/mesures-physiques"
-      file: content/fr/programs/mesures-physiques/_index.html
+      path: "/programs/mp"
+      file: content/fr/programs/mp/_index.html
     - title: Qualité logistique industrielle et organisation
       target: "/formations/qualite-logistique-industrielle-et-organisation/"
       kind: program
@@ -382,12 +382,12 @@ items:
       path: "/pages/formations/autres/diplomes-duniversite"
       file: content/fr/pages/formations/autres/diplomes-duniversite/_index.html
     - title: Diplôme d'État (DE) - Médiateur familial
-      target: "/formations/mediateur-familial/"
+      target: "/formations/mf/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/mediateur-familial"
-      file: content/fr/programs/mediateur-familial/_index.html
+      path: "/programs/mf"
+      file: content/fr/programs/mf/_index.html
     - title: Pass'BUT
       target: "/formations/pass-but/"
       kind: page
