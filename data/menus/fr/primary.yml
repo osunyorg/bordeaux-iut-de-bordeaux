@@ -382,12 +382,12 @@ items:
       path: "/pages/formations/autres/diplomes-duniversite"
       file: content/fr/pages/formations/autres/diplomes-duniversite/_index.html
     - title: Diplôme d'État (DE) - Médiateur familial
-      target: "/formations/mf/"
+      target: "/formations/demf/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/mf"
-      file: content/fr/programs/mf/_index.html
+      path: "/programs/demf"
+      file: content/fr/programs/demf/_index.html
     - title: Pass'BUT
       target: "/formations/pass-but/"
       kind: page
