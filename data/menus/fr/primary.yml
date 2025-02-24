@@ -174,19 +174,19 @@ items:
       path: "/programs/cs"
       file: content/fr/programs/cs/_index.html
     - title: Gestion administrative et commerciale des organisations
-      target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
+      target: "/formations/gaco/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/gestion-administrative-et-commerciale-des-organisations"
-      file: content/fr/programs/gestion-administrative-et-commerciale-des-organisations/_index.html
+      path: "/programs/gaco"
+      file: content/fr/programs/gaco/_index.html
     - title: Gestion des entreprises et des administrations
-      target: "/formations/gestion-des-entreprises-et-des-administrations/"
+      target: "/formations/gea/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/gestion-des-entreprises-et-des-administrations"
-      file: content/fr/programs/gestion-des-entreprises-et-des-administrations/_index.html
+      path: "/programs/gea"
+      file: content/fr/programs/gea/_index.html
     - title: Management de la logistique et des transports
       target: "/formations/management-de-la-logistique-et-des-transports/"
       kind: program
@@ -216,75 +216,75 @@ items:
     new_tab: false
     children:
     - title: Génie biologique
-      target: "/formations/genie-biologique/"
+      target: "/formations/gb/"
       kind: program
       new_tab: false
       children:
       - title: Agronomie
-        target: "/formations/genie-biologique/gb-agro/"
+        target: "/formations/gb/gb-agro/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/genie-biologique/gb-agro"
-        file: content/fr/programs/genie-biologique/gb-agro/_index.html
+        path: "/programs/gb/gb-agro"
+        file: content/fr/programs/gb/gb-agro/_index.html
       - title: Diététique et nutrition
-        target: "/formations/genie-biologique/gb-dn/"
+        target: "/formations/gb/gb-dn/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/genie-biologique/gb-dn"
-        file: content/fr/programs/genie-biologique/gb-dn/_index.html
+        path: "/programs/gb/gb-dn"
+        file: content/fr/programs/gb/gb-dn/_index.html
       - title: Sciences de l’aliment et biotechnologie
-        target: "/formations/genie-biologique/sciences-de-laliment-et-biotechnologie/"
+        target: "/formations/gb/sciences-de-laliment-et-biotechnologie/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/genie-biologique/sciences-de-laliment-et-biotechnologie"
-        file: content/fr/programs/genie-biologique/sciences-de-laliment-et-biotechnologie/_index.html
-      path: "/programs/genie-biologique"
-      file: content/fr/programs/genie-biologique/_index.html
+        path: "/programs/gb/sciences-de-laliment-et-biotechnologie"
+        file: content/fr/programs/gb/sciences-de-laliment-et-biotechnologie/_index.html
+      path: "/programs/gb"
+      file: content/fr/programs/gb/_index.html
     - title: Génie chimique - Génie des procédés
-      target: "/formations/genie-chimique-genie-des-procedes/"
+      target: "/formations/gcgp/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/genie-chimique-genie-des-procedes"
-      file: content/fr/programs/genie-chimique-genie-des-procedes/_index.html
+      path: "/programs/gcgp"
+      file: content/fr/programs/gcgp/_index.html
     - title: Génie civil - Construction durable
-      target: "/formations/genie-civil-construction-durable/"
+      target: "/formations/gccd/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/genie-civil-construction-durable"
-      file: content/fr/programs/genie-civil-construction-durable/_index.html
+      path: "/programs/gccd"
+      file: content/fr/programs/gccd/_index.html
     - title: Génie électrique et informatique industrielle
-      target: "/formations/genie-electrique-et-informatique-industrielle/"
+      target: "/formations/geii/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/genie-electrique-et-informatique-industrielle"
-      file: content/fr/programs/genie-electrique-et-informatique-industrielle/_index.html
+      path: "/programs/geii"
+      file: content/fr/programs/geii/_index.html
     - title: Génie mécanique et productique
-      target: "/formations/genie-mecanique-et-productique/"
+      target: "/formations/gmp/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/genie-mecanique-et-productique"
-      file: content/fr/programs/genie-mecanique-et-productique/_index.html
+      path: "/programs/gmp"
+      file: content/fr/programs/gmp/_index.html
     - title: Hygiène, sécurité, environnement
-      target: "/formations/hygiene-securite-environnement/"
+      target: "/formations/hse/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/hygiene-securite-environnement"
-      file: content/fr/programs/hygiene-securite-environnement/_index.html
+      path: "/programs/hse"
+      file: content/fr/programs/hse/_index.html
     - title: Informatique
-      target: "/formations/informatique/"
+      target: "/formations/info/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/informatique"
-      file: content/fr/programs/informatique/_index.html
+      path: "/programs/info"
+      file: content/fr/programs/info/_index.html
     - title: Mesures physiques
       target: "/formations/mesures-physiques/"
       kind: program
