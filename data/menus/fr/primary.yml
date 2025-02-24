@@ -153,26 +153,26 @@ items:
     new_tab: false
     children:
     - title: Carrières sociales
-      target: "/formations/carrieres-sociales/"
+      target: "/formations/cs/"
       kind: program
       new_tab: false
       children:
       - title: Animation sociale et socioculturelle
-        target: "/formations/carrieres-sociales/animation-sociale-et-socioculturelle/"
+        target: "/formations/cs/cs-assc/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/carrieres-sociales/animation-sociale-et-socioculturelle"
-        file: content/fr/programs/carrieres-sociales/animation-sociale-et-socioculturelle/_index.html
+        path: "/programs/cs/cs-assc"
+        file: content/fr/programs/cs/cs-assc/_index.html
       - title: Villes et territoires durables
-        target: "/formations/carrieres-sociales/villes-et-territoires-durables/"
+        target: "/formations/cs/villes-et-territoires-durables/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/carrieres-sociales/villes-et-territoires-durables"
-        file: content/fr/programs/carrieres-sociales/villes-et-territoires-durables/_index.html
-      path: "/programs/carrieres-sociales"
-      file: content/fr/programs/carrieres-sociales/_index.html
+        path: "/programs/cs/villes-et-territoires-durables"
+        file: content/fr/programs/cs/villes-et-territoires-durables/_index.html
+      path: "/programs/cs"
+      file: content/fr/programs/cs/_index.html
     - title: Gestion administrative et commerciale des organisations
       target: "/formations/gestion-administrative-et-commerciale-des-organisations/"
       kind: program
@@ -221,12 +221,12 @@ items:
       new_tab: false
       children:
       - title: Agronomie
-        target: "/formations/genie-biologique/agronomie/"
+        target: "/formations/genie-biologique/gb-agro/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/genie-biologique/agronomie"
-        file: content/fr/programs/genie-biologique/agronomie/_index.html
+        path: "/programs/genie-biologique/gb-agro"
+        file: content/fr/programs/genie-biologique/gb-agro/_index.html
       - title: Diététique et nutrition
         target: "/formations/genie-biologique/dietetique-et-nutrition/"
         kind: program
@@ -314,19 +314,19 @@ items:
     new_tab: false
     children:
     - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
-      target: "/formations/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/"
+      target: "/formations/abf-cc-gp/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine"
-      file: content/fr/programs/assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine/_index.html
+      path: "/programs/abf-cc-gp"
+      file: content/fr/programs/abf-cc-gp/_index.html
     - title: Commercialisation des produits alimentaires
-      target: "/formations/commercialisation-des-produits-alimentaires/"
+      target: "/formations/cpa/"
       kind: program
       new_tab: false
       children: []
-      path: "/programs/commercialisation-des-produits-alimentaires"
-      file: content/fr/programs/commercialisation-des-produits-alimentaires/_index.html
+      path: "/programs/cpa"
+      file: content/fr/programs/cpa/_index.html
     - title: 'Métiers de la gestion et de la comptabilité : comptabilité et paie -
         Gestion de la paie et du social'
       target: "/formations/metiers-de-la-gestion-et-de-la-comptabilite-comptabilite-et-paie-gestion-de-la-paie-et-du-social/"
