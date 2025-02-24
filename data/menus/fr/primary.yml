@@ -165,12 +165,12 @@ items:
         path: "/programs/cs/cs-assc"
         file: content/fr/programs/cs/cs-assc/_index.html
       - title: Villes et territoires durables
-        target: "/formations/cs/villes-et-territoires-durables/"
+        target: "/formations/cs/cs-vtd/"
         kind: program
         new_tab: false
         children: []
-        path: "/programs/cs/villes-et-territoires-durables"
-        file: content/fr/programs/cs/villes-et-territoires-durables/_index.html
+        path: "/programs/cs/cs-vtd"
+        file: content/fr/programs/cs/cs-vtd/_index.html
       path: "/programs/cs"
       file: content/fr/programs/cs/_index.html
     - title: Gestion administrative et commerciale des organisations
