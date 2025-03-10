@@ -474,12 +474,12 @@ items:
       new_tab: true
       children: []
     - title: Étudiant à besoins spécifiques (PHASE)
-      target: "/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/"
+      target: "/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/vie-etudiante/pendant/etudiants-besoins-specifiques-phase"
-      file: content/fr/pages/vie-etudiante/pendant/etudiants-besoins-specifiques-phase/_index.html
+      path: "/pages/vie-etudiante/pendant/etudiant-besoins-specifiques-phase"
+      file: content/fr/pages/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/_index.html
     - title: Activités sportives
       target: "/vie-etudiante/pendant/activites-sportives/"
       kind: page
