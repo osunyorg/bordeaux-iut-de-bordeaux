@@ -6,6 +6,7 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  buildFuture: true
   params:
     contact_details:
       social_networks:
@@ -32,7 +33,8 @@ fr:
 
   permalinks:
     locations: /sites-formation/:slug/
-    events: /agenda/:year-:month-:day-:slug/
+    events: /agenda/:year/:slug/
+    exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
