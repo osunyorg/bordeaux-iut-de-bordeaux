@@ -576,7 +576,7 @@ items:
       children: []
       path: "/pages/entreprise/vous-accompagner/recruter-un-alternant"
       file: content/fr/pages/entreprise/vous-accompagner/recruter-un-alternant/_index.html
-    - title: Se former tout au long de la vie
+    - title: Former ses collaborateurs
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
       kind: page
       new_tab: false
