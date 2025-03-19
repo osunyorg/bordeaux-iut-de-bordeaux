@@ -577,12 +577,12 @@ items:
       path: "/pages/entreprise/vous-accompagner/recruter-un-alternant"
       file: content/fr/pages/entreprise/vous-accompagner/recruter-un-alternant/_index.html
     - title: Se former tout au long de la vie
-      target: "/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/"
+      target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie"
-      file: content/fr/pages/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/_index.html
+      path: "/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie"
+      file: content/fr/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/_index.html
     - title: Innover avec le TechnoShop
       target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
       kind: url
