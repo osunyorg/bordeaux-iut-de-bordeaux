@@ -388,13 +388,6 @@ items:
       children: []
       path: "/programs/demf"
       file: content/fr/programs/demf/_index.html
-    - title: Pass'BUT
-      target: "/formations/pass-but/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/formations/pass-but"
-      file: content/fr/pages/formations/pass-but/_index.html
     path: "/pages/formations/autres"
     file: content/fr/pages/formations/autres/_index.html
   path: "/programs"
