@@ -360,7 +360,7 @@ items:
     path: "/diplomas/licences-professionnelles"
     file: content/fr/diplomas/licences-professionnelles/_index.html
   - title: Autres
-    target: "/formations/autres/"
+    target: "/formations/autres-formations-et-dispositifs/"
     kind: page
     new_tab: false
     children:
@@ -375,12 +375,12 @@ items:
       new_tab: false
       children: []
     - title: Diplômes d'université (DU)
-      target: "/formations/autres/diplomes-duniversite/"
+      target: "/formations/autres-formations-et-dispositifs/diplomes-duniversite/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/formations/autres/diplomes-duniversite"
-      file: content/fr/pages/formations/autres/diplomes-duniversite/_index.html
+      path: "/pages/formations/autres-formations-et-dispositifs/diplomes-duniversite"
+      file: content/fr/pages/formations/autres-formations-et-dispositifs/diplomes-duniversite/_index.html
     - title: Diplôme d'État (DE) - Médiateur familial
       target: "/formations/demf/"
       kind: program
@@ -388,8 +388,8 @@ items:
       children: []
       path: "/programs/demf"
       file: content/fr/programs/demf/_index.html
-    path: "/pages/formations/autres"
-    file: content/fr/pages/formations/autres/_index.html
+    path: "/pages/formations/autres-formations-et-dispositifs"
+    file: content/fr/pages/formations/autres-formations-et-dispositifs/_index.html
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
