@@ -359,7 +359,7 @@ items:
       file: content/fr/programs/omsa/_index.html
     path: "/diplomas/licences-professionnelles"
     file: content/fr/diplomas/licences-professionnelles/_index.html
-  - title: Autres
+  - title: Autres formations et dispositifs
     target: "/formations/autres-formations-et-dispositifs/"
     kind: page
     new_tab: false
