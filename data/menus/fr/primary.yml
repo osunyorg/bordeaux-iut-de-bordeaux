@@ -364,7 +364,7 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Formation tout au long de la vie
+    - title: Formation continue et alternance
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
       kind: page
       new_tab: false
