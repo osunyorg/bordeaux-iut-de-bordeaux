@@ -377,7 +377,7 @@ items:
       new_tab: false
       children: []
     - title: VAPP et VAE
-      target: "/entreprise/vous-accompagner/se-former-tout-au-long-de-la-vie/#vapp-et-vae"
+      target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#vapp-et-vae"
       kind: url
       new_tab: false
       children: []
