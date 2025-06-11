@@ -31,20 +31,6 @@ fr:
           value: >-
             https://www.youtube.com/@iutdebordeaux
 
-  permalinks:
-    locations: /sites-formation/:slug/
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
-    diplomas: /formations/diplomes/:slug/
-    programs_categories: /formations/categories/:slug/
-    programs: /formations/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    administrators: /equipe/:slug/roles/
   taxonomies:
     administrator: administrators
     author: authors
