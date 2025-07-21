@@ -320,13 +320,6 @@ items:
       children: []
       path: "/programs/abf-cc-gp"
       file: content/fr/programs/abf-cc-gp/_index.html
-    - title: Commercialisation des produits alimentaires
-      target: "/formations/cpa/"
-      kind: program
-      new_tab: false
-      children: []
-      path: "/"
-      file: 
     - title: 'Métiers de la gestion et de la comptabilité : comptabilité et paie -
         Gestion de la paie et du social'
       target: "/formations/mgc-cp-gps/"
