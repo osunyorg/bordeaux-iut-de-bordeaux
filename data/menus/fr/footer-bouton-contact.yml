@@ -2,10 +2,12 @@
 title: 'Footer - Bouton Contact '
 items:
 - title: Contacts
+  slug: contacts
   target: "/rejoindre-iut/contacts/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/rejoindre-iut/contacts"
   file: content/fr/pages/rejoindre-iut/contacts/_index.html
 

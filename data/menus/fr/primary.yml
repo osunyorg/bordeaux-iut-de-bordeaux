@@ -2,608 +2,946 @@
 title: Menu principal
 items:
 - title: IUT de Bordeaux
+  slug: iut-de-bordeaux
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Nous découvrir
+    slug: nous-decouvrir
     target: "/nous-decouvrir/"
     kind: page
     new_tab: false
     children:
     - title: Notre institut
+      slug: notre-institut
       target: "/nous-decouvrir/notre-institut/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/notre-institut"
       file: content/fr/pages/nous-decouvrir/notre-institut/_index.html
     - title: L'équipe de direction
+      slug: l-equipe-de-direction
       target: "/nous-decouvrir/equipe-de-direction/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/equipe-de-direction"
       file: content/fr/pages/nous-decouvrir/equipe-de-direction/_index.html
     - title: Le conseil de l'IUT
+      slug: le-conseil-de-l-iut
       target: "/nous-decouvrir/conseil-iut-de-bordeaux/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/conseil-iut-de-bordeaux"
       file: content/fr/pages/nous-decouvrir/conseil-iut-de-bordeaux/_index.html
     - title: Nos espaces technologiques
+      slug: nos-espaces-technologiques
       target: "/nous-decouvrir/nos-espaces-technologiques/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/nos-espaces-technologiques"
       file: content/fr/pages/nous-decouvrir/nos-espaces-technologiques/_index.html
     - title: Salons et portes ouvertes
+      slug: salons-et-portes-ouvertes
       target: "/nous-decouvrir/salons-portes-ouvertes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/salons-portes-ouvertes"
       file: content/fr/pages/nous-decouvrir/salons-portes-ouvertes/_index.html
+    descendants_targets:
+    - "/nous-decouvrir/conseil-iut-de-bordeaux/"
+    - "/nous-decouvrir/equipe-de-direction/"
+    - "/nous-decouvrir/nos-espaces-technologiques/"
+    - "/nous-decouvrir/notre-institut/"
+    - "/nous-decouvrir/salons-portes-ouvertes/"
     path: "/pages/nous-decouvrir"
     file: content/fr/pages/nous-decouvrir/_index.html
   - title: Nos 4 sites de formation
+    slug: nos-4-sites-de-formation
     target: "/sites-formation/"
     kind: page
     new_tab: false
     children:
     - title: Agen
+      slug: agen
       target: "/sites-formation/agen/"
       kind: location
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/locations/agen"
       file: content/fr/locations/agen/_index.html
     - title: Bordeaux-Bastide
+      slug: bordeaux-bastide
       target: "/sites-formation/bordeaux-bastide/"
       kind: location
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/locations/bordeaux-bastide"
       file: content/fr/locations/bordeaux-bastide/_index.html
     - title: Gradignan
+      slug: gradignan
       target: "/sites-formation/gradignan/"
       kind: location
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/locations/gradignan"
       file: content/fr/locations/gradignan/_index.html
     - title: Périgueux
+      slug: perigueux
       target: "/sites-formation/perigueux/"
       kind: location
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/locations/perigueux"
       file: content/fr/locations/perigueux/_index.html
+    descendants_targets:
+    - "/sites-formation/agen/"
+    - "/sites-formation/bordeaux-bastide/"
+    - "/sites-formation/gradignan/"
+    - "/sites-formation/perigueux/"
     path: "/locations"
     file: content/fr/locations/_index.html
   - title: Nos réseaux nationaux
+    slug: nos-reseaux-nationaux
     target: "/nos-reseaux-nationaux/"
     kind: page
     new_tab: false
     children:
     - title: Assemblée des directeurs d’IUT (ADIUT)
+      slug: assemblee-des-directeurs-d-iut-adiut
       target: 'https://www.iut.fr/organisation-de-ladiut/ '
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Union nationale des présidents d'IUT (UNPIUT)
+      slug: union-nationale-des-presidents-d-iut-unpiut
       target: 'https://www.unpiut.fr/ '
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Association régionale des IUT de Nouvelle-Aquitaine (ARIUT-NA)
+      slug: association-regionale-des-iut-de-nouvelle-aquitaine-ariut-na
       target: "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine"
       file: content/fr/pages/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/_index.html
+    descendants_targets:
+    - "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
+    - 'https://www.iut.fr/organisation-de-ladiut/ '
+    - 'https://www.unpiut.fr/ '
     path: "/pages/nos-reseaux-nationaux"
     file: content/fr/pages/nos-reseaux-nationaux/_index.html
   - title: Rejoindre l'IUT
+    slug: rejoindre-l-iut
     target: "/rejoindre-iut/"
     kind: page
     new_tab: false
     children:
     - title: Candidater en BUT 1, BUT 2, BUT 3 et Pass'BUT
+      slug: candidater-en-but-1-but-2-but-3-et-pass-but
       target: "/rejoindre-iut/candidater-en-but/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/rejoindre-iut/candidater-en-but"
       file: content/fr/pages/rejoindre-iut/candidater-en-but/_index.html
     - title: Candidater en licence professionnelle
+      slug: candidater-en-licence-professionnelle
       target: "/rejoindre-iut/candidater-en-licence-professionnelle/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/rejoindre-iut/candidater-en-licence-professionnelle"
       file: content/fr/pages/rejoindre-iut/candidater-en-licence-professionnelle/_index.html
     - title: Offres d'emploi
+      slug: offres-d-emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/rejoindre-iut/offres-emploi"
       file: content/fr/pages/rejoindre-iut/offres-emploi/_index.html
     - title: Contacts
+      slug: contacts
       target: "/rejoindre-iut/contacts/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/rejoindre-iut/contacts"
       file: content/fr/pages/rejoindre-iut/contacts/_index.html
+    descendants_targets:
+    - "/rejoindre-iut/candidater-en-but/"
+    - "/rejoindre-iut/candidater-en-licence-professionnelle/"
+    - "/rejoindre-iut/contacts/"
+    - "/rejoindre-iut/offres-emploi/"
     path: "/pages/rejoindre-iut"
     file: content/fr/pages/rejoindre-iut/_index.html
+  descendants_targets:
+  - "/nos-reseaux-nationaux/"
+  - "/nos-reseaux-nationaux/association-regionale-iut-nouvelle-aquitaine/"
+  - "/nous-decouvrir/"
+  - "/nous-decouvrir/conseil-iut-de-bordeaux/"
+  - "/nous-decouvrir/equipe-de-direction/"
+  - "/nous-decouvrir/nos-espaces-technologiques/"
+  - "/nous-decouvrir/notre-institut/"
+  - "/nous-decouvrir/salons-portes-ouvertes/"
+  - "/rejoindre-iut/"
+  - "/rejoindre-iut/candidater-en-but/"
+  - "/rejoindre-iut/candidater-en-licence-professionnelle/"
+  - "/rejoindre-iut/contacts/"
+  - "/rejoindre-iut/offres-emploi/"
+  - "/sites-formation/"
+  - "/sites-formation/agen/"
+  - "/sites-formation/bordeaux-bastide/"
+  - "/sites-formation/gradignan/"
+  - "/sites-formation/perigueux/"
+  - 'https://www.iut.fr/organisation-de-ladiut/ '
+  - 'https://www.unpiut.fr/ '
 - title: Formations
+  slug: formations
   target: "/formations/"
   kind: page
   new_tab: false
   children:
   - title: 'BUT : administration et services'
+    slug: but-administration-et-services
     target: "/formations/diplomes/but-tertiaire/"
     kind: diploma
     new_tab: false
     children:
     - title: Carrières sociales
+      slug: carrieres-sociales
       target: "/formations/cs/"
       kind: program
       new_tab: false
       children:
       - title: Animation sociale et socioculturelle
+        slug: animation-sociale-et-socioculturelle
         target: "/formations/cs/assc/"
         kind: program
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/programs/cs/assc"
         file: content/fr/programs/cs/assc/_index.html
       - title: Villes et territoires durables
+        slug: villes-et-territoires-durables
         target: "/formations/cs/vtd/"
         kind: program
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/programs/cs/vtd"
         file: content/fr/programs/cs/vtd/_index.html
+      descendants_targets:
+      - "/formations/cs/assc/"
+      - "/formations/cs/vtd/"
       path: "/programs/cs"
       file: content/fr/programs/cs/_index.html
     - title: Gestion administrative et commerciale des organisations
+      slug: gestion-administrative-et-commerciale-des-organisations
       target: "/formations/gaco/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gaco"
       file: content/fr/programs/gaco/_index.html
     - title: Gestion des entreprises et des administrations
+      slug: gestion-des-entreprises-et-des-administrations
       target: "/formations/gea/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gea"
       file: content/fr/programs/gea/_index.html
     - title: Management de la logistique et des transports
+      slug: management-de-la-logistique-et-des-transports
       target: "/formations/mlt/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/mlt"
       file: content/fr/programs/mlt/_index.html
     - title: Techniques de commercialisation | Bordeaux
+      slug: techniques-de-commercialisation-bordeaux
       target: "/formations/tc-b/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/tc-b"
       file: content/fr/programs/tc-b/_index.html
     - title: Techniques de commercialisation | Périgueux
+      slug: techniques-de-commercialisation-perigueux
       target: "/formations/tc-p/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/tc-p"
       file: content/fr/programs/tc-p/_index.html
+    descendants_targets:
+    - "/formations/cs/"
+    - "/formations/cs/assc/"
+    - "/formations/cs/vtd/"
+    - "/formations/gaco/"
+    - "/formations/gea/"
+    - "/formations/mlt/"
+    - "/formations/tc-b/"
+    - "/formations/tc-p/"
     path: "/diplomas/but-tertiaire"
     file: content/fr/diplomas/but-tertiaire/_index.html
   - title: 'BUT : industrie et production'
+    slug: but-industrie-et-production
     target: "/formations/diplomes/but-secondaire/"
     kind: diploma
     new_tab: false
     children:
     - title: Génie biologique
+      slug: genie-biologique
       target: "/formations/gb/"
       kind: program
       new_tab: false
       children:
       - title: Agronomie
+        slug: agronomie
         target: "/formations/gb/agro/"
         kind: program
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/programs/gb/agro"
         file: content/fr/programs/gb/agro/_index.html
       - title: Diététique et nutrition
+        slug: dietetique-et-nutrition
         target: "/formations/gb/dn/"
         kind: program
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/programs/gb/dn"
         file: content/fr/programs/gb/dn/_index.html
       - title: Sciences de l’aliment et biotechnologie
+        slug: sciences-de-l-aliment-et-biotechnologie
         target: "/formations/gb/sab/"
         kind: program
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/programs/gb/sab"
         file: content/fr/programs/gb/sab/_index.html
+      descendants_targets:
+      - "/formations/gb/agro/"
+      - "/formations/gb/dn/"
+      - "/formations/gb/sab/"
       path: "/programs/gb"
       file: content/fr/programs/gb/_index.html
     - title: Génie chimique - Génie des procédés
+      slug: genie-chimique-genie-des-procedes
       target: "/formations/gcgp/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gcgp"
       file: content/fr/programs/gcgp/_index.html
     - title: Génie civil - Construction durable
+      slug: genie-civil-construction-durable
       target: "/formations/gccd/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gccd"
       file: content/fr/programs/gccd/_index.html
     - title: Génie électrique et informatique industrielle
+      slug: genie-electrique-et-informatique-industrielle
       target: "/formations/geii/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/geii"
       file: content/fr/programs/geii/_index.html
     - title: Génie mécanique et productique
+      slug: genie-mecanique-et-productique
       target: "/formations/gmp/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gmp"
       file: content/fr/programs/gmp/_index.html
     - title: Hygiène, sécurité, environnement
+      slug: hygiene-securite-environnement
       target: "/formations/hse/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/hse"
       file: content/fr/programs/hse/_index.html
     - title: Informatique
+      slug: informatique
       target: "/formations/info/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/info"
       file: content/fr/programs/info/_index.html
     - title: Mesures physiques
+      slug: mesures-physiques
       target: "/formations/mp/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/mp"
       file: content/fr/programs/mp/_index.html
     - title: Qualité logistique industrielle et organisation
+      slug: qualite-logistique-industrielle-et-organisation
       target: "/formations/qlio/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/qlio"
       file: content/fr/programs/qlio/_index.html
     - title: Science et génie des matériaux
+      slug: science-et-genie-des-materiaux
       target: "/formations/sgm/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/sgm"
       file: content/fr/programs/sgm/_index.html
+    descendants_targets:
+    - "/formations/gb/"
+    - "/formations/gb/agro/"
+    - "/formations/gb/dn/"
+    - "/formations/gb/sab/"
+    - "/formations/gccd/"
+    - "/formations/gcgp/"
+    - "/formations/geii/"
+    - "/formations/gmp/"
+    - "/formations/hse/"
+    - "/formations/info/"
+    - "/formations/mp/"
+    - "/formations/qlio/"
+    - "/formations/sgm/"
     path: "/diplomas/but-secondaire"
     file: content/fr/diplomas/but-secondaire/_index.html
   - title: Licences professionnelles
+    slug: licences-professionnelles
     target: "/formations/diplomes/licences-professionnelles/"
     kind: diploma
     new_tab: false
     children:
     - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
+      slug: assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine
       target: "/formations/gp/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gp"
       file: content/fr/programs/gp/_index.html
     - title: 'Métiers de la gestion et de la comptabilité : comptabilité et paie -
         Gestion de la paie et du social'
+      slug: metiers-de-la-gestion-et-de-la-comptabilite-comptabilite-et-paie-gestion-de-la-paie-et-du-social
       target: "/formations/gps/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gps"
       file: content/fr/programs/gps/_index.html
     - title: 'Métiers de l’immobilier : Gestion et administration de biens'
+      slug: metiers-de-l-immobilier-gestion-et-administration-de-biens
       target: "/formations/gab/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/gab"
       file: content/fr/programs/gab/_index.html
     - title: 'Métiers de l’immobilier : Transaction et commercialisation de biens
         immobiliers'
+      slug: metiers-de-l-immobilier-transaction-et-commercialisation-de-biens-immobiliers
       target: "/formations/tcbi/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/tcbi"
       file: content/fr/programs/tcbi/_index.html
     - title: Organisation, management des services de l’automobile
+      slug: organisation-management-des-services-de-l-automobile
       target: "/formations/omsa/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/omsa"
       file: content/fr/programs/omsa/_index.html
+    descendants_targets:
+    - "/formations/gab/"
+    - "/formations/gp/"
+    - "/formations/gps/"
+    - "/formations/omsa/"
+    - "/formations/tcbi/"
     path: "/diplomas/licences-professionnelles"
     file: content/fr/diplomas/licences-professionnelles/_index.html
   - title: Autres formations et dispositifs
+    slug: autres-formations-et-dispositifs
     target: "/formations/autres-formations-et-dispositifs/"
     kind: page
     new_tab: false
     children:
     - title: Formation continue et alternance
+      slug: formation-continue-et-alternance
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie"
       file: content/fr/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/_index.html
     - title: Formations courtes et sur-mesure
+      slug: formations-courtes-et-sur-mesure
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#formations-courtes-et-sur-mesure"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: VAPP et VAE
+      slug: vapp-et-vae
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#vapp-et-vae"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Diplômes d'université (DU)
+      slug: diplomes-d-universite-du
       target: "/formations/autres-formations-et-dispositifs/diplomes-duniversite/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/formations/autres-formations-et-dispositifs/diplomes-duniversite"
       file: content/fr/pages/formations/autres-formations-et-dispositifs/diplomes-duniversite/_index.html
     - title: Diplôme d'État (DE) - Médiateur familial
+      slug: diplome-d-etat-de-mediateur-familial
       target: "/formations/mf/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/mf"
       file: content/fr/programs/mf/_index.html
+    descendants_targets:
+    - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
+    - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#formations-courtes-et-sur-mesure"
+    - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#vapp-et-vae"
+    - "/formations/autres-formations-et-dispositifs/diplomes-duniversite/"
+    - "/formations/mf/"
     path: "/pages/formations/autres-formations-et-dispositifs"
     file: content/fr/pages/formations/autres-formations-et-dispositifs/_index.html
+  descendants_targets:
+  - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
+  - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#formations-courtes-et-sur-mesure"
+  - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/#vapp-et-vae"
+  - "/formations/autres-formations-et-dispositifs/"
+  - "/formations/autres-formations-et-dispositifs/diplomes-duniversite/"
+  - "/formations/cs/"
+  - "/formations/cs/assc/"
+  - "/formations/cs/vtd/"
+  - "/formations/diplomes/but-secondaire/"
+  - "/formations/diplomes/but-tertiaire/"
+  - "/formations/diplomes/licences-professionnelles/"
+  - "/formations/gab/"
+  - "/formations/gaco/"
+  - "/formations/gb/"
+  - "/formations/gb/agro/"
+  - "/formations/gb/dn/"
+  - "/formations/gb/sab/"
+  - "/formations/gccd/"
+  - "/formations/gcgp/"
+  - "/formations/gea/"
+  - "/formations/geii/"
+  - "/formations/gmp/"
+  - "/formations/gp/"
+  - "/formations/gps/"
+  - "/formations/hse/"
+  - "/formations/info/"
+  - "/formations/mf/"
+  - "/formations/mlt/"
+  - "/formations/mp/"
+  - "/formations/omsa/"
+  - "/formations/qlio/"
+  - "/formations/sgm/"
+  - "/formations/tc-b/"
+  - "/formations/tc-p/"
+  - "/formations/tcbi/"
   path: "/programs"
   file: content/fr/programs/_index.html
 - title: Vie étudiante
+  slug: vie-etudiante
   target: "/vie-etudiante/"
   kind: page
   new_tab: false
   children:
   - title: Avant
+    slug: avant
     target: "/vie-etudiante/avant/"
     kind: page
     new_tab: false
     children:
     - title: S'immerger à l'IUT
+      slug: s-immerger-a-l-iut
       target: "/vie-etudiante/avant/s-immerger-iut/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/avant/s-immerger-iut"
       file: content/fr/pages/vie-etudiante/avant/s-immerger-iut/_index.html
     - title: Césure post-bac
+      slug: cesure-post-bac
       target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Faire sa demande de bourse
+      slug: faire-sa-demande-de-bourse
       target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire"
       file: content/fr/pages/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/_index.html
     - title: Inscription administrative
+      slug: inscription-administrative
       target: "/vie-etudiante/avant/inscription-administrative/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/avant/inscription-administrative"
       file: content/fr/pages/vie-etudiante/avant/inscription-administrative/_index.html
     - title: Se loger
+      slug: se-loger
       target: "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/vie-etudiante/avant/inscription-administrative/"
+    - "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
+    - "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
+    - "/vie-etudiante/avant/s-immerger-iut/"
+    - https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
     path: "/pages/vie-etudiante/avant"
     file: content/fr/pages/vie-etudiante/avant/_index.html
   - title: Pendant
+    slug: pendant
     target: "/vie-etudiante/pendant/"
     kind: page
     new_tab: false
     children:
     - title: Services à l'étudiant
+      slug: services-a-l-etudiant
       target: "/vie-etudiante/pendant/services-etudiant/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/services-etudiant"
       file: content/fr/pages/vie-etudiante/pendant/services-etudiant/_index.html
     - title: Bibliothèques universitaires
+      slug: bibliotheques-universitaires
       target: "/vie-etudiante/pendant/bibliotheques-universitaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/bibliotheques-universitaires"
       file: content/fr/pages/vie-etudiante/pendant/bibliotheques-universitaires/_index.html
     - title: Activités d’ouverture et de personnalisation (AOP)
+      slug: activites-d-ouverture-et-de-personnalisation-aop
       target: "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/activites-ouverture-et-personnalisation"
       file: content/fr/pages/vie-etudiante/pendant/activites-ouverture-et-personnalisation/_index.html
     - title: Césure en BUT
+      slug: cesure-en-but
       target: https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
     - title: Étudiant à besoins spécifiques (PHASE)
+      slug: etudiant-a-besoins-specifiques-phase
       target: "/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/etudiant-besoins-specifiques-phase"
       file: content/fr/pages/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/_index.html
     - title: Activités sportives
+      slug: activites-sportives
       target: "/vie-etudiante/pendant/activites-sportives/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/activites-sportives"
       file: content/fr/pages/vie-etudiante/pendant/activites-sportives/_index.html
     - title: Être alternant
+      slug: etre-alternant
       target: "/vie-etudiante/pendant/etre-alternant/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/pendant/etre-alternant"
       file: content/fr/pages/vie-etudiante/pendant/etre-alternant/_index.html
     - title: Harcèlement et discrimination
+      slug: harcelement-et-discrimination
       target: https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
       kind: url
       new_tab: true
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
+    - "/vie-etudiante/pendant/activites-sportives/"
+    - "/vie-etudiante/pendant/bibliotheques-universitaires/"
+    - "/vie-etudiante/pendant/etre-alternant/"
+    - "/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/"
+    - "/vie-etudiante/pendant/services-etudiant/"
+    - https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
+    - https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
     path: "/pages/vie-etudiante/pendant"
     file: content/fr/pages/vie-etudiante/pendant/_index.html
   - title: Après
+    slug: apres
     target: "/vie-etudiante/apres/"
     kind: page
     new_tab: false
     children:
     - title: Retirer son diplôme
+      slug: retirer-son-diplome
       target: "/vie-etudiante/apres/retirer-son-diplome/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/apres/retirer-son-diplome"
       file: content/fr/pages/vie-etudiante/apres/retirer-son-diplome/_index.html
     - title: Devenir de nos diplomés
+      slug: devenir-de-nos-diplomes
       target: "/vie-etudiante/apres/devenir-de-nos-diplomes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/apres/devenir-de-nos-diplomes"
       file: content/fr/pages/vie-etudiante/apres/devenir-de-nos-diplomes/_index.html
     - title: Offres d'emploi
+      slug: offres-d-emploi
       target: "/rejoindre-iut/offres-emploi/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/rejoindre-iut/offres-emploi"
       file: content/fr/pages/rejoindre-iut/offres-emploi/_index.html
+    descendants_targets:
+    - "/rejoindre-iut/offres-emploi/"
+    - "/vie-etudiante/apres/devenir-de-nos-diplomes/"
+    - "/vie-etudiante/apres/retirer-son-diplome/"
     path: "/pages/vie-etudiante/apres"
     file: content/fr/pages/vie-etudiante/apres/_index.html
   - title: À l'international
+    slug: a-l-international
     target: "/vie-etudiante/a-l-international/"
     kind: page
     new_tab: false
     children:
     - title: Étudier à l'étranger
+      slug: etudier-a-l-etranger
       target: "/vie-etudiante/a-l-international/etudier-etranger/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/vie-etudiante/a-l-international/etudier-etranger"
       file: content/fr/pages/vie-etudiante/a-l-international/etudier-etranger/_index.html
     - title: Diplôme d'université International
+      slug: diplome-d-universite-international
       target: "/formations/intern/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/intern"
       file: content/fr/programs/intern/_index.html
     - title: Diplôme d'université d'études technologiques internationales (DUETI)
+      slug: diplome-d-universite-d-etudes-technologiques-internationales-dueti
       target: "/formations/eti/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/eti"
       file: content/fr/programs/eti/_index.html
+    descendants_targets:
+    - "/formations/eti/"
+    - "/formations/intern/"
+    - "/vie-etudiante/a-l-international/etudier-etranger/"
     path: "/pages/vie-etudiante/a-l-international"
     file: content/fr/pages/vie-etudiante/a-l-international/_index.html
+  descendants_targets:
+  - "/formations/eti/"
+  - "/formations/intern/"
+  - "/rejoindre-iut/offres-emploi/"
+  - "/vie-etudiante/a-l-international/"
+  - "/vie-etudiante/a-l-international/etudier-etranger/"
+  - "/vie-etudiante/apres/"
+  - "/vie-etudiante/apres/devenir-de-nos-diplomes/"
+  - "/vie-etudiante/apres/retirer-son-diplome/"
+  - "/vie-etudiante/avant/"
+  - "/vie-etudiante/avant/inscription-administrative/"
+  - "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/"
+  - "/vie-etudiante/avant/obtenir-une-bourse-ou-un-logement-universitaire/#se-loger"
+  - "/vie-etudiante/avant/s-immerger-iut/"
+  - "/vie-etudiante/pendant/"
+  - "/vie-etudiante/pendant/activites-ouverture-et-personnalisation/"
+  - "/vie-etudiante/pendant/activites-sportives/"
+  - "/vie-etudiante/pendant/bibliotheques-universitaires/"
+  - "/vie-etudiante/pendant/etre-alternant/"
+  - "/vie-etudiante/pendant/etudiant-besoins-specifiques-phase/"
+  - "/vie-etudiante/pendant/services-etudiant/"
+  - https://www.u-bordeaux.fr/campus/citoyennete-et-vivre-ensemble/Harcelement-discriminations-et-violences
+  - https://www.u-bordeaux.fr/formation/enrichir-et-valoriser-son-parcours/cesure
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprise
+  slug: entreprise
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Vous accompagner
+    slug: vous-accompagner
     target: "/entreprise/vous-accompagner/"
     kind: page
     new_tab: false
     children:
     - title: Recruter un alternant
+      slug: recruter-un-alternant
       target: "/entreprise/vous-accompagner/recruter-un-alternant/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/entreprise/vous-accompagner/recruter-un-alternant"
       file: content/fr/pages/entreprise/vous-accompagner/recruter-un-alternant/_index.html
     - title: Former ses collaborateurs
+      slug: former-ses-collaborateurs
       target: "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie"
       file: content/fr/pages/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/_index.html
     - title: Innover avec le TechnoShop
+      slug: innover-avec-le-technoshop
       target: "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/nous-decouvrir/nos-espaces-technologiques"
       file: content/fr/pages/nous-decouvrir/nos-espaces-technologiques/_index.html
+    descendants_targets:
+    - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
+    - "/entreprise/vous-accompagner/recruter-un-alternant/"
+    - "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
     path: "/pages/entreprise/vous-accompagner"
     file: content/fr/pages/entreprise/vous-accompagner/_index.html
   - title: Nous accompagner
+    slug: nous-accompagner
     target: "/entreprise/nous-accompagner/"
     kind: page
     new_tab: false
     children:
     - title: Taxe d'apprentissage
+      slug: taxe-d-apprentissage
       target: "/entreprise/nous-accompagner/taxe-apprentissage/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/entreprise/nous-accompagner/taxe-apprentissage"
       file: content/fr/pages/entreprise/nous-accompagner/taxe-apprentissage/_index.html
     - title: Enseigner dans nos formations
+      slug: enseigner-dans-nos-formations
       target: "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/entreprise/nous-accompagner/enseigner-dans-nos-formations"
       file: content/fr/pages/entreprise/nous-accompagner/enseigner-dans-nos-formations/_index.html
+    descendants_targets:
+    - "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
+    - "/entreprise/nous-accompagner/taxe-apprentissage/"
     path: "/pages/entreprise/nous-accompagner"
     file: content/fr/pages/entreprise/nous-accompagner/_index.html
+  descendants_targets:
+  - "/entreprise/nous-accompagner/"
+  - "/entreprise/nous-accompagner/enseigner-dans-nos-formations/"
+  - "/entreprise/nous-accompagner/taxe-apprentissage/"
+  - "/entreprise/vous-accompagner/"
+  - "/entreprise/vous-accompagner/formation-tout-au-long-de-la-vie/"
+  - "/entreprise/vous-accompagner/recruter-un-alternant/"
+  - "/nous-decouvrir/nos-espaces-technologiques/#technoshop"
 
