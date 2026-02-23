@@ -7,6 +7,11 @@ osuny:
   website:
     id: dca2240f-c628-418e-93a9-10e044fe40ad
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "iut.u-bordeaux.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
