@@ -316,7 +316,7 @@ items:
     - "/formations/tc-b/"
     - "/formations/tc-p/"
     path: "/diplomas/but-tertiaire"
-    file: content/fr/diplomas/but-tertiaire/_index.html
+    file: content/fr/diplomas/but-tertiaire.html
   - title: 'BUT : industrie et production'
     slug: but-industrie-et-production
     target: "/formations/diplomes/but-secondaire/"
@@ -458,7 +458,7 @@ items:
     - "/formations/qlio/"
     - "/formations/sgm/"
     path: "/diplomas/but-secondaire"
-    file: content/fr/diplomas/but-secondaire/_index.html
+    file: content/fr/diplomas/but-secondaire.html
   - title: Licences professionnelles
     slug: licences-professionnelles
     target: "/formations/diplomes/licences-professionnelles/"
@@ -519,7 +519,7 @@ items:
     - "/formations/omsa/"
     - "/formations/tcbi/"
     path: "/diplomas/licences-professionnelles"
-    file: content/fr/diplomas/licences-professionnelles/_index.html
+    file: content/fr/diplomas/licences-professionnelles.html
   - title: Autres formations et dispositifs
     slug: autres-formations-et-dispositifs
     target: "/formations/autres-formations-et-dispositifs/"
