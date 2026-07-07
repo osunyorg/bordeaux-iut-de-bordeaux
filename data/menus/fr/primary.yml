@@ -238,15 +238,15 @@ items:
       kind: program
       new_tab: false
       children:
-      - title: Animation sociale et socioculturelle
-        slug: animation-sociale-et-socioculturelle
-        target: "/formations/cs/assc/"
+      - title: Animation et coordination de projets socioculturels
+        slug: animation-et-coordination-de-projets-socioculturels
+        target: "/formations/cs/acps/"
         kind: program
         new_tab: false
         children: []
         descendants_targets: []
-        path: "/programs/cs/assc"
-        file: content/fr/programs/cs/assc/_index.html
+        path: "/programs/cs/acps"
+        file: content/fr/programs/cs/acps/_index.html
       - title: Villes et territoires durables
         slug: villes-et-territoires-durables
         target: "/formations/cs/vtd/"
@@ -257,7 +257,7 @@ items:
         path: "/programs/cs/vtd"
         file: content/fr/programs/cs/vtd/_index.html
       descendants_targets:
-      - "/formations/cs/assc/"
+      - "/formations/cs/acps/"
       - "/formations/cs/vtd/"
       path: "/programs/cs"
       file: content/fr/programs/cs/_index.html
@@ -308,7 +308,7 @@ items:
       file: content/fr/programs/tc-p/_index.html
     descendants_targets:
     - "/formations/cs/"
-    - "/formations/cs/assc/"
+    - "/formations/cs/acps/"
     - "/formations/cs/vtd/"
     - "/formations/gaco/"
     - "/formations/gea/"
@@ -582,7 +582,7 @@ items:
   - "/formations/autres-formations-et-dispositifs/"
   - "/formations/autres-formations-et-dispositifs/diplomes-duniversite/"
   - "/formations/cs/"
-  - "/formations/cs/assc/"
+  - "/formations/cs/acps/"
   - "/formations/cs/vtd/"
   - "/formations/diplomes/but-secondaire/"
   - "/formations/diplomes/but-tertiaire/"
