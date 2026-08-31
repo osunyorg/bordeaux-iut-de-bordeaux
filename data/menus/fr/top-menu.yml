@@ -3,7 +3,7 @@ title: Sur-menu
 items:
 - title: Intranet de l'UB
   slug: intranet-de-l-ub
-  target: https://intranet.u-bordeaux.fr/etudiants
+  target: https://intranet.u-bordeaux.fr/
   kind: url
   new_tab: true
   children: []
