@@ -1,8 +1,8 @@
 ---
 title: Sur-menu
 items:
-- title: Intranet de l'université de Bordeaux
-  slug: intranet-de-l-universite-de-bordeaux
+- title: Intranet de l'UB
+  slug: intranet-de-l-ub
   target: https://intranet.u-bordeaux.fr/etudiants
   kind: url
   new_tab: true
