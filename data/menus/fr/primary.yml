@@ -465,8 +465,9 @@ items:
     kind: diploma
     new_tab: false
     children:
-    - title: 'Assurance, banque, finance : chargé de clientèle - Gestion du patrimoine'
-      slug: assurance-banque-finance-charge-de-clientele-gestion-du-patrimoine
+    - title: 'Assurance, banque, finance : chargé de clientèle - Conseiller particulier
+        à dimension patrimoniale'
+      slug: assurance-banque-finance-charge-de-clientele-conseiller-particulier-a-dimension-patrimoniale
       target: "/formations/abf/"
       kind: program
       new_tab: false
